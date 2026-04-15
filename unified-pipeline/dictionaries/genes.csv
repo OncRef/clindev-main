@@ -1,0 +1,91 @@
+Broad Cancers,Gene,Gene Aliases,Gene Type,Broad Cancers
+Hematological Malignancies,ABL1,"ABL1, ABL, JTK7, c-ABL",ONCOGENE,Hematological Malignancies
+"Breast Cancer, Gynecological Cancers",AKT1,"AKT1, AKT, PKB, PRKBA, RAC, RAC-alpha",ONCOGENE,"Breast Cancer, Gynecological Cancers"
+"Hematological Malignancies, Soft Tissue Cancers (including Heart), Lung Cancers, Neuroblastoma",ALK,"ALK, CD246",ONCOGENE,"Hematological Malignancies, Soft Tissue Cancers (including Heart), Lung Cancers, Neuroblastoma"
+Hematological Malignancies,ARAF,"ARAF, ARAF1",ONCOGENE,Hematological Malignancies
+All Solid Tumors,ARID1A,"ARID1A, B120, BAF250, BAF250a, C10rf4, C1orf4, P270, SMARCF1",TSG,All Solid Tumors
+Hematological Malignancies,ASXL1,"ASXL1, KIAA0978",TSG,Hematological Malignancies
+Hematological Malignancies,BCL10,"BCL10, CIPER, CLAP, c-E10, mE10",TSG,Hematological Malignancies
+Hematological Malignancies,BCL2,"BCL2, Bcl-2, PPP1R50",ONCOGENE,Hematological Malignancies
+Hematological Malignancies,BCL6,"BCL6, BCL5, BCL6A, LAZ3, ZBTB27, ZNF51",ONCOGENE,Hematological Malignancies
+Hematological Malignancies,BIRC3,"BIRC3, API2, MALT2, MIHC, RNF49, c-IAP2, cIAP2, hiap-1",ONCOGENE_AND_TSG,Hematological Malignancies
+"Liver and Bile Duct Cancers, Brain and Other Nervous System, Skin Cancers, Lung Cancers, Hematological Malignancies, Colorectal Cancer, Gynecological Cancers, All Solid Tumors",BRAF,"BRAF, BRAF1",ONCOGENE,"Liver and Bile Duct Cancers, Brain and Other Nervous System, Skin Cancers, Lung Cancers, Hematological Malignancies, Colorectal Cancer, Gynecological Cancers, All Solid Tumors"
+Gynecological Cancers,BRCA1,"BRCA1, FANCS, PPP1R53, RNF53",TSG,Gynecological Cancers
+Prostate Cancer,BRCA2,"BRCA2, FAD1, FANCD1, XRCC11",TSG,Prostate Cancer
+Hematological Malignancies,BTK,"BTK, AGMX1, ATK, IMD1, PSCTK1, XLA",ONCOGENE,Hematological Malignancies
+Hematological Malignancies,CALR,"CALR, CRT, FLJ26680, RO, SSA, cC1qR",ONCOGENE,Hematological Malignancies
+Hematological Malignancies,CARD11,"CARD11, BIMP3, CARMA1",ONCOGENE,Hematological Malignancies
+Hematological Malignancies,CBFB,"CBFB, PEBP2B",TSG,Hematological Malignancies
+Hematological Malignancies,CBL,"CBL, CBL2, RNF55, c-Cbl",TSG,Hematological Malignancies
+Hematological Malignancies,CCND1,"CCND1, BCL1, D11S287E, PRAD1, U21B31",ONCOGENE,Hematological Malignancies
+All Solid Tumors,CCNE1,"CCNE1, CCNE",ONCOGENE,All Solid Tumors
+Hematological Malignancies,CD274,"CD274, B7-H, B7-H1, B7H1, PD-L1, PDCD1LG1, PDL1",ONCOGENE,Hematological Malignancies
+Soft Tissue Cancers (including Heart),CDK4,"CDK4, PSK-J3",ONCOGENE,Soft Tissue Cancers (including Heart)
+"All Solid Tumors, Hematological Malignancies",CDKN2A,"CDKN2A, ARF, CDKN2, CMM2, INK4, INK4a, MLM, p14, p14ARF, p16, p16INK4a, p19Arf",TSG,"All Solid Tumors, Hematological Malignancies"
+Hematological Malignancies,CEBPA,"CEBPA, C/EBP-alpha, CEBP",TSG,Hematological Malignancies
+Hematological Malignancies,CIITA,"CIITA, MHC2TA, NLRA",TSG,Hematological Malignancies
+Hematological Malignancies,CREBBP,"CREBBP, KAT3A, RSTS, RTS",TSG,Hematological Malignancies
+Hematological Malignancies,CSF3R,"CSF3R, CD114, GCSFR",ONCOGENE,Hematological Malignancies
+Hematological Malignancies,CXCR4,"CXCR4, CD184, D2S201E, HM89, HSY3RR, LESTR, NPY3R, NPYY3R, fusin",ONCOGENE,Hematological Malignancies
+Hematological Malignancies,DEK,"DEK, D6S231E",ONCOGENE,Hematological Malignancies
+Hematological Malignancies,DNMT3A,"DNMT3A, ",TSG,Hematological Malignancies
+Hematological Malignancies,DUSP22,"DUSP22, JKAP, JSP1, MKPX, VHX",TSG,Hematological Malignancies
+"Lung Cancers, Brain and Other Nervous System, Colorectal Cancer",EGFR,"EGFR, ERBB, ERBB1, ERRP",ONCOGENE,"Lung Cancers, Brain and Other Nervous System, Colorectal Cancer"
+"Breast Cancer, Colorectal Cancer, Esophageal Cancer, Liver and Bile Duct Cancers",ERBB2,"ERBB2, CD340, HER-2, HER2, NGL",ONCOGENE,"Breast Cancer, Colorectal Cancer, Esophageal Cancer, Liver and Bile Duct Cancers"
+Breast Cancer,ESR1,"ESR1, ER-alpha, ESR, Era, NR3A1",ONCOGENE,Breast Cancer
+Hematological Malignancies,ETNK1,"ETNK1, EKI, EKI1",INSUFFICIENT_EVIDENCE,Hematological Malignancies
+Hematological Malignancies,EZH2,"EZH2, ENX-1, KMT6, KMT6A",ONCOGENE_AND_TSG,Hematological Malignancies
+Hematological Malignancies,FBXW7,"FBXW7, AGO, CDC4, FBW7, FBX30, FBXW6, FLJ11071, SEL-10, SEL10",TSG,Hematological Malignancies
+#REF!,FGFR1,"FGFR1, BFGFR, CD331, CEK, FLT2, H5, KAL2, N-SAM",ONCOGENE,#REF!
+Liver and Bile Duct Cancers,FGFR2,"FGFR2, BEK, CD332, CEK3, CFD1, ECT1, JWS, K-SAM, KGFR, TK14, TK25",ONCOGENE,Liver and Bile Duct Cancers
+"Bladder Cancer, Hematological Malignancies",FGFR3,"FGFR3, ACH, CD333, CEK2, JTK4",ONCOGENE,"Bladder Cancer, Hematological Malignancies"
+Hematological Malignancies,FLT3,"FLT3, CD135, FLK2, STK1",ONCOGENE,Hematological Malignancies
+Hematological Malignancies,GATA1,"GATA1, ERYF1, GATA-1, GF1, NF-E1, NFE1",INSUFFICIENT_EVIDENCE,Hematological Malignancies
+"Bladder Cancer, Head and Neck Cancers",HRAS,"HRAS, HRAS1",ONCOGENE,"Bladder Cancer, Head and Neck Cancers"
+"Hematological Malignancies, Liver and Bile Duct Cancers, Brain and Other Nervous System, Bone and Joint Cancers",IDH1,"IDH1, ",ONCOGENE,"Hematological Malignancies, Liver and Bile Duct Cancers, Brain and Other Nervous System, Bone and Joint Cancers"
+"Hematological Malignancies, Brain and Other Nervous System",IDH2,"IDH2, ",ONCOGENE,"Hematological Malignancies, Brain and Other Nervous System"
+Hematological Malignancies,IKZF1,"IKZF1, Hs.54452, IKAROS, LyF-1, PPP1R92, ZNFN1A1, hIk-1",INSUFFICIENT_EVIDENCE,Hematological Malignancies
+Hematological Malignancies,IL3,"IL3, IL-3, MCGF, MGC79398, MGC79399, MULTI-CSF",ONCOGENE,Hematological Malignancies
+Hematological Malignancies,IRF4,"IRF4, LSIRF, MUM1",ONCOGENE,Hematological Malignancies
+Hematological Malignancies,JAK2,"JAK2, JTK10",ONCOGENE,Hematological Malignancies
+"Hematological Malignancies, Gastrointestinal Stromal Tumors, Skin Cancers",KIT,"KIT, C-Kit, CD117, PBT, SCFR",ONCOGENE,"Hematological Malignancies, Gastrointestinal Stromal Tumors, Skin Cancers"
+Hematological Malignancies,KLF2,"KLF2, LKLF",TSG,Hematological Malignancies
+Hematological Malignancies,KMT2A,"KMT2A, ALL-1, CXXC7, HRX, HTRX1, MLL, MLL1A, TRX1",TSG,Hematological Malignancies
+Hematological Malignancies,KMT2D,"KMT2D, ALR, CAGL114, MLL2, TNRC21",TSG,Hematological Malignancies
+"Colorectal Cancer, Lung Cancers, Gynecological Cancers, Ampullary Adenocarcinoma, Liver and Bile Duct Cancers, Pancreatic Cancer, Small Instestine Cancers, Colorectal Cancer, Esophageal Cancer, Anal Cancer, Adrenal Cancer and Neuroendocrine Tumors, All Solid Tumors",KRAS,"KRAS, K-Ras4B, KRAS1, KRAS2",ONCOGENE,"Colorectal Cancer, Lung Cancers, Gynecological Cancers, Ampullary Adenocarcinoma, Liver and Bile Duct Cancers, Pancreatic Cancer, Small Instestine Cancers, Colorectal Cancer, Esophageal Cancer, Anal Cancer, Adrenal Cancer and Neuroendocrine Tumors, All Solid Tumors"
+Hematological Malignancies,MALT1,"MALT1, MLT, PCASP1",INSUFFICIENT_EVIDENCE,Hematological Malignancies
+Soft Tissue Cancers (including Heart),MDM2,"MDM2, HDM2, MGC5370",ONCOGENE,Soft Tissue Cancers (including Heart)
+Lung Cancers,MET,"MET, DFNB97, HGFR, RCCP2",ONCOGENE,Lung Cancers
+Hematological Malignancies,MLLT10,"MLLT10, AF10",ONCOGENE,Hematological Malignancies
+Hematological Malignancies,MPL,"MPL, CD110, THPOR, TPOR",ONCOGENE,Hematological Malignancies
+Hematological Malignancies,MYC,"MYC, MYCC, bHLHe39, c-Myc",ONCOGENE,Hematological Malignancies
+Hematological Malignancies,MYD88,"MYD88, ",ONCOGENE,Hematological Malignancies
+Soft Tissue Cancers (including Heart),NF1,"NF1, ",TSG,Soft Tissue Cancers (including Heart)
+Hematological Malignancies,NPM1,"NPM1, B23, NPM",TSG,Hematological Malignancies
+Skin Cancers,NRAS,"NRAS, N-ras",ONCOGENE,Skin Cancers
+Pancreatic Cancer,NRG1,"NRG1, GGF, HGL, NDF, NRG1-IT2",ONCOGENE,Pancreatic Cancer
+Hematological Malignancies,NSD2,"NSD2, KMT3G, MMSET, WHSC1",ONCOGENE,Hematological Malignancies
+All Solid Tumors,NTRK1,"NTRK1, MTC, TRKA",ONCOGENE,All Solid Tumors
+All Solid Tumors,NTRK3,"NTRK3, TRKC",ONCOGENE,All Solid Tumors
+Pancreatic Cancer,PALB2,"PALB2, FANCN, FLJ21816",TSG,Pancreatic Cancer
+"Gastrointestinal Stromal Tumors, Hematological Malignancies",PDGFRA,"PDGFRA, CD140a, GAS9, PDGFR2",ONCOGENE,"Gastrointestinal Stromal Tumors, Hematological Malignancies"
+Hematological Malignancies,PDGFRB,"PDGFRB, CD140b, JTK12, PDGFR, PDGFR1",ONCOGENE,Hematological Malignancies
+Breast Cancer,PIK3CA,"PIK3CA, PI3K",ONCOGENE,Breast Cancer
+"Colorectal Cancer, Small Instestine Cancers",POLD1,"POLD1, POLD",TSG,"Colorectal Cancer, Small Instestine Cancers"
+"Colorectal Cancer, Small Instestine Cancers",POLE,"POLE, POLE1",TSG,"Colorectal Cancer, Small Instestine Cancers"
+Gynecological Cancers,PPP2R1A,"PPP2R1A, PP2A-Aalpha, PP2AA, PR65A",TSG,Gynecological Cancers
+Brain and Other Nervous System,PTCH1,"PTCH1, BCNS, NBCCS, PTCH",TSG,Brain and Other Nervous System
+Hematological Malignancies,RARA,"RARA, NR1B1",INSUFFICIENT_EVIDENCE,Hematological Malignancies
+Hematological Malignancies,RBM15,"RBM15, OTT, OTT1",ONCOGENE_AND_TSG,Hematological Malignancies
+"Thyroid Cancer, Thyroid Cancer",RET,"RET, CDHF12, CDHR16, HSCR1, MEN2A, MEN2B, MTC1, RET51",ONCOGENE,"Thyroid Cancer, Thyroid Cancer"
+Lung Cancers,ROS1,"ROS1, MCF3, ROS, c-ros-1",ONCOGENE,Lung Cancers
+Hematological Malignancies,RUNX1,"RUNX1, AML1, AMLCR1, CBFA2, PEBP2A2",TSG,Hematological Malignancies
+Hematological Malignancies,SF3B1,"SF3B1, Hsh155, PRPF10, Prp10, SAP155, SF3b155",ONCOGENE,Hematological Malignancies
+Esophageal Cancer,SMARCA4,"SMARCA4, BRG1, FLJ39786, SNF2-BETA, SNF2L4, hSNF2b",TSG,Esophageal Cancer
+Soft Tissue Cancers (including Heart),SMARCB1,"SMARCB1, BAF47, Ini1, PPP1R144, RDT, SNF5, SNF5L1, Sfh1p, Snr1, hSNFS",TSG,Soft Tissue Cancers (including Heart)
+Hematological Malignancies,SRSF2,"SRSF2, PR264, SC-35, SC35, SFRS2, SFRS2A",INSUFFICIENT_EVIDENCE,Hematological Malignancies
+Hematological Malignancies,TCL1B,"TCL1B, TML1",ONCOGENE,Hematological Malignancies
+"All Solid Tumors, Hematological Malignancies",TP53,"TP53, LFS1, p53",TSG,"All Solid Tumors, Hematological Malignancies"
+Brain and Other Nervous System,TSC1,"TSC1, KIAA0243, TSC, hamartin",TSG,Brain and Other Nervous System
+"Soft Tissue Cancers (including Heart), Gynecological Cancers",TSC2,"TSC2, LAM, PPP1R160, TSC4, tuberin",TSG,"Soft Tissue Cancers (including Heart), Gynecological Cancers"
+Hematological Malignancies,U2AF1,"U2AF1, RNU2AF1, U2AF35, U2AFBP",ONCOGENE,Hematological Malignancies

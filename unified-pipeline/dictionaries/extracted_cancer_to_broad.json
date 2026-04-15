@@ -1,0 +1,2704 @@
+{
+  "version": "1.0",
+  "source": "OncRef.Drugs_feb_26.json",
+  "notes": "Maps each extracted_cancer indication to its broad_cancer category(s). 956 unique entries.",
+  "total_entries": 839,
+  "mapping": {
+    "Adjuvant Early Breast Cancer": [
+      "Breast Cancer"
+    ],
+    "1L locally advanced or metastatic breast cancer": [
+      "Breast Cancer"
+    ],
+    "2L advanced breast cancer": [
+      "Breast Cancer"
+    ],
+    "Ovarian Cancer": [
+      "Gynecological Cancers"
+    ],
+    "Breast Cancer": [
+      "Breast Cancer"
+    ],
+    "Non-Small Cell Lung Cancer": [
+      "Lung Cancers"
+    ],
+    "Pancreatic Cancer": [
+      "Pancreatic Cancer"
+    ],
+    "adults and pediatric patients with acute lymphoblastic leukemia (ALL)": [
+      "Hematological Malignancies",
+      "Pediatric Cancers"
+    ],
+    "mycosis fungoides (cutaneous T-cell lymphoma)": [
+      "Hematological Malignancies"
+    ],
+    "relapsed or refractory non-Hodgkin lymphomas": [
+      "Hematological Malignancies"
+    ],
+    "Multiple Myeloma": [
+      "Hematological Malignancies"
+    ],
+    "Bone Metastases of Solid Tumors": [
+      "Bone and Joint Cancers"
+    ],
+    "Pheochromocytoma": [
+      "Adrenal Cancer and Neuroendocrine Tumors"
+    ],
+    "Adjuvant Breast Cancer": [
+      "Breast Cancer"
+    ],
+    "acute lymphoblastic leukemia": [
+      "Hematological Malignancies"
+    ],
+    "acute myeloblastic leukemia": [
+      "Hematological Malignancies"
+    ],
+    "Hodgkin lymphoma": [
+      "Hematological Malignancies"
+    ],
+    "non-Hodgkin lymphoma (NHL)": [
+      "Hematological Malignancies"
+    ],
+    "metastatic breast cancer": [
+      "Breast Cancer"
+    ],
+    "metastatic Wilms' tumor": [
+      "Pediatric Cancers"
+    ],
+    "metastatic neuroblastoma": [
+      "Neuroblastoma"
+    ],
+    "metastatic soft tissue sarcoma": [
+      "Soft Tissue Cancers (including Heart)"
+    ],
+    "metastatic bone sarcoma": [
+      "Bone and Joint Cancers"
+    ],
+    "metastatic ovarian carcinoma": [
+      "Gynecological Cancers"
+    ],
+    "Hormone Receptor-Positive, HER2-Negative Breast Cancer": [
+      "Breast Cancer"
+    ],
+    "progressive neuroendocrine tumors of pancreatic origin (PNET)": [
+      "Pancreatic Cancer",
+      "Adrenal Cancer and Neuroendocrine Tumors"
+    ],
+    "progressive, well-differentiated, non-functional NET of gastrointestinal (GI) or lung origin": [
+      "Lung Cancers",
+      "Gastric (Stomach) Cancer",
+      "Adrenal Cancer and Neuroendocrine Tumors"
+    ],
+    "Renal Cell Carcinoma (RCC)": [
+      "Kidney (Renal) and Urethral Cancers"
+    ],
+    "Tuberous Sclerosis Complex (TSC)-Associated Renal Angiomyolipoma": [
+      "Kidney (Renal) and Urethral Cancers"
+    ],
+    "Tuberous Sclerosis Complex (TSC)-Associated Subependymal Giant Cell Astrocytoma (SEGA) in adult and pediatric patients aged 1 year and older": [
+      "Pediatric Cancers",
+      "Brain and Other Nervous System"
+    ],
+    "malignant lymphomas (Stages III and IV of the Ann Arbor staging system)": [
+      "Hematological Malignancies"
+    ],
+    "Hodgkin's disease": [
+      "Hematological Malignancies"
+    ],
+    "lymphocytic lymphoma (nodular or diffuse)": [
+      "Hematological Malignancies"
+    ],
+    "mixed-cell type lymphoma": [
+      "Hematological Malignancies"
+    ],
+    "histiocytic lymphoma": [
+      "Hematological Malignancies"
+    ],
+    "Burkitt's lymphoma": [
+      "Hematological Malignancies"
+    ],
+    "multiple myeloma": [
+      "Hematological Malignancies"
+    ],
+    "chronic lymphocytic leukemia": [
+      "Hematological Malignancies"
+    ],
+    "chronic granulocytic leukemia (it is usually ineffective in acute blastic crisis)": [
+      "Hematological Malignancies"
+    ],
+    "acute myelogenous and monocytic leukemia": [
+      "Hematological Malignancies"
+    ],
+    "acute lymphoblastic (stem-cell) leukemia (cyclophosphamide given during remission is effective in prolonging its duration)": [
+      "Hematological Malignancies"
+    ],
+    "mycosis fungoides (advanced disease)": [
+      "Hematological Malignancies"
+    ],
+    "neuroblastoma (disseminated disease)": [
+      "Neuroblastoma"
+    ],
+    "adenocarcinoma of the ovary": [
+      "Gynecological Cancers"
+    ],
+    "retinoblastoma": [
+      "Ocular Cancers"
+    ],
+    "carcinoma of the breast": [
+      "Breast Cancer"
+    ],
+    "BRAF V600E or V600K Mutation-Positive Unresectable or Metastatic Melanoma": [
+      "Skin Cancers"
+    ],
+    "Adjuvant Treatment of BRAF V600E or V600K Mutation-Positive Melanoma": [
+      "Skin Cancers"
+    ],
+    "BRAF V600E Mutation-Positive Metastatic NSCLC": [
+      "Lung Cancers"
+    ],
+    "BRAF V600E Mutation-Positive Locally Advanced or Metastatic Anaplastic Thyroid Cancer": [
+      "Thyroid Cancer"
+    ],
+    "BRAF V600E Mutation-Positive Unresectable or Metastatic Solid Tumors in adult and pediatric patients 1 year of age and older": [
+      "Pediatric Cancers"
+    ],
+    "BRAF V600E Mutation-Positive Low-Grade Glioma in pediatric patients 1 year of age and older": [
+      "Pediatric Cancers",
+      "Brain and Other Nervous System"
+    ],
+    "Colorectal Cancer": [
+      "Colorectal Cancer"
+    ],
+    "Gastric, Esophageal, or Gastroesophageal Junction Cancer": [
+      "Gastric (Stomach) Cancer",
+      "Esophageal Cancer"
+    ],
+    "metastatic gastric or gastroesophageal junction adenocarcinoma": [
+      "Gastric (Stomach) Cancer",
+      "Esophageal Cancer"
+    ],
+    "B-cell chronic lymphocytic leukemia (CLL)": [
+      "Hematological Malignancies"
+    ],
+    "Acute Lymphoblastic Leukemia in adult and pediatric patients": [
+      "Hematological Malignancies",
+      "Pediatric Cancers"
+    ],
+    "Meningeal Leukemia: Prophylaxis and Treatment, in adult and pediatric patients": [
+      "Hematological Malignancies",
+      "Pediatric Cancers"
+    ],
+    "Non-Hodgkin Lymphoma in adults and pediatric patients": [
+      "Hematological Malignancies",
+      "Pediatric Cancers"
+    ],
+    "Osteosarcoma in adults and pediatric patients": [
+      "Pediatric Cancers",
+      "Bone and Joint Cancers"
+    ],
+    "Squamous Cell Carcinoma of the Head and Neck": [
+      "Head and Neck Cancers",
+      "Skin Cancers"
+    ],
+    "Gestational Trophoblastic Neoplasia": [
+      "Gestational Cancers"
+    ],
+    "Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma": [
+      "Hematological Malignancies"
+    ],
+    "Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma with 17p deletion": [
+      "Hematological Malignancies"
+    ],
+    "Waldenstr\u00f6m's Macroglobulinemia": [
+      "Hematological Malignancies"
+    ],
+    "Metastatic Colorectal Cancer": [
+      "Colorectal Cancer"
+    ],
+    "First-Line Non-Squamous Non-Small Cell Lung Cancer": [
+      "Lung Cancers"
+    ],
+    "Recurrent Glioblastoma": [
+      "Brain and Other Nervous System"
+    ],
+    "Metastatic Renal Cell Carcinoma": [
+      "Kidney (Renal) and Urethral Cancers"
+    ],
+    "Persistent, Recurrent, or Metastatic Cervical Cancer": [
+      "Gynecological Cancers"
+    ],
+    "Epithelial Ovarian, Fallopian Tube, or Primary Peritoneal Cancer": [
+      "Gynecological Cancers"
+    ],
+    "metastatic transitional cell bladder carcinoma": [
+      "Bladder Cancer"
+    ],
+    "metastatic thyroid carcinoma": [
+      "Thyroid Cancer"
+    ],
+    "metastatic gastric carcinoma": [
+      "Gastric (Stomach) Cancer"
+    ],
+    "metastatic bronchogenic carcinoma": [
+      "Lung Cancers"
+    ],
+    "Adjuvant Treatment of Early Breast Cancer": [
+      "Breast Cancer"
+    ],
+    "Extended Adjuvant Treatment of Early Breast Cancer": [
+      "Breast Cancer"
+    ],
+    "1L Treatment of Advanced Breast Cancer": [
+      "Breast Cancer"
+    ],
+    "2L Treatment of Advanced Breast Cancer": [
+      "Breast Cancer"
+    ],
+    "Myelodysplastic Syndromes (MDS): refractory anemias": [
+      "Hematological Malignancies"
+    ],
+    "Myelodysplastic Syndromes (MDS): chronic myelomonocytic leukemia (CMMoL)": [
+      "Hematological Malignancies"
+    ],
+    "Endometrial Cancer": [
+      "Gynecological Cancers"
+    ],
+    "Mismatch Repair Deficient Recurrent or Advanced Solid Tumors": [
+      "Specific Syndromes"
+    ],
+    "gestational choriocarcinoma, chorioadenoma destruens and hydatidiform mole": [
+      "Gestational Cancers"
+    ],
+    "breast cancer": [
+      "Breast Cancer"
+    ],
+    "epidermoid cancers of the head and neck": [
+      "Head and Neck Cancers"
+    ],
+    "advanced mycosis fungoides (cutaneous T cell lymphoma)": [
+      "Hematological Malignancies"
+    ],
+    "lung cancer (particularly squamous cell and small cell types)": [
+      "Lung Cancers",
+      "Skin Cancers"
+    ],
+    "advanced stage non-Hodgkin's lymphomas": [
+      "Hematological Malignancies"
+    ],
+    "Reduction in the Risk of Invasive Breast Cancer in Postmenopausal Women with Osteoporosis": [
+      "Breast Cancer"
+    ],
+    "Reduction in the Risk of Invasive Breast Cancer in Postmenopausal Women at High Risk of Invasive Breast Cancer": [
+      "Breast Cancer"
+    ],
+    "Newly Diagnosed Glioblastoma": [
+      "Brain and Other Nervous System"
+    ],
+    "Anaplastic Astrocytoma": [
+      "Brain and Other Nervous System"
+    ],
+    "Mantle Cell Lymphoma": [
+      "Hematological Malignancies"
+    ],
+    "Metastatic Testicular Tumors": [
+      "Testicular Cancer"
+    ],
+    "Metastatic Ovarian Tumors": [
+      "Gynecological Cancers"
+    ],
+    "Advanced Bladder Cancer": [
+      "Bladder Cancer"
+    ],
+    "Acute Myeloid Leukemia": [
+      "Hematological Malignancies"
+    ],
+    "aggressive systemic mastocytosis (ASM)": [
+      "Hematological Malignancies"
+    ],
+    "systemic mastocytosis with associated hematological neoplasm (SM-AHN)": [
+      "Hematological Malignancies"
+    ],
+    "mast cell leukemia (MCL)": [
+      "Hematological Malignancies"
+    ],
+    "Chronic Lymphocytic Leukemia (CLL)": [
+      "Hematological Malignancies"
+    ],
+    "indolent B-cell Non-Hodgkin Lymphoma (NHL)": [
+      "Hematological Malignancies"
+    ],
+    "non-metastatic castration resistant prostate cancer (nmCRPC)": [
+      "Prostate Cancer"
+    ],
+    "metastatic hormone-sensitive prostate cancer (mHSPC)": [
+      "Prostate Cancer"
+    ],
+    "metastatic castration-sensitive prostate cancer (mCSPC)": [
+      "Prostate Cancer"
+    ],
+    "von Hippel-Lindau (VHL) disease": [
+      "Head and Neck Cancers",
+      "Kidney (Renal) and Urethral Cancers",
+      "Specific Syndromes",
+      "Pancreatic Cancer"
+    ],
+    "Advanced Renal Cell Carcinoma (RCC)": [
+      "Kidney (Renal) and Urethral Cancers"
+    ],
+    "Pheochromocytoma or Paraganglioma": [
+      "Adrenal Cancer and Neuroendocrine Tumors"
+    ],
+    "Gastroenteropancreatic Neuroendocrine Tumors": [
+      "Adrenal Cancer and Neuroendocrine Tumors"
+    ],
+    "Refractory Testicular Tumors": [
+      "Testicular Cancer"
+    ],
+    "Small Cell Lung Cancer": [
+      "Lung Cancers"
+    ],
+    "Adenocarcinoma of the Colon and Rectum": [
+      "Colorectal Cancer"
+    ],
+    "Adenocarcinoma of the Breast": [
+      "Breast Cancer"
+    ],
+    "Gastric Adenocarcinoma": [
+      "Gastric (Stomach) Cancer"
+    ],
+    "Pancreatic Adenocarcinoma": [
+      "Pancreatic Cancer"
+    ],
+    "KRAS G12C-Mutated Locally Advanced or Metastatic Non-Small Cell Lung Cancer": [
+      "Lung Cancers"
+    ],
+    "KRAS G12C-Mutated Locally Advanced or Metastatic Colorectal Cancer": [
+      "Colorectal Cancer"
+    ],
+    "Non-small Cell Lung Cancer": [
+      "Lung Cancers"
+    ],
+    "Prostate Cancer": [
+      "Prostate Cancer"
+    ],
+    "Head and Neck Cancer": [
+      "Head and Neck Cancers"
+    ],
+    "First-Line Treatment of NSCLC with EGFR Exon 19 Deletions or Exon 21 L858R Substitution Mutations": [
+      "Lung Cancers"
+    ],
+    "Previously Treated NSCLC with EGFRExon 19 Deletions or Exon 21 L858R Substitution Mutations": [
+      "Lung Cancers"
+    ],
+    "First-Line Treatment of NSCLC with EGFR Exon 20 Insertion Mutations": [
+      "Lung Cancers"
+    ],
+    "Previously Treated NSCLC with EGFR Exon 20 Insertion Mutations": [
+      "Lung Cancers"
+    ],
+    "AIDS-Related Kaposi's Sarcoma": [
+      "Skin Cancers"
+    ],
+    "Adjuvant Treatment of Postmenopausal Women with estrogen-receptor positive early breast cancer": [
+      "Breast Cancer"
+    ],
+    "Advanced Breast Cancer in Postmenopausal Women": [
+      "Breast Cancer"
+    ],
+    "Superficial Basal Cell Carcinoma": [
+      "Skin Cancers"
+    ],
+    "Multiple Myeloma and Bone Metastases of Solid Tumors": [
+      "Hematological Malignancies",
+      "Bone and Joint Cancers"
+    ],
+    "Newly Diagnosed Glioblastoma Multiforme": [
+      "Brain and Other Nervous System"
+    ],
+    "Refractory Anaplastic Astrocytoma": [
+      "Brain and Other Nervous System"
+    ],
+    "Metastatic Breast Cancer (MBC)": [
+      "Breast Cancer"
+    ],
+    "Early Breast Cancer (EBC)": [
+      "Breast Cancer"
+    ],
+    "Osteoporosis in Men": [
+      "Specific Syndromes"
+    ],
+    "Paget's Disease of Bone": [
+      "Skin Cancers",
+      "Bone and Joint Cancers"
+    ],
+    "metastatic ovarian cancer": [
+      "Gynecological Cancers"
+    ],
+    "Stage IV-B, recurrent, or persistent Cervical Cancer": [
+      "Gynecological Cancers"
+    ],
+    "Metastatic Breast Cancer": [
+      "Breast Cancer"
+    ],
+    "Adjuvant Treatment of Breast Cancer": [
+      "Breast Cancer"
+    ],
+    "Ductal Carcinoma in Situ (DCIS)": [
+      "Breast Cancer"
+    ],
+    "Reduction in Breast Cancer Incidence in High Risk Women": [
+      "Breast Cancer"
+    ],
+    "Unresectable or Metastatic Melanoma in adult and pediatric patients 12 years and older": [
+      "Skin Cancers",
+      "Pediatric Cancers"
+    ],
+    "Adjuvant Treatment of Melanoma": [
+      "Skin Cancers"
+    ],
+    "Advanced Renal Cell Carcinoma": [
+      "Kidney (Renal) and Urethral Cancers"
+    ],
+    "Microsatellite Instability-High or Mismatch Repair Deficient Metastatic Colorectal Cancer": [
+      "Colorectal Cancer"
+    ],
+    "Hepatocellular Carcinoma": [
+      "Liver and Bile Duct Cancers"
+    ],
+    "Metastatic Non-Small Cell Lung Cancer": [
+      "Lung Cancers"
+    ],
+    "Malignant Pleural Mesothelioma": [
+      "Mesothelioma"
+    ],
+    "Esophageal Cancer": [
+      "Esophageal Cancer"
+    ],
+    "Adenocarcinoma of the Pancreas": [
+      "Pancreatic Cancer"
+    ],
+    "Adult Patients with Multiple Myeloma": [
+      "Hematological Malignancies"
+    ],
+    "Gastroenteropancreatic Neuroendocrine Tumors (GEP-NETs)": [
+      "Adrenal Cancer and Neuroendocrine Tumors"
+    ],
+    "Adjuvant Treatment for Early Breast Cancer": [
+      "Breast Cancer"
+    ],
+    "1L for HR+ / HR unknown locally advanced or metastatic breast cancer": [
+      "Breast Cancer"
+    ],
+    "2L Treatment for advanced breast cancer": [
+      "Breast Cancer"
+    ],
+    "HER2-positive, locally advanced, inflammatory, or early stage breast cancer": [
+      "Breast Cancer"
+    ],
+    "adjuvant treatment of HER2-positive Early Breast Cancer (EBC)": [
+      "Breast Cancer"
+    ],
+    "Malignant lymphomas (Stages III and IV of the Ann Arbor staging system)": [
+      "Hematological Malignancies"
+    ],
+    "Multiple myeloma": [
+      "Hematological Malignancies"
+    ],
+    "Chronic lymphocytic leukemia": [
+      "Hematological Malignancies"
+    ],
+    "acute lymphoblastic (stem-cell) leukemia in children (cyclophosphamide given during remission is effective in prolonging its duration)": [
+      "Hematological Malignancies"
+    ],
+    "Mycosis fungoides (advanced disease)": [
+      "Hematological Malignancies"
+    ],
+    "Neuroblastoma (disseminated disease)": [
+      "Neuroblastoma"
+    ],
+    "Adenocarcinoma of the ovary": [
+      "Gynecological Cancers"
+    ],
+    "Retinoblastoma": [
+      "Ocular Cancers"
+    ],
+    "Carcinoma of the breast": [
+      "Breast Cancer"
+    ],
+    "Ductal Carcinoma in Situ": [
+      "Breast Cancer"
+    ],
+    "Reduction in Breast Cancer Incidence in Women at High Risk": [
+      "Breast Cancer"
+    ],
+    "Wilms Tumor in  adult and pediatric patients": [
+      "Pediatric Cancers"
+    ],
+    "Rhabdomyosarcoma in adult and pediatric patients": [
+      "Soft Tissue Cancers (including Heart)",
+      "Pediatric Cancers"
+    ],
+    "Ewing Sarcoma in adult and pediatric patients": [
+      "Pediatric Cancers",
+      "Bone and Joint Cancers"
+    ],
+    "Metastatic Nonseminomatous Testicular Cancer": [
+      "Testicular Cancer"
+    ],
+    "refractory anemia with ringed sideroblasts (if accompanied by neutropenia or thrombocytopenia or requiring transfusions)": [
+      "Hematological Malignancies"
+    ],
+    "refractory anemia with excess blasts (RAEB)": [
+      "Hematological Malignancies"
+    ],
+    "refractory anemia with excess blasts in transformation (RAEB-T)": [
+      "Hematological Malignancies"
+    ],
+    "chronic myelomonocytic leukemia (CMMoL)": [
+      "Hematological Malignancies"
+    ],
+    "Newly Diagnosed Philadelphia Positive Chronic Myeloid Leukemia (Ph+ CML) in adult and pediatric patients": [
+      "Hematological Malignancies",
+      "Pediatric Cancers"
+    ],
+    "Ph+ CML in Blast Crisis (BC), Accelerated Phase (AP) or Chronic Phase (CP) After Interferon-alpha (IFN) Therapy": [
+      "Hematological Malignancies"
+    ],
+    "Adult Patients With Ph+ Acute Lymphoblastic Leukemia (ALL)": [
+      "Hematological Malignancies"
+    ],
+    "Pediatric Patients With Ph+ Acute Lymphoblastic Leukemia (ALL)": [
+      "Hematological Malignancies",
+      "Pediatric Cancers"
+    ],
+    "Myelodysplastic/Myeloproliferative Diseases (MDS/MPD)": [
+      "Hematological Malignancies"
+    ],
+    "Aggressive Systemic Mastocytosis (ASM)": [
+      "Hematological Malignancies"
+    ],
+    "Hypereosinophilic Syndrome (HES) and/or Chronic Eosinophilic Leukemia (CEL)": [
+      "Hematological Malignancies",
+      "Specific Syndromes"
+    ],
+    "Dermatofibrosarcoma Protuberans (DFSP)": [
+      "Soft Tissue Cancers (including Heart)",
+      "Skin Cancers"
+    ],
+    "Kit+ Gastrointestinal Stromal Tumors (GIST)": [
+      "Gastrointestinal Stromal Tumors",
+      "Gastric (Stomach) Cancer"
+    ],
+    "Adjuvant Treatment of GIST": [
+      "Gastrointestinal Stromal Tumors"
+    ],
+    "Follicular Lymphoma": [
+      "Hematological Malignancies"
+    ],
+    "Myelodysplastic Syndromes (MDS)": [
+      "Hematological Malignancies"
+    ],
+    "locally confined Stage B2-C Prostatic Carcinoma": [
+      "Prostate Cancer"
+    ],
+    "Stage D2 Metastatic Carcinoma of the Prostate": [
+      "Prostate Cancer"
+    ],
+    "AIDS-related Kaposi sarcoma (KS)": [
+      "Soft Tissue Cancers (including Heart)",
+      "Skin Cancers"
+    ],
+    "HIV-negative Kaposi Sarcoma": [
+      "Soft Tissue Cancers (including Heart)",
+      "Skin Cancers"
+    ],
+    "Liposarcoma": [
+      "Soft Tissue Cancers (including Heart)"
+    ],
+    "ALK- or ROS1-Positive Metastatic Non-Small Cell Lung Cancer": [
+      "Lung Cancers"
+    ],
+    "Relapsed or Refractory, Systemic ALK-Positive Anaplastic Large Cell Lymphoma in pediatric patients 1 year of age and older and young adults": [
+      "Hematological Malignancies",
+      "Pediatric Cancers"
+    ],
+    "Unresectable, Recurrent, or Refractory ALK-Positive Inflammatory Myofibroblastic Tumor in adult and pediatric patients 1 year of age and older": [
+      "Pediatric Cancers"
+    ],
+    "Previously Untreated diffuse large B-cell lymphoma (DLBCL), not otherwise specified (NOS) or high-grade B-cell lymphoma (HGBL)": [
+      "Hematological Malignancies"
+    ],
+    "Relapsed or Refractory diffuse large B-cell lymphoma (DLBCL), not otherwise specified (NOS)": [
+      "Hematological Malignancies"
+    ],
+    "BRAF V600E Mutation-Positive Metastatic Colorectal Cancer (CRC)": [
+      "Colorectal Cancer"
+    ],
+    "BRAF V600E Mutation-Positive Metastatic Non-Small Cell Lung Cancer (NSCLC)": [
+      "Lung Cancers"
+    ],
+    "BRAF V600E Mutation-Positive Metastatic Colorectal Cancer (mCRC)": [
+      "Colorectal Cancer"
+    ],
+    "Newly-Diagnosed CD33-positive Acute Myeloid Leukemia (AML) in adults and pediatric patients 1 month and older": [
+      "Hematological Malignancies",
+      "Pediatric Cancers"
+    ],
+    "Relapsed or Refractory CD33-positive AML in adults and pediatric patients 2 years and older": [
+      "Hematological Malignancies",
+      "Pediatric Cancers"
+    ],
+    "myelodysplastic syndrome": [
+      "Hematological Malignancies",
+      "Specific Syndromes"
+    ],
+    "MRD-positive B-cell Precursor ALL, adult and pediatric patients one month and older": [
+      "Hematological Malignancies",
+      "Pediatric Cancers"
+    ],
+    "Relapsed or Refractory B-cell Precursor ALL in adult and pediatric patients one month and older": [
+      "Hematological Malignancies",
+      "Pediatric Cancers"
+    ],
+    "Philadelphia chromosome-negative B-cell precursor acute lymphoblastic leukemia (ALL) in the Consolidation Phase in adult and pediatric patients one month and older": [
+      "Hematological Malignancies",
+      "Pediatric Cancers"
+    ],
+    "Acute Nonlymphocytic Leukemias": [
+      "Hematological Malignancies"
+    ],
+    "locally advanced or metastatic Differentiated Thyroid Cancer in adult and pediatric patients 12 years of age and older": [
+      "Pediatric Cancers",
+      "Thyroid Cancer"
+    ],
+    "Neuroendocrine Tumors": [
+      "Adrenal Cancer and Neuroendocrine Tumors"
+    ],
+    "Previously Untreated Stage III or IV Classical Hodgkin Lymphoma (cHL), in Combination with Chemotherapy": [
+      "Hematological Malignancies"
+    ],
+    "Previously Untreated High Risk Classical Hodgkin Lymphoma (cHL), in Combination with Chemotherapy in pediatric patients 2 years and older": [
+      "Hematological Malignancies",
+      "Pediatric Cancers"
+    ],
+    "Classical Hodgkin Lymphoma (cHL) Consolidation": [
+      "Hematological Malignancies"
+    ],
+    "Relapsed Classical Hodgkin Lymphoma (cHL)": [
+      "Hematological Malignancies"
+    ],
+    "Previously Untreated Systemic Anaplastic Large Cell Lymphoma (sALCL) or Other CD30-Expressing Peripheral T-cell Lymphomas (PTCL), in Combination with Chemotherapy": [
+      "Hematological Malignancies"
+    ],
+    "Relapsed Systemic Anaplastic Large Cell Lymphoma (sALCL)": [
+      "Hematological Malignancies"
+    ],
+    "Relapsed Primary Cutaneous Anaplastic Large Cell Lymphoma (pcALCL) or CD30-Expressing Mycosis Fungoides (MF)": [
+      "Hematological Malignancies"
+    ],
+    "Marginal Zone Lymphoma": [
+      "Hematological Malignancies"
+    ],
+    "Chronic Lymphocytic Leukemia or Small Lymphocytic Lymphoma": [
+      "Hematological Malignancies"
+    ],
+    "Chronic Lymphocytic Leukemia (CLL)/Small Lymphocytic Lymphoma (SLL)": [
+      "Hematological Malignancies"
+    ],
+    "Follicular Lymphoma (FL)": [
+      "Hematological Malignancies"
+    ],
+    "unresectable or metastatic melanoma with BRAF V600E mutation": [
+      "Skin Cancers"
+    ],
+    "Erdheim-Chester Disease (ECD) with BRAF V600 mutation": [
+      "Hematological Malignancies"
+    ],
+    "Juvenile Myelomonocytic Leukemia (JMML), pediatric patients aged one month and older": [
+      "Hematological Malignancies",
+      "Pediatric Cancers"
+    ],
+    "Diffuse Large B-Cell Lymphoma (DLBCL)": [
+      "Hematological Malignancies"
+    ],
+    "Advanced Testicular Cancer": [
+      "Testicular Cancer"
+    ],
+    "Advanced Ovarian Cancer": [
+      "Gynecological Cancers"
+    ],
+    "Gastrointestinal Stromal Tumor": [
+      "Soft Tissue Cancers (including Heart)",
+      "Gastrointestinal Stromal Tumors",
+      "Gastric (Stomach) Cancer"
+    ],
+    "Adjuvant Treatment of Renal Cell Carcinoma": [
+      "Kidney (Renal) and Urethral Cancers"
+    ],
+    "Advanced Pancreatic Neuroendocrine Tumors": [
+      "Pancreatic Cancer",
+      "Adrenal Cancer and Neuroendocrine Tumors"
+    ],
+    "Metastatic Gastric Cancer": [
+      "Gastric (Stomach) Cancer"
+    ],
+    "Non-Small Cell Lung Cancer (NSCLC)": [
+      "Lung Cancers"
+    ],
+    "Light Chain Amyloidosis": [
+      "Hematological Malignancies"
+    ],
+    "high-risk smoldering multiple myeloma": [
+      "Hematological Malignancies"
+    ],
+    "Adenocarcinoma of the Ovary": [
+      "Gynecological Cancers"
+    ],
+    "Superficial Papillary Carcinoma of the Urinary Bladder": [
+      "Skin Cancers",
+      "Bladder Cancer",
+      "Breast Cancer"
+    ],
+    "Cutaneous Squamous Cell Carcinoma": [
+      "Skin Cancers"
+    ],
+    "Basal Cell Carcinoma": [
+      "Skin Cancers"
+    ],
+    "Tuberous Sclerosis Complex (TSC)-Associated Subependymal Giant Cell Astrocytoma (SEGA) (adult and pediatric patients aged 1 year and older)": [
+      "Pediatric Cancers",
+      "Brain and Other Nervous System"
+    ],
+    "Class 3 Beta-Thalassemia": [
+      "Hematological Malignancies"
+    ],
+    "Adjuvant Treatment of Resected ALK-Positive Non-Small Cell Lung Cancer (NSCLC)": [
+      "Lung Cancers"
+    ],
+    "Treatment of Metastatic ALK-Positive NSCLC": [
+      "Lung Cancers"
+    ],
+    "Metastatic Merkel Cell Carcinoma adults and pediatric patients 12 years and older": [
+      "Skin Cancers",
+      "Pediatric Cancers"
+    ],
+    "Locally Advanced or Metastatic Urothelial Carcinoma": [
+      "Bladder Cancer"
+    ],
+    "Neoplastic Diseases: acute lymphoblastic leukemia (ALL)": [
+      "Hematological Malignancies"
+    ],
+    "Neoplastic Diseases: mycosis fungoides (cutaneous T-cell lymphoma)": [
+      "Hematological Malignancies"
+    ],
+    "Neoplastic Diseases: non-Hodgkin lymphomas": [
+      "Hematological Malignancies"
+    ],
+    "Large B-cell Lymphoma (LBCL)": [
+      "Hematological Malignancies"
+    ],
+    "Chronic Lymphocytic Leukemia (CLL) or Small Lymphocytic Lymphoma (SLL)": [
+      "Hematological Malignancies"
+    ],
+    "Mantle Cell Lymphoma (MCL)": [
+      "Hematological Malignancies"
+    ],
+    "bone metastases from solid tumors": [
+      "Bone and Joint Cancers"
+    ],
+    "Giant Cell Tumor of Bone": [
+      "Bone and Joint Cancers"
+    ],
+    "Newly-Diagnosed Acute Myeloid Leukemia": [
+      "Hematological Malignancies"
+    ],
+    "Relapsed or Refractory Acute Myeloid Leukemia": [
+      "Hematological Malignancies"
+    ],
+    "First-Line Treatment of Advanced Breast Cancer": [
+      "Breast Cancer"
+    ],
+    "Second-Line Treatment of Advanced Breast Cancer": [
+      "Breast Cancer"
+    ],
+    "Acute Lymphoblastic Leukemia in pediatric and young adult patients age 1 month to 21 years.": [
+      "Hematological Malignancies",
+      "Pediatric Cancers"
+    ],
+    "Locally Advanced or Metastatic Breast Cancer": [
+      "Breast Cancer"
+    ],
+    "Epithelial Ovarian, Fallopian Tube, or PrimaryPeritoneal Cancer": [
+      "Gynecological Cancers"
+    ],
+    "non-squamous Non-Small Cell Lung Cancer": [
+      "Lung Cancers"
+    ],
+    "Melanoma": [
+      "Skin Cancers"
+    ],
+    "Alveolar Soft Part Sarcoma in adult and pediatric patients 2 years of age and older": [
+      "Soft Tissue Cancers (including Heart)",
+      "Pediatric Cancers"
+    ],
+    "adult patients with unresectable hepatocellular carcinoma (uHCC)": [
+      "Liver and Bile Duct Cancers"
+    ],
+    "Multiple Myeloma-Conditioning Treatment": [
+      "Hematological Malignancies"
+    ],
+    "Adjuvant Treatment of EGFR Mutation-Positive Non-Small Cell Lung Cancer (NSCLC)": [
+      "Lung Cancers"
+    ],
+    "Locally Advanced, Unresectable (Stage III) EGFR Mutation-Positive NSCLC": [
+      "Lung Cancers"
+    ],
+    "First-line Treatment of EGFR Mutation-Positive Metastatic NSCLC": [
+      "Lung Cancers"
+    ],
+    "First-line Treatment of EGFR Mutation-Positive Locally Advanced or Metastatic NSCLC": [
+      "Lung Cancers"
+    ],
+    "Previously Treated EGFR T790M Mutation-Positive Metastatic NSCLC": [
+      "Lung Cancers"
+    ],
+    "Advanced Systemic Mastocytosis (AdvSM)": [
+      "Hematological Malignancies"
+    ],
+    "Indolent Systemic Mastocytosis (ISM)": [
+      "Hematological Malignancies"
+    ],
+    "Myelodysplastic Syndromes": [
+      "Hematological Malignancies"
+    ],
+    "Metastatic Prostate Cancer": [
+      "Prostate Cancer"
+    ],
+    "Adult and Pediatric Patients With Newly Diagnosed Ph+ CML-CP": [
+      "Hematological Malignancies",
+      "Pediatric Cancers"
+    ],
+    "Adult Patients With Resistant or Intolerant Ph+ CML-CP and CML-AP": [
+      "Hematological Malignancies"
+    ],
+    "Pediatric Patients With Resistant or Intolerant Ph+ CML-CP and CML-AP": [
+      "Hematological Malignancies",
+      "Pediatric Cancers"
+    ],
+    "Paget's Disease": [
+      "Skin Cancers"
+    ],
+    "Osteolytic Bone Metastases of Breast Cancer and Osteolytic Lesions of Multiple Myeloma": [
+      "Hematological Malignancies",
+      "Breast Cancer",
+      "Bone and Joint Cancers"
+    ],
+    "First-Line Advanced Renal Cell Carcinoma": [
+      "Kidney (Renal) and Urethral Cancers"
+    ],
+    "Second-Line Advanced Renal Cell Carcinoma": [
+      "Kidney (Renal) and Urethral Cancers"
+    ],
+    "malignant lymphomas of adult and pediatric patients": [
+      "Hematological Malignancies",
+      "Pediatric Cancers"
+    ],
+    "Hodgkin's disease in adult and pediatric patients": [
+      "Hematological Malignancies",
+      "Pediatric Cancers"
+    ],
+    "lymphocytic lymphoma (nodular or diffuse) in adult and pediatric patients": [
+      "Hematological Malignancies",
+      "Pediatric Cancers"
+    ],
+    "mixed-cell type lymphoma in adult and pediatric patients": [
+      "Hematological Malignancies",
+      "Pediatric Cancers"
+    ],
+    "histiocytic lymphoma in adult and pediatric patients": [
+      "Hematological Malignancies",
+      "Pediatric Cancers"
+    ],
+    "Burkitt's lymphoma in adult and pediatric patients": [
+      "Hematological Malignancies",
+      "Pediatric Cancers"
+    ],
+    "multiple myeloma in adult and pediatric patients": [
+      "Hematological Malignancies",
+      "Pediatric Cancers"
+    ],
+    "chronic lymphocytic leukemia in adult and pediatric patients": [
+      "Hematological Malignancies",
+      "Pediatric Cancers"
+    ],
+    "chronic granulocytic leukemia  in adult and pediatric patients": [
+      "Hematological Malignancies",
+      "Pediatric Cancers"
+    ],
+    "acute myelogenous and monocytic leukemia  in adult and pediatric patients": [
+      "Hematological Malignancies",
+      "Pediatric Cancers"
+    ],
+    "acute lymphoblastic (stem-cell) leukemia in adult and pediatric patients": [
+      "Hematological Malignancies",
+      "Pediatric Cancers"
+    ],
+    "mycosis fungoides  in adult and pediatric patients": [
+      "Hematological Malignancies",
+      "Pediatric Cancers"
+    ],
+    "neuroblastoma in adult and pediatric patients": [
+      "Neuroblastoma",
+      "Pediatric Cancers"
+    ],
+    "adenocarcinoma of the ovary  in adult and pediatric patients": [
+      "Gynecological Cancers",
+      "Pediatric Cancers"
+    ],
+    "retinoblastoma in adult and pediatric patients": [
+      "Pediatric Cancers",
+      "Ocular Cancers"
+    ],
+    "carcinoma of the breast in adult and pediatric patients": [
+      "Pediatric Cancers",
+      "Breast Cancer"
+    ],
+    "Gastrointestinal Stromal Tumors": [
+      "Gastric (Stomach) Cancer"
+    ],
+    "Neoplastic Diseases: gestational choriocarcinoma, chorioadenoma destruens and hydatidiform mole.": [
+      "Gestational Cancers"
+    ],
+    "Neoplastic Diseases: acute lymphocytic leukemia": [
+      "Hematological Malignancies"
+    ],
+    "Neoplastic Diseases: meningeal leukemia": [
+      "Hematological Malignancies"
+    ],
+    "Neoplastic Diseases: breast cancer": [
+      "Breast Cancer"
+    ],
+    "Neoplastic Diseases: epidermoid cancers of the head and neck": [
+      "Head and Neck Cancers"
+    ],
+    "Neoplastic Diseases: lung cancer, particularly squamous cell and small cell types": [
+      "Lung Cancers",
+      "Skin Cancers"
+    ],
+    "Neoplastic Diseases: advanced stage non-Hodgkin's lymphomas": [
+      "Hematological Malignancies"
+    ],
+    "Neoplastic Diseases: non-metastatic osteosarcoma": [
+      "Bone and Joint Cancers"
+    ],
+    "Non-Squamous Non-Small Cell Lung Cancer": [
+      "Lung Cancers"
+    ],
+    "Melanoma in adult and pediatric (12 years and older)": [
+      "Skin Cancers",
+      "Pediatric Cancers"
+    ],
+    "Head and Neck Squamous Cell Cancer": [
+      "Head and Neck Cancers",
+      "Skin Cancers"
+    ],
+    "Classical Hodgkin Lymphoma": [
+      "Hematological Malignancies"
+    ],
+    "Classical Hodgkin Lymphoma in pediatric patients": [
+      "Hematological Malignancies",
+      "Pediatric Cancers"
+    ],
+    "Primary Mediastinal Large B-Cell Lymphoma in adult and pediatric patients": [
+      "Hematological Malignancies",
+      "Pediatric Cancers"
+    ],
+    "Urothelial Cancer": [
+      "Bladder Cancer"
+    ],
+    "Microsatellite Instability-High or Mismatch Repair Deficient Cancer Solid Tumors in adult and pediatric patients": [
+      "Pediatric Cancers"
+    ],
+    "Microsatellite Instability-High or Mismatch Repair Deficient Colorectal Cancer": [
+      "Colorectal Cancer"
+    ],
+    "Gastric Cancer": [
+      "Gastric (Stomach) Cancer"
+    ],
+    "Cervical Cancer": [
+      "Gynecological Cancers"
+    ],
+    "Biliary Tract Cancer": [
+      "Liver and Bile Duct Cancers"
+    ],
+    "Merkel Cell Carcinoma in adult and pediatric patients": [
+      "Skin Cancers",
+      "Pediatric Cancers"
+    ],
+    "Renal Cell Carcinoma": [
+      "Kidney (Renal) and Urethral Cancers"
+    ],
+    "Endometrial Carcinoma": [
+      "Gynecological Cancers"
+    ],
+    "Tumor Mutational Burden-High solid tumors Cancer in adult and pediatric patients": [
+      "Pediatric Cancers"
+    ],
+    "Triple-Negative Breast Cancer": [
+      "Breast Cancer"
+    ],
+    "Adult Classical Hodgkin Lymphoma: Additional Dosing Regimen of 400 mg Every 6 Weeks": [
+      "Hematological Malignancies"
+    ],
+    "Adult Primary Mediastinal Large B-Cell Lymphoma: Additional Dosing Regimen of 400 mg Every 6 Weeks": [
+      "Hematological Malignancies"
+    ],
+    "Acute Lymphoblastic Leukemia": [
+      "Hematological Malignancies"
+    ],
+    "acute lymphoblastic leukemia (ALL) in adults and pediatric patients": [
+      "Hematological Malignancies",
+      "Pediatric Cancers"
+    ],
+    "non-Hodgkin lymphomas": [
+      "Hematological Malignancies"
+    ],
+    "First-Line Maintenance Treatment of BRCA-mutated Advanced Ovarian Cancer": [
+      "Gynecological Cancers"
+    ],
+    "First-line Maintenance Treatment of HRD-positive Advanced Ovarian Cancer in Combination with Bevacizumab": [
+      "Gynecological Cancers"
+    ],
+    "Maintenance Treatment of BRCA-mutated Recurrent Ovarian Cancer": [
+      "Gynecological Cancers"
+    ],
+    "Adjuvant Treatment of Germline BRCA-mutated HER2-negative High Risk Early Breast Cancer": [
+      "Breast Cancer"
+    ],
+    "Germline BRCA-mutated HER2-negative Metastatic Breast Cancer": [
+      "Breast Cancer"
+    ],
+    "First-Line Maintenance Treatment of Germline BRCA-mutated Metastatic Pancreatic Adenocarcinoma": [
+      "Pancreatic Cancer"
+    ],
+    "HRR Gene-mutated Metastatic Castration-Resistant Prostate Cancer": [
+      "Prostate Cancer"
+    ],
+    "Treatment of BRCA-mutated Metastatic Castration-Resistant Prostate Cancer in Combination with Abiraterone and Prednisone or Prednisolone": [
+      "Prostate Cancer"
+    ],
+    "HER2-Positive Metastatic Breast Cancer": [
+      "Breast Cancer"
+    ],
+    "HER2-Low Metastatic Breast Cancer": [
+      "Breast Cancer"
+    ],
+    "HER2-Mutant Unresectable or Metastatic Non-Small Cell Lung Cancer": [
+      "Lung Cancers",
+      "Breast Cancer"
+    ],
+    "HER2-Positive Locally Advanced or Metastatic Gastric Cancer": [
+      "Breast Cancer",
+      "Gastric (Stomach) Cancer"
+    ],
+    "HER2-Positive (IHC 3+) Unresectable or Metastatic Solid Tumors": [
+      "Breast Cancer"
+    ],
+    "HER2-Low and HER2-Ultralow Metastatic Breast Cancer": [
+      "Breast Cancer"
+    ],
+    "Acute Lymphoblastic Leukemia in adults and pediatric patients": [
+      "Hematological Malignancies",
+      "Pediatric Cancers"
+    ],
+    "Non-Hodgkin Lymphoma": [
+      "Hematological Malignancies"
+    ],
+    "Burkitt Lymphoma in adults and pediatric patients": [
+      "Hematological Malignancies",
+      "Pediatric Cancers"
+    ],
+    "Large B-cell Lymphoma": [
+      "Hematological Malignancies"
+    ],
+    "Squamous Non-Small Cell Lung Cancer (NSCLC)": [
+      "Lung Cancers"
+    ],
+    "Patients with Acute Myeloid Leukemia Receiving Induction or Consolidation Chemotherapy": [
+      "Hematological Malignancies"
+    ],
+    "Cholangiocarcinoma": [
+      "Liver and Bile Duct Cancers"
+    ],
+    "Myeloid/Lymphoid Neoplasms with FGFR1 Rearrangement": [
+      "Hematological Malignancies"
+    ],
+    "RET Fusion-Positive Non-Small Cell Lung Cancer": [
+      "Lung Cancers"
+    ],
+    "RET-Mutant Medullary Thyroid Cancer in adult and pediatric patients 2 years of age and older": [
+      "Pediatric Cancers",
+      "Thyroid Cancer"
+    ],
+    "RET Fusion-Positive Thyroid Cancer in adult and pediatric patients 2 years of age and older": [
+      "Pediatric Cancers",
+      "Thyroid Cancer"
+    ],
+    "Other RET Fusion-Positive Solid Tumors in adult and pediatric patients 2 years of age and older": [
+      "Pediatric Cancers"
+    ],
+    "Beta Thalassemia": [
+      "Hematological Malignancies"
+    ],
+    "Myelodysplastic Syndromes Associated Anemia": [
+      "Hematological Malignancies"
+    ],
+    "Myelodysplastic Syndromes with Ring Sideroblasts or Myelodysplastic/ Myeloproliferative Neoplasm with Ring Sideroblasts and Thrombocytosis Associated Anemia": [
+      "Hematological Malignancies"
+    ],
+    "resectable Non-Small Cell Lung Cancer": [
+      "Lung Cancers"
+    ],
+    "unresectable Stage III Non-Small Cell Lung Cancer": [
+      "Lung Cancers"
+    ],
+    "metastatic Non-Small Cell Lung Cancer": [
+      "Lung Cancers"
+    ],
+    "Biliary Tract Cancers": [
+      "Liver and Bile Duct Cancers"
+    ],
+    "Muscle Invasive Bladder Cancer": [
+      "Bladder Cancer"
+    ],
+    "early breast cancer": [
+      "Breast Cancer"
+    ],
+    "Squamous Cell Carcinoma of the Head and Neck (SCCHN)": [
+      "Head and Neck Cancers",
+      "Skin Cancers"
+    ],
+    "K-Ras Wild-type, EGFR-expressing Colorectal Cancer (CRC)": [
+      "Colorectal Cancer"
+    ],
+    "Brain Tumors": [
+      "Brain and Other Nervous System"
+    ],
+    "Hodgkin's Lymphoma": [
+      "Hematological Malignancies"
+    ],
+    "Epithelioid Sarcoma in adults and pediatric patients aged 16 years and older": [
+      "Soft Tissue Cancers (including Heart)",
+      "Pediatric Cancers"
+    ],
+    "Relapsed or Refractory Follicular Lymphoma": [
+      "Hematological Malignancies"
+    ],
+    "relapsed or refractory acute myeloid leukemia (AML)": [
+      "Hematological Malignancies"
+    ],
+    "superficial basal cell carcinomas": [
+      "Skin Cancers"
+    ],
+    "Differentiated Thyroid Cancer": [
+      "Thyroid Cancer"
+    ],
+    "Advanced Bladder Cancer, specifically transitional cell bladder cancer": [
+      "Bladder Cancer"
+    ],
+    "advanced prostatic cancer": [
+      "Prostate Cancer"
+    ],
+    "malignant lymphomas (Stages III and IV of the Ann Arbor staging system) in adult and pediatric patients": [
+      "Hematological Malignancies",
+      "Pediatric Cancers"
+    ],
+    "chronic granulocytic leukemia (it is usually ineffective in acute blastic crisis) in adult and pediatric patients": [
+      "Hematological Malignancies",
+      "Pediatric Cancers"
+    ],
+    "acute myelogenous and monocytic leukemia in adult and pediatric patients": [
+      "Hematological Malignancies",
+      "Pediatric Cancers"
+    ],
+    "acute lymphoblastic (stem-cell) leukemia (cyclophosphamide given during remission is effective in prolonging its duration) in adult and pediatric patients": [
+      "Hematological Malignancies",
+      "Pediatric Cancers"
+    ],
+    "mycosis fungoides (advanced disease) in adult and pediatric patients": [
+      "Hematological Malignancies",
+      "Pediatric Cancers"
+    ],
+    "neuroblastoma (disseminated disease) in adult and pediatric patients": [
+      "Neuroblastoma",
+      "Pediatric Cancers"
+    ],
+    "adenocarcinoma of the ovary in adult and pediatric patients": [
+      "Gynecological Cancers",
+      "Pediatric Cancers"
+    ],
+    "acute leukemia": [
+      "Hematological Malignancies"
+    ],
+    "non-Hodgkin's malignant lymphomas": [
+      "Hematological Malignancies"
+    ],
+    "rhabdomyosarcoma": [
+      "Soft Tissue Cancers (including Heart)"
+    ],
+    "neuroblastoma": [
+      "Neuroblastoma"
+    ],
+    "Wilms' tumor": [
+      "Pediatric Cancers"
+    ],
+    "newly diagnosed acute myeloid leukemia (AML) FLT3 internal tandem duplication (ITD)-positive": [
+      "Hematological Malignancies"
+    ],
+    "Stage D2 metastatic carcinoma of the prostate": [
+      "Prostate Cancer"
+    ],
+    "metastatic carcinoma of the colon or rectum": [
+      "Colorectal Cancer"
+    ],
+    "Relapsed or refractory, low-grade or follicular, CD20-positive, B-cell Non-Hodgkin's Lymphoma (NHL)": [
+      "Hematological Malignancies"
+    ],
+    "Previously untreated follicular, CD20-positive, B-cell Non-Hodgkin's Lymphoma in combination": [
+      "Hematological Malignancies"
+    ],
+    "Previously untreated follicular, CD20-positive, B-cell Non-Hodgkin's Lymphoma as a single-agent": [
+      "Hematological Malignancies"
+    ],
+    "Non-progressing (including stable disease), low-grade, CD20-positive, B-cell Non-Hodgkin's Lymphoma (NHL)": [
+      "Hematological Malignancies"
+    ],
+    "Previously untreated diffuse large B-cell, CD20-positive NHL": [
+      "Hematological Malignancies"
+    ],
+    "Previously untreated, advanced stage, CD20-positive diffuse large B-cell lymphoma (DLBCL), pediatric patients aged 6 months and older": [
+      "Hematological Malignancies",
+      "Pediatric Cancers"
+    ],
+    "Previously untreated, advanced stage, CD20-positive Burkitt lymphoma (BL), pediatric patients aged 6 months and older": [
+      "Hematological Malignancies",
+      "Pediatric Cancers"
+    ],
+    "Previously untreated, advanced stage, CD20-positive Burkitt-like lymphoma (BLL), pediatric patients aged 6 months and older": [
+      "Hematological Malignancies",
+      "Pediatric Cancers"
+    ],
+    "Previously untreated, advanced stage, CD20-positive mature B-cell acute leukemia (B-AL), pediatric patients aged 6 months and older": [
+      "Hematological Malignancies",
+      "Pediatric Cancers"
+    ],
+    "adult patients with previously untreated and previously treated CD20-positive Chronic Lymphocytic Leukemia (CLL)": [
+      "Hematological Malignancies"
+    ],
+    "Early Breast Cancer": [
+      "Breast Cancer"
+    ],
+    "Advanced or Metastatic Breast Cancer": [
+      "Breast Cancer"
+    ],
+    "Extended Adjuvant Treatment of Early-Stage Breast Cancer": [
+      "Breast Cancer"
+    ],
+    "stage III colon cancer, post-complete resection of the primary tumor": [
+      "Colorectal Cancer"
+    ],
+    "advanced colorectal cancer": [
+      "Colorectal Cancer"
+    ],
+    "Squamous cell carcinoma of the skin": [
+      "Skin Cancers"
+    ],
+    "Squamous cell carcinoma of the head and neck": [
+      "Head and Neck Cancers",
+      "Skin Cancers"
+    ],
+    "Squamous cell carcinoma of the esophagus (primary indication)": [
+      "Skin Cancers",
+      "Esophageal Cancer"
+    ],
+    "Squamous cell carcinoma of the larynx": [
+      "Skin Cancers"
+    ],
+    "Squamous cell carcinoma of the penis": [
+      "Penile Cancer",
+      "Skin Cancers"
+    ],
+    "Squamous cell carcinoma of the uterine cervix": [
+      "Gynecological Cancers",
+      "Skin Cancers"
+    ],
+    "Squamous cell carcinoma of the bronchus (response infrequent)": [
+      "Skin Cancers"
+    ],
+    "Choriocarcinoma and embryonal cell carcinoma of the testis": [
+      "Gestational Cancers",
+      "Testicular Cancer"
+    ],
+    "Advanced Hodgkin's disease and Other lymphomas": [
+      "Hematological Malignancies"
+    ],
+    "Mycosis fungoides": [
+      "Hematological Malignancies"
+    ],
+    "metastatic malignant melanoma": [
+      "Skin Cancers"
+    ],
+    "non-Hodgkin's lymphoma (NHL)": [
+      "Hematological Malignancies"
+    ],
+    "multiple myeloma (MM)": [
+      "Hematological Malignancies"
+    ],
+    "disseminated adenocarcinoma of the stomach": [
+      "Gastric (Stomach) Cancer"
+    ],
+    "disseminated adenocarcinoma of the pancreas": [
+      "Pancreatic Cancer"
+    ],
+    "First Line Acute Lymphoblastic Leukemia (ALL) (pediatric and adult patients)": [
+      "Hematological Malignancies",
+      "Pediatric Cancers"
+    ],
+    "Acute Lymphoblastic Leukemia and Hypersensitivity to Asparaginase (pediatric and adult patients)": [
+      "Hematological Malignancies",
+      "Pediatric Cancers"
+    ],
+    "Diffuse Large B-Cell Lymphoma": [
+      "Hematological Malignancies"
+    ],
+    "Advanced Ovarian Carcinoma": [
+      "Gynecological Cancers"
+    ],
+    "T-cell acute lymphoblastic leukemia (T-ALL)  in adult and pediatric patients age 1 year and older": [
+      "Hematological Malignancies",
+      "Pediatric Cancers"
+    ],
+    "T-cell lymphoblastic lymphoma (T-LBL)  in adult and pediatric patients age 1 year and older": [
+      "Hematological Malignancies",
+      "Pediatric Cancers"
+    ],
+    "extensive stage small cell lung cancer (ES-SCLC)": [
+      "Lung Cancers"
+    ],
+    "Resistant chronic myeloid leukemia": [
+      "Hematological Malignancies"
+    ],
+    "Locally advanced squamous cell carcinomas of the head and neck (excluding the lip)": [
+      "Head and Neck Cancers",
+      "Skin Cancers"
+    ],
+    "Adenocarcinoma of the breast": [
+      "Breast Cancer"
+    ],
+    "superficial papillary carcinoma of the urinary bladder": [
+      "Skin Cancers",
+      "Bladder Cancer",
+      "Breast Cancer"
+    ],
+    "acute non-lymphocytic leukemia of adults and pediatric patients": [
+      "Hematological Malignancies",
+      "Pediatric Cancers"
+    ],
+    "acute lymphocytic leukemia": [
+      "Hematological Malignancies"
+    ],
+    "blast phase of chronic myelocytic leukemia": [
+      "Hematological Malignancies"
+    ],
+    "meningeal leukemia": [
+      "Hematological Malignancies"
+    ],
+    "Acute Lymphoblastic Leukemia in pediatric patients": [
+      "Hematological Malignancies",
+      "Pediatric Cancers"
+    ],
+    "ROS1-Positive Non-Small Cell Lung Cancer": [
+      "Lung Cancers"
+    ],
+    "NTRK Gene Fusion-Positive Solid Tumors in adult and pediatric patients older than 1 month of age": [
+      "Pediatric Cancers"
+    ],
+    "cutaneous manifestations of cutaneous T-cell lymphoma": [
+      "Hematological Malignancies"
+    ],
+    "pediatric patients 1 to 21 years old with relapsed or refractory acute lymphoblastic leukemia": [
+      "Hematological Malignancies",
+      "Pediatric Cancers"
+    ],
+    "Squamous Cell Carcinoma: Head and neck (including mouth, tongue, tonsil, nasopharynx, oropharynx, sinus, palate, lip, buccal mucosa, gingivae, epiglottis, skin, larynx)": [
+      "Head and Neck Cancers",
+      "Skin Cancers"
+    ],
+    "Squamous Cell Carcinoma: penis": [
+      "Penile Cancer",
+      "Skin Cancers"
+    ],
+    "Squamous Cell Carcinoma: cervix": [
+      "Skin Cancers",
+      "Gynecological Cancers"
+    ],
+    "Squamous Cell Carcinoma: vulva": [
+      "Skin Cancers",
+      "Gynecological Cancers"
+    ],
+    "Lymphomas: Hodgkin's disease": [
+      "Hematological Malignancies"
+    ],
+    "Lymphomas: non-Hodgkin's lymphoma": [
+      "Hematological Malignancies"
+    ],
+    "Testicular Carcinoma: Embryonal cell, choriocarcinoma, and teratocarcinoma": [
+      "Gestational Cancers",
+      "Testicular Cancer"
+    ],
+    "Unresectable or Metastatic Melanoma adult and pediatric patients 12 years and older": [
+      "Skin Cancers",
+      "Pediatric Cancers"
+    ],
+    "Adjuvant Treatment of Melanoma in adult and pediatric patients 12 years and older": [
+      "Skin Cancers",
+      "Pediatric Cancers"
+    ],
+    "Neoadjuvant Treatment of Resectable Non-Small Cell Lung Cancer": [
+      "Lung Cancers"
+    ],
+    "Neoadjuvant and Adjuvant Treatment of Resectable Non-Small Cell Lung Cancer": [
+      "Lung Cancers"
+    ],
+    "Urothelial Carcinoma": [
+      "Bladder Cancer"
+    ],
+    "Microsatellite Instability-High or Mismatch Repair Deficient Metastatic Colorectal Cancer in adult and pediatric patients 12 years and older": [
+      "Colorectal Cancer",
+      "Pediatric Cancers"
+    ],
+    "Gastric Cancer, Gastroesophageal Junction Cancer, and Esophageal Adenocarcinoma": [
+      "Gastric (Stomach) Cancer",
+      "Esophageal Cancer"
+    ],
+    "indolent B-cell non-Hodgkin lymphoma": [
+      "Hematological Malignancies"
+    ],
+    "metastatic or recurrent locally advanced Merkel cell carcinoma (MCC)": [
+      "Skin Cancers"
+    ],
+    "Squamous Cell Carcinoma of the Anal Canal": [
+      "Anal Cancer"
+    ],
+    "Initial Treatment of Advanced Ovarian Carcinoma": [
+      "Gynecological Cancers"
+    ],
+    "Secondary Treatment of Advanced Ovarian Carcinoma": [
+      "Gynecological Cancers"
+    ],
+    "acute myeloid leukemia": [
+      "Hematological Malignancies"
+    ],
+    "osteosarcoma": [
+      "Bone and Joint Cancers"
+    ],
+    "newly-diagnosed acute myeloid leukemia (AML)": [
+      "Hematological Malignancies"
+    ],
+    "advanced prostate cancer": [
+      "Prostate Cancer"
+    ],
+    "Bone Metastases from Solid Tumors": [
+      "Bone and Joint Cancers"
+    ],
+    "DLBCL and High-grade B-cell Lymphoma": [
+      "Hematological Malignancies"
+    ],
+    "Non-Squamous Non-Small Cell Lung Cancer (NSCLC)": [
+      "Lung Cancers"
+    ],
+    "Mesothelioma": [
+      "Mesothelioma"
+    ],
+    "locally advanced basal cell carcinoma (BCC)": [
+      "Skin Cancers"
+    ],
+    "Philadelphia Chromosome-Positive Acute Lymphoblastic Leukemia (Ph+ ALL)": [
+      "Hematological Malignancies"
+    ],
+    "Chronic Myeloid Leukemia (CML)": [
+      "Hematological Malignancies"
+    ],
+    "Glioma": [
+      "Brain and Other Nervous System"
+    ],
+    "acute lymphatic (lymphocytic, lymphoblastic) leukemia": [
+      "Hematological Malignancies"
+    ],
+    "axillary node tumor involvement following resection of primary breast cancer": [
+      "Breast Cancer"
+    ],
+    "intermediate or high-risk myelofibrosis (MF)": [
+      "Hematological Malignancies"
+    ],
+    "Osteolytic Lesions of Multiple Myeloma": [
+      "Hematological Malignancies"
+    ],
+    "Osteolytic Bone Metastases of Breast Cancer": [
+      "Breast Cancer",
+      "Bone and Joint Cancers"
+    ],
+    "Neoplastic Diseases: gestational choriocarcinoma, chorioadenoma destruens and hydatidiform mole": [
+      "Gestational Cancers"
+    ],
+    "lung cancer, particularly squamous cell and small cell types": [
+      "Lung Cancers",
+      "Skin Cancers"
+    ],
+    "non-metastatic osteosarcoma": [
+      "Bone and Joint Cancers"
+    ],
+    "Generalized Hodgkin's disease (Stages III and IV, Ann Arbor modification of Rye staging system)": [
+      "Hematological Malignancies"
+    ],
+    "Lymphocytic lymphoma (nodular and diffuse, poorly and well differentiated)": [
+      "Hematological Malignancies"
+    ],
+    "Histiocytic lymphoma": [
+      "Hematological Malignancies"
+    ],
+    "Mycosis fungoides (advanced stages)": [
+      "Hematological Malignancies"
+    ],
+    "Advanced carcinoma of the testis": [
+      "Testicular Cancer"
+    ],
+    "Kaposi's sarcoma": [
+      "Skin Cancers"
+    ],
+    "Letterer-Siwe disease (histiocytosis X)": [
+      "Hematological Malignancies"
+    ],
+    "Choriocarcinoma resistant to other chemotherapeutic agents": [
+      "Gestational Cancers"
+    ],
+    "Hodgkin's Disease": [
+      "Hematological Malignancies"
+    ],
+    "BRCA-mutated (gBRCAm) HER2-negative Locally Advanced or Metastatic Breast Cancer": [
+      "Breast Cancer"
+    ],
+    "HRR Gene-mutated mCRPC": [
+      "Prostate Cancer"
+    ],
+    "metastatic colorectal cancer (mCRC)": [
+      "Colorectal Cancer"
+    ],
+    "locally advanced unresectable or metastatic malignant perivascular epithelioid cell tumor (PEComa)": [
+      "Soft Tissue Cancers (including Heart)"
+    ],
+    "metastatic breast cancer in postmenopausal women with estrogen-receptor positive or unknown tumors": [
+      "Breast Cancer"
+    ],
+    "Metastatic castration-resistant prostate cancer (CRPC)": [
+      "Prostate Cancer"
+    ],
+    "Metastatic high-risk castration-sensitive prostate cancer (CSPC)": [
+      "Prostate Cancer"
+    ],
+    "Metastatic Colorectal Cancer (mCRC)": [
+      "Colorectal Cancer"
+    ],
+    "platinum-resistant recurrent Epithelial Ovarian, Fallopian Tube, or Primary Peritoneal Cancer": [
+      "Gynecological Cancers"
+    ],
+    "platinum-sensitive recurrent epithelial ovarian, fallopian tube, or primary peritoneal cancer": [
+      "Gynecological Cancers"
+    ],
+    "BRCA-mutated Metastatic Castration-Resistant Prostate Cancer": [
+      "Prostate Cancer"
+    ],
+    "Stage B2-C Prostatic Carcinoma": [
+      "Prostate Cancer"
+    ],
+    "advanced carcinoma of the prostate": [
+      "Prostate Cancer"
+    ],
+    "Advanced Breast Cancer": [
+      "Breast Cancer"
+    ],
+    "Chronic Lymphocytic Leukemia": [
+      "Hematological Malignancies"
+    ],
+    "Small Lymphocytic Lymphoma": [
+      "Hematological Malignancies"
+    ],
+    "folate receptor-alpha (FR\u03b1) positive, platinum-resistant epithelial ovarian cancer": [
+      "Gynecological Cancers"
+    ],
+    "fallopian tube cancer": [
+      "Gynecological Cancers"
+    ],
+    "primary peritoneal cancer": [
+      "Gynecological Cancers"
+    ],
+    "EGFR Mutation-Positive, Metastatic Non-Small Cell Lung Cancer": [
+      "Lung Cancers"
+    ],
+    "Previously Treated, Metastatic Squamous NSCLC": [
+      "Lung Cancers"
+    ],
+    "BRAF V600E Mutation-Positive Unresectable or Metastatic Melanoma": [
+      "Skin Cancers"
+    ],
+    "BRAF V600E Mutation-Positive Unresectable or Metastatic Solid Tumors, adult and pediatric patients 1 year of age and older": [
+      "Pediatric Cancers"
+    ],
+    "BRAF V600E Mutation-Positive Low-Grade Glioma, pediatric patients 1 year of age and older": [
+      "Pediatric Cancers",
+      "Brain and Other Nervous System"
+    ],
+    "metastatic or locally advanced breast resistant to treatment with an anthracycline and a taxane": [
+      "Breast Cancer"
+    ],
+    "metastatic or locally advanced breast cancer that is taxane resistant and for whom further anthracycline therapy is contraindicated": [
+      "Breast Cancer"
+    ],
+    "metastatic or locally advanced breast cancer": [
+      "Breast Cancer"
+    ],
+    "locally advanced or metastatic urothelial carcinoma (mUC) with susceptible FGFR3genetic alterations": [
+      "Bladder Cancer"
+    ],
+    "diffuse large B-cell lymphoma, not otherwise specified (DLBCL, NOS) who are not candidates for autologous stem cell transplant (ASCT).": [
+      "Hematological Malignancies"
+    ],
+    "DLBCL, NOS or large B-cell lymphoma (LBCL) arising from follicular lymphoma": [
+      "Hematological Malignancies"
+    ],
+    "newly diagnosed Philadelphia chromosome-positive (Ph+) chronic myeloid leukemia (CML) in chronic phase": [
+      "Hematological Malignancies"
+    ],
+    "chronic, accelerated, or myeloid or lymphoid blast phase Ph+ chronic myeloid leukemia (CML)": [
+      "Hematological Malignancies"
+    ],
+    "Philadelphia chromosome-positive acute lymphoblastic leukemia (Ph+ ALL)": [
+      "Hematological Malignancies"
+    ],
+    "Philadelphia chromosome-positive (Ph+) chronic myeloid leukemia (CML) in pediatric patients 1 year of age and older": [
+      "Hematological Malignancies",
+      "Pediatric Cancers"
+    ],
+    "newly diagnosed Philadelphia chromosome-positive acute lymphoblastic leukemia (ALL) in combination with chemotherapy in pediatric patients 1 year of age and older": [
+      "Hematological Malignancies",
+      "Pediatric Cancers"
+    ],
+    "chronic myelogenous leukemia": [
+      "Hematological Malignancies"
+    ],
+    "Squamous Cell Carcinoma Head and neck (including mouth, tongue, tonsil, nasopharynx, oropharynx, sinus, palate, lip, buccal mucosa, gingivae, epiglottis, skin, larynx)": [
+      "Head and Neck Cancers",
+      "Skin Cancers"
+    ],
+    "Squamous Cell Carcinoma of the penis": [
+      "Penile Cancer",
+      "Skin Cancers"
+    ],
+    "Squamous Cell Carcinoma of the cervix": [
+      "Gynecological Cancers",
+      "Skin Cancers"
+    ],
+    "Squamous Cell Carcinoma of the vulva": [
+      "Gynecological Cancers",
+      "Skin Cancers"
+    ],
+    "Hodgkin's Lymphomas": [
+      "Hematological Malignancies"
+    ],
+    "non-Hodgkin's lymphoma": [
+      "Hematological Malignancies"
+    ],
+    "Testicular Carcinoma: Embryonal cell": [
+      "Testicular Cancer"
+    ],
+    "Testicular Carcinoma: choriocarcinoma": [
+      "Gestational Cancers",
+      "Testicular Cancer"
+    ],
+    "Testicular Carcinoma: teratocarcinoma": [
+      "Testicular Cancer"
+    ],
+    "Patients With Acute Myeloid Leukemia Receiving Induction or Consolidation Chemotherapy": [
+      "Hematological Malignancies"
+    ],
+    "B-cell chronic lymphocytic leukemia (B-CLL)": [
+      "Hematological Malignancies"
+    ],
+    "metastatic small cell lung cancer (SCLC)": [
+      "Lung Cancers"
+    ],
+    "adult and pediatric patients 12 years and older with Grade 2 astrocytoma": [
+      "Pediatric Cancers",
+      "Brain and Other Nervous System"
+    ],
+    "adult and pediatric patients 12 years and older with Grade 2 oligodendroglioma": [
+      "Pediatric Cancers",
+      "Brain and Other Nervous System"
+    ],
+    "newly-diagnosed high-grade glioma": [
+      "Brain and Other Nervous System"
+    ],
+    "recurrent glioblastoma": [
+      "Brain and Other Nervous System"
+    ],
+    "metastatic breast cancer in women and men": [
+      "Breast Cancer",
+      "Specific Syndromes"
+    ],
+    "Adjuvant Treatment of Breast Cancer: node-positive breast cancer": [
+      "Breast Cancer"
+    ],
+    "Adjuvant Treatment of Breast Cancer: axillary node-negative breast cancer": [
+      "Breast Cancer"
+    ],
+    "Ductal Carcinoma in Situ (DCIS):": [
+      "Breast Cancer"
+    ],
+    "anaplastic lymphoma kinase (ALK)-positive metastatic non-small cell lung cancer (NSCLC)": [
+      "Hematological Malignancies",
+      "Lung Cancers"
+    ],
+    "acute myeloid leukemia (AML)": [
+      "Hematological Malignancies"
+    ],
+    "Myelofibrosis": [
+      "Hematological Malignancies"
+    ],
+    "Polycythemia Vera": [
+      "Hematological Malignancies"
+    ],
+    "leukemia in pediatric and adult patients": [
+      "Hematological Malignancies",
+      "Pediatric Cancers"
+    ],
+    "lymphoma in pediatric and adult patients": [
+      "Hematological Malignancies",
+      "Pediatric Cancers"
+    ],
+    "solid tumor malignancies in pediatric and adult patients": [
+      "Pediatric Cancers"
+    ],
+    "low-grade Upper Tract Urothelial Cancer (LG-UTUC)": [
+      "Bladder Cancer"
+    ],
+    "postmenopausal women with hormone receptor-positive early breast cancer": [
+      "Breast Cancer"
+    ],
+    "postmenopausal women with hormone receptor-positive or hormone receptor unknown locally advanced or metastatic breast cancer.": [
+      "Breast Cancer"
+    ],
+    "advanced breast cancer in postmenopausal women": [
+      "Breast Cancer"
+    ],
+    "acute non-lymphocytic leukemia of adults and children": [
+      "Hematological Malignancies"
+    ],
+    "Unresectable or Metastatic Melanoma": [
+      "Skin Cancers"
+    ],
+    "Histiocytic Neoplasms": [
+      "Hematological Malignancies"
+    ],
+    "Soft Tissue Sarcoma": [
+      "Soft Tissue Cancers (including Heart)"
+    ],
+    "NTRK Gene Fusion-Positive Solid Tumors in adult and pediatric patients 12 years of age and older": [
+      "Pediatric Cancers"
+    ],
+    "metastatic anaplastic lymphoma kinase (ALK)-positive non-small cell lung cancer (NSCLC)": [
+      "Hematological Malignancies",
+      "Lung Cancers"
+    ],
+    "relapsed or refractory multiple myeloma": [
+      "Hematological Malignancies"
+    ],
+    "Unresectable or Metastatic Colorectal Cancer": [
+      "Colorectal Cancer"
+    ],
+    "Metastatic Prostate Cancer (Stage D2)": [
+      "Prostate Cancer"
+    ],
+    "steroid-responsive inflammatory ocular conditions": [
+      "Ocular Cancers"
+    ],
+    "liver-directed treatment for uveal melanoma with unresectable hepatic metastases": [
+      "Liver and Bile Duct Cancers",
+      "Skin Cancers",
+      "Ocular Cancers"
+    ],
+    "Relapsed or Refractory Multiple Myeloma": [
+      "Hematological Malignancies"
+    ],
+    "Stage III and IV Hodgkin's disease": [
+      "Hematological Malignancies"
+    ],
+    "progressive, metastatic medullary thyroid cancer (MTC)": [
+      "Thyroid Cancer"
+    ],
+    "unresectable or metastatic liposarcoma": [
+      "Soft Tissue Cancers (including Heart)"
+    ],
+    "unresectable or metastatic leiomyosarcoma": [
+      "Soft Tissue Cancers (including Heart)"
+    ],
+    "HLA-A*02:01-positive unresectable or metastatic uveal melanoma": [
+      "Skin Cancers",
+      "Ocular Cancers"
+    ],
+    "chronic myelogenous (myeloid, myelocytic, granulocytic) leukemia": [
+      "Hematological Malignancies"
+    ],
+    "high-risk neuroblastoma (HRNB) in adult and pediatric patients": [
+      "Neuroblastoma",
+      "Pediatric Cancers"
+    ],
+    "Pediatric and Young Adult Relapsed or Refractory B-cell Acute Lymphoblastic Leukemia": [
+      "Hematological Malignancies",
+      "Pediatric Cancers"
+    ],
+    "Adult Relapsed or Refractory Diffuse Large B-cell Lymphoma": [
+      "Hematological Malignancies"
+    ],
+    "Adult Relapsed or Refractory Follicular Lymphoma": [
+      "Hematological Malignancies"
+    ],
+    "Testicular Carcinoma": [
+      "Testicular Cancer"
+    ],
+    "Differentiated Thyroid Carcinoma": [
+      "Thyroid Cancer"
+    ],
+    "unresectable or metastatic esophageal squamous cell carcinoma": [
+      "Skin Cancers",
+      "Esophageal Cancer"
+    ],
+    "metastatic non-small cell lung cancer (NSCLC)": [
+      "Lung Cancers"
+    ],
+    "cutaneous lesions in patients with Cutaneous T-cell lymphoma (CTCL) (Stage IA and IB)": [
+      "Hematological Malignancies"
+    ],
+    "remission induction in acute nonlymphocytic leukemia (myelogenous, monocytic, erythroid) of adults": [
+      "Hematological Malignancies"
+    ],
+    "remission induction in acute lymphocytic leukemia of children and adults": [
+      "Hematological Malignancies"
+    ],
+    "intermediate or high-risk primary or secondary (post-polycythemia vera or post-essential thrombocythemia) myelofibrosis (MF)": [
+      "Hematological Malignancies"
+    ],
+    "advanced renal cell carcinoma": [
+      "Kidney (Renal) and Urethral Cancers"
+    ],
+    "unresectable cutaneous, subcutaneous, and nodal lesions in patients with melanoma recurrent after initial surgery": [
+      "Skin Cancers"
+    ],
+    "newly diagnosed multiple myeloma": [
+      "Hematological Malignancies"
+    ],
+    "adults with unresectable or metastatic synovial sarcoma": [
+      "Soft Tissue Cancers (including Heart)",
+      "Bone and Joint Cancers"
+    ],
+    "asymptomatic or minimally symptomatic metastatic castrate-resistant (hormone-refractory) prostate cancer": [
+      "Prostate Cancer"
+    ],
+    "Resistant chronic myelocytic leukemia": [
+      "Hematological Malignancies"
+    ],
+    "Recurrent, metastatic, or inoperable carcinoma of the ovary": [
+      "Gynecological Cancers"
+    ],
+    "Primary squamous cell (epidermoid) carcinomas of the head and neck, excluding the lip": [
+      "Head and Neck Cancers",
+      "Skin Cancers"
+    ],
+    "solid tumors in adult and pediatric patients": [
+      "Pediatric Cancers"
+    ],
+    "relapsed or refractory large B-cell lymphoma": [
+      "Hematological Malignancies"
+    ],
+    "diffuse large B-cell lymphoma (DLBCL) not otherwise specified": [
+      "Hematological Malignancies"
+    ],
+    "diffuse large B-cell lymphoma (DLBCL) arising from low-grade lymphoma": [
+      "Hematological Malignancies"
+    ],
+    "high-grade B-cell lymphoma": [
+      "Hematological Malignancies"
+    ],
+    "postmenopausal women or adult men with estrogen receptor (ER)-positive, human epidermal growth factor receptor 2 (HER2)-negative, ESR1-mutated advanced or metastatic breast cancer": [
+      "Breast Cancer",
+      "Specific Syndromes"
+    ],
+    "metastatic renal cell carcinoma (metastatic RCC)": [
+      "Kidney (Renal) and Urethral Cancers"
+    ],
+    "metastatic melanoma": [
+      "Skin Cancers"
+    ],
+    "Stage IA and IB mycosis fungoides-type cutaneous T-cell lymphoma": [
+      "Hematological Malignancies"
+    ],
+    "adults with polycythemia vera": [
+      "Hematological Malignancies"
+    ],
+    "advanced gastrointestinal stromal tumor (GIST)": [
+      "Soft Tissue Cancers (including Heart)",
+      "Gastrointestinal Stromal Tumors",
+      "Gastric (Stomach) Cancer"
+    ],
+    "castration-resistant prostate cancer (CRPC)": [
+      "Prostate Cancer"
+    ],
+    "non-metastatic castration-sensitive prostate cancer (nmCSPC)": [
+      "Prostate Cancer"
+    ],
+    "acute lymphoblastic leukemia (ALL) in adult and pediatric patients 1 month or older": [
+      "Hematological Malignancies",
+      "Pediatric Cancers"
+    ],
+    "lymphoblastic lymphoma (LBL) in adult and pediatric patients 1 month or older": [
+      "Hematological Malignancies",
+      "Pediatric Cancers"
+    ],
+    "Hormone receptor (HR)-positive, human epidermal growth factor receptor 2 (HER2)-negative advanced breast cancer in postmenopausal women": [
+      "Breast Cancer"
+    ],
+    "HR-positive advanced breast cancer in postmenopausal women": [
+      "Breast Cancer"
+    ],
+    "HR-positive, HER2-negative advanced or metastatic breast cancer in postmenopausal women": [
+      "Breast Cancer"
+    ],
+    "HR-positive, HER2-negative advanced or metastatic breast cancer": [
+      "Breast Cancer"
+    ],
+    "low- to intermediate-1 risk myelodysplastic syndromes (MDS)": [
+      "Hematological Malignancies"
+    ],
+    "Small cell lung cancer sensitive disease": [
+      "Lung Cancers"
+    ],
+    "stage IV-B, recurrent, or persistent carcinoma of the cervix": [
+      "Gynecological Cancers"
+    ],
+    "relapsed Chronic Lymphocytic Leukemia (CLL)": [
+      "Hematological Malignancies"
+    ],
+    "recurrent or progressive Chronic Lymphocytic Leukemia (CLL)": [
+      "Hematological Malignancies"
+    ],
+    "Chronic Lymphocytic Leukemia (CLL) refractory to fludarabine and alemtuzumab": [
+      "Hematological Malignancies"
+    ],
+    "locally advanced or metastatic urothelial cancer (mUC)": [
+      "Bladder Cancer"
+    ],
+    "locally advanced or metastatic urothelial cancer (mUC), previously received a programmed death receptor-1 (PD-1) or programmed death-ligand 1 (PD-L1) inhibitor and platinum-containing chemotherapy": [
+      "Bladder Cancer"
+    ],
+    "locally advanced or metastatic urothelial cancer (mUC), ineligible for cisplatin-containing chemotherapy and have previously received one or more prior lines of therapy": [
+      "Bladder Cancer"
+    ],
+    "Plexiform Neurofibromas": [
+      "Pediatric Cancers",
+      "Specific Syndromes"
+    ],
+    "germ cell testicular cancer": [
+      "Pediatric Cancers",
+      "Testicular Cancer"
+    ],
+    "deleterious or suspected deleterious BRCA-mutated ( BRCAm) metastatic castration-resistant prostate cancer (mCRPC)": [
+      "Prostate Cancer"
+    ],
+    "blastic plasmacytoid dendritic cell neoplasm (BPDCN) in adults and in pediatric patients 2 years and older": [
+      "Hematological Malignancies",
+      "Pediatric Cancers"
+    ],
+    "hormone receptor (HR)-positive, human epidermal growth factor receptor 2 (HER2)-negative, PIK3CA-mutated, advanced or metastatic breast cancer": [
+      "Breast Cancer"
+    ],
+    "active Hairy Cell Leukemia": [
+      "Hematological Malignancies"
+    ],
+    "Relapsed or refractory multiple myeloma": [
+      "Hematological Malignancies"
+    ],
+    "somatostatin receptor-positive gastroenteropancreatic neuroendocrine tumors (GEP-NETs) adult and pediatric patients 12 years": [
+      "Pediatric Cancers",
+      "Adrenal Cancer and Neuroendocrine Tumors"
+    ],
+    "myelodysplastic syndromes (MDS)": [
+      "Hematological Malignancies"
+    ],
+    "castration-resistant prostate cancer with symptomatic bone metastases  and no known visceral metastatic disease": [
+      "Prostate Cancer",
+      "Bone and Joint Cancers"
+    ],
+    "newly-diagnosed therapy-related acute myeloid leukemia (t-AML) in adults and pediatric patients 1 year and older": [
+      "Hematological Malignancies",
+      "Pediatric Cancers"
+    ],
+    "acute myeloid leukemia (AML) with myelodysplasia-related changes (AML-MRC) in adults and pediatric patients 1 year and older": [
+      "Hematological Malignancies",
+      "Pediatric Cancers"
+    ],
+    "unresectable or metastatic melanoma": [
+      "Skin Cancers"
+    ],
+    "adult and pediatric patients 12 years of age or older with unresectable or metastatic melanoma": [
+      "Skin Cancers",
+      "Pediatric Cancers"
+    ],
+    "adult patients with relapsed or refractory advanced renal cell carcinoma (RCC)": [
+      "Kidney (Renal) and Urethral Cancers"
+    ],
+    "T-cell acute lymphoblastic leukemia (T-ALL) in adult and pediatric patients age 1 year and older": [
+      "Hematological Malignancies",
+      "Pediatric Cancers"
+    ],
+    "T-cell lymphoblastic lymphoma (T-LBL) in adult and pediatric patients age 1 year and older": [
+      "Hematological Malignancies",
+      "Pediatric Cancers"
+    ],
+    "endocrine-resistant, PIK3CA-mutated, hormone receptor (HR)-positive, human epidermal growth factor receptor 2 (HER2)-negative, locally advanced or metastatic breast cancer": [
+      "Breast Cancer"
+    ],
+    "positron emission tomography (PET) for prostate cancer": [
+      "Prostate Cancer"
+    ],
+    "positron emission tomography (PET) for metastatic prostate cancer": [
+      "Prostate Cancer"
+    ],
+    "metastatic castration-resistant prostate cancer": [
+      "Prostate Cancer"
+    ],
+    "small cell lung cancer": [
+      "Lung Cancers"
+    ],
+    "T-cell Acute Lymphoblastic Leukemia (T-ALL) and T-cell Lymphoblastic Lymphoma (T-LBL) in adult and pediatric patients 1 year and older": [
+      "Hematological Malignancies",
+      "Pediatric Cancers"
+    ],
+    "acute promyelocytic leukemia (APL)": [
+      "Hematological Malignancies"
+    ],
+    "adenocarcinoma of the pancreas": [
+      "Pancreatic Cancer"
+    ],
+    "relapsed or refractory peripheral T-cell lymphoma (PTCL)": [
+      "Hematological Malignancies"
+    ],
+    "Previously Treated Pancreatic Cancer": [
+      "Pancreatic Cancer"
+    ],
+    "Hodgkin's lymphoma": [
+      "Hematological Malignancies"
+    ],
+    "histiocytic lymphoma,": [
+      "Hematological Malignancies"
+    ],
+    "chronic granulocytic leukemia": [
+      "Hematological Malignancies"
+    ],
+    "Cyclophosphamide Injection is indicated for the treatment of adult patients with: carcinoma of the breast": [
+      "Breast Cancer"
+    ],
+    "pediatric patients with high-risk neuroblastoma": [
+      "Neuroblastoma",
+      "Pediatric Cancers"
+    ],
+    "Newly diagnosed Philadelphia chromosome-positive chronic myeloid leukemia (Ph+ CML) in chronic phase (CP)": [
+      "Hematological Malignancies"
+    ],
+    "Previously treated Philadelphia chromosome-positive chronic myeloid leukemia (Ph+ CML)": [
+      "Hematological Malignancies"
+    ],
+    "Philadelphia chromosome-positive chronic myeloid leukemia (Ph+ CML) in chronic phase (CP) with the T315I mutation": [
+      "Hematological Malignancies"
+    ],
+    "Brain tumors glioblastoma, brainstem glioma, medulloblastoma, astrocytoma, ependymoma, and metastatic brain tumors": [
+      "Brain and Other Nervous System"
+    ],
+    "Relapsed or refractory Hodgkin's lymphoma": [
+      "Hematological Malignancies"
+    ],
+    "Relapsed or refractory Non-Hodgkin's lymphomas": [
+      "Hematological Malignancies"
+    ],
+    "intrahepatic cholangiocarcinoma": [
+      "Liver and Bile Duct Cancers"
+    ],
+    "advanced or metastatic breast cancer": [
+      "Breast Cancer"
+    ],
+    "hormone receptor-positive metastatic breast cancer": [
+      "Breast Cancer"
+    ],
+    "Relapsed or Refractory Acute Leukemia in adult and pediatric patients 1 year and older": [
+      "Hematological Malignancies",
+      "Pediatric Cancers"
+    ],
+    "Adult Patients with Newly Diagnosed chronic myeloid leukemia (Ph+ CML)-CP": [
+      "Hematological Malignancies"
+    ],
+    "Adult Patients with Resistant or Intolerant Ph+ chronic myelogenous leukemia -CP and CML-AP": [
+      "Hematological Malignancies"
+    ],
+    "advanced hormone-refractory prostate cancer": [
+      "Prostate Cancer"
+    ],
+    "acute nonlymphocytic leukemia (ANLL)": [
+      "Hematological Malignancies"
+    ],
+    "remission induction in acute non-lymphocytic leukemia of adults and pediatric patients": [
+      "Hematological Malignancies",
+      "Pediatric Cancers"
+    ],
+    "acute non-lymphocytic leukemia": [
+      "Hematological Malignancies"
+    ],
+    "prophylaxis and treatment of meningeal leukemia": [
+      "Hematological Malignancies"
+    ],
+    "relapsed chronic lymphocytic leukemia (CLL)": [
+      "Hematological Malignancies"
+    ],
+    "relapsed or refractory pediatric low-grade glioma (LGG) harboring a BRAF fusion or rearrangement, or BRAF V600 mutation patients 6 months of age and older": [
+      "Pediatric Cancers",
+      "Brain and Other Nervous System"
+    ],
+    "postmenopausal women with hormone receptor-positive metastatic breast cancer": [
+      "Breast Cancer"
+    ],
+    "postmenopausal women with hormone receptor-positive or hormone receptor unknown locally advanced or metastatic breast cancer": [
+      "Breast Cancer"
+    ],
+    "pain related to advanced hormone-refractory prostate cancer": [
+      "Prostate Cancer"
+    ],
+    "acute nonlymphocytic leukemia (ANLL), including myelogenous, promyelocytic, monocytic, and erythroid acute leukemias": [
+      "Hematological Malignancies"
+    ],
+    "locally advanced or metastatic non-small cell lung cancer (NSCLC)": [
+      "Lung Cancers"
+    ],
+    "extensive-stage small cell lung cancer (ES-SCLC)": [
+      "Lung Cancers"
+    ],
+    "advanced carcinoma of the ovary": [
+      "Gynecological Cancers"
+    ],
+    "non-small cell lung cancer": [
+      "Lung Cancers"
+    ],
+    "AIDS-related Kaposi's sarcoma": [
+      "Skin Cancers"
+    ],
+    "acute promyelocytic leukemia (APL) in adults and pediatric patients 1 year of age and older": [
+      "Hematological Malignancies",
+      "Pediatric Cancers"
+    ],
+    "thrombocythemia, secondary to myeloproliferative neoplasms": [
+      "Hematological Malignancies"
+    ],
+    "locally advanced or metastatic non-small cell lung cancer (NSCLC) with epidermal growth factor receptor (EGFR) exon 19 deletions or exon 21 L858R substitution mutations": [
+      "Lung Cancers"
+    ],
+    "Non-Hodgkin's lymphomas": [
+      "Hematological Malignancies"
+    ],
+    "prostate-specific membrane antigen (PSMA) positive lesions in men with prostate cancer": [
+      "Prostate Cancer",
+      "Specific Syndromes"
+    ],
+    "chronic phase (CP) Philadelphia chromosome-positive chronic myelogenous leukemia (Ph+ CML)": [
+      "Hematological Malignancies"
+    ],
+    "accelerated phase (AP), or blast phase (BP) Philadelphia chromosome-positive chronic myelogenous leukemia (Ph+ CML)": [
+      "Hematological Malignancies"
+    ],
+    "carcinoma in situ (CIS) of the urinary bladder": [
+      "Bladder Cancer"
+    ],
+    "papillary tumors": [
+      "Breast Cancer"
+    ],
+    "recurrent or metastatic cervical cancer": [
+      "Gynecological Cancers"
+    ],
+    "metastatic pancreatic adenocarcinoma": [
+      "Pancreatic Cancer"
+    ],
+    "intermediate-2 or high-risk primary or secondary post-polycythemia vera myelofibrosis (MF)": [
+      "Hematological Malignancies"
+    ],
+    "intermediate-2 or high-risk primary or secondary post-essential thrombocythemia myelofibrosis (MF)": [
+      "Hematological Malignancies"
+    ],
+    "skin manifestations of Cutaneous T-Cell Lymphoma (CTCL)": [
+      "Hematological Malignancies",
+      "Skin Cancers"
+    ],
+    "Non-squamous Non-Small Cell Lung Cancer": [
+      "Lung Cancers"
+    ],
+    "relapsed or refractory B-cell precursor acute lymphoblastic leukemia (ALL)": [
+      "Hematological Malignancies"
+    ],
+    "Newly Diagnosed Acute Myeloid Leukemia": [
+      "Hematological Malignancies"
+    ],
+    "Relapsed or Refractory Myelodysplastic Syndromes": [
+      "Hematological Malignancies"
+    ],
+    "Locally Advanced or Metastatic Cholangiocarcinoma": [
+      "Liver and Bile Duct Cancers"
+    ],
+    "node-positive breast cancer": [
+      "Breast Cancer"
+    ],
+    "chronic lymphatic (lymphocytic) leukemia": [
+      "Hematological Malignancies"
+    ],
+    "lymphosarcoma": [
+      "Hematological Malignancies"
+    ],
+    "giant follicular lymphoma": [
+      "Hematological Malignancies"
+    ],
+    "cutaneous T-cell lymphoma (CTCL)": [
+      "Hematological Malignancies"
+    ],
+    "Hormone receptor (HR)-positive, human epidermal growth factor receptor 2 (HER2)-negative advanced breast cancer": [
+      "Breast Cancer"
+    ],
+    "Hormone receptor (HR)-positive advanced breast cancer": [
+      "Breast Cancer"
+    ],
+    "chronic lymphocytic leukemia (CLL) or small lymphocytic leukemia (SLL)": [
+      "Hematological Malignancies"
+    ],
+    "relapsed small cell lung cancer (SCLC)": [
+      "Lung Cancers"
+    ],
+    "thrombocythemia, secondary to myeloproliferative disorders": [
+      "Hematological Malignancies"
+    ],
+    "high-risk Bacillus Calmette-Gu\u00e9rin (BCG)-unresponsive non-Muscle Invasive Bladder Cancer": [
+      "Bladder Cancer"
+    ],
+    "relapsed or refractory mycosis fungoides (MF)": [
+      "Hematological Malignancies"
+    ],
+    "S\u00e9zary syndrome (SS)": [
+      "Hematological Malignancies",
+      "Specific Syndromes"
+    ],
+    "desmoid tumors": [
+      "Soft Tissue Cancers (including Heart)"
+    ],
+    "acute promyelocytic leukemia (APL) in adult and pediatric patients 1 year and older": [
+      "Hematological Malignancies",
+      "Pediatric Cancers"
+    ],
+    "First-line Treatment of Metastatic or Recurrent, Locally Advanced nasopharyngeal carcinoma (NPC) with Cisplatin and Gemcitabine": [
+      "Head and Neck Cancers"
+    ],
+    "Previously Treated Unresectable or Metastatic nasopharyngeal carcinoma (NPC)": [
+      "Head and Neck Cancers"
+    ],
+    "Alveolar Soft Part Sarcoma": [
+      "Soft Tissue Cancers (including Heart)"
+    ],
+    "First-Line Maintenance Treatment of Advanced Ovarian Cancer": [
+      "Gynecological Cancers"
+    ],
+    "Maintenance Treatment of Recurrent Germline BRCA-mutated Ovarian Cancer": [
+      "Gynecological Cancers"
+    ],
+    "relapsed or refractory CD22-positive B-cell precursor acute lymphoblastic leukemia (ALL)": [
+      "Hematological Malignancies"
+    ],
+    "postmenopausal women with estrogen-receptor positive early breast cancer": [
+      "Breast Cancer"
+    ],
+    "metastatic islet cell carcinoma of the pancreas": [
+      "Pancreatic Cancer"
+    ],
+    "prostate-specific membrane antigen (PSMA)-positive metastatic castration-resistant prostate cancer (mCRPC)": [
+      "Prostate Cancer"
+    ],
+    "PSMA-positive mCRPC": [
+      "Prostate Cancer"
+    ],
+    "Adult patients with Ph+ Acute Lymphoblastic Leukemia (ALL)": [
+      "Hematological Malignancies"
+    ],
+    "metastatic basal cell carcinoma": [
+      "Skin Cancers"
+    ],
+    "locally advanced basal cell carcinoma": [
+      "Skin Cancers"
+    ],
+    "Adult Patients with Ph+ Acute Lymphoblastic Leukemia (ALL)": [
+      "Hematological Malignancies"
+    ],
+    "Pediatric Patients with Ph+ Acute Lymphoblastic Leukemia (ALL)": [
+      "Hematological Malignancies",
+      "Pediatric Cancers"
+    ],
+    "Kit+ GastrointestinalStromal Tumors (GIST)": [
+      "Gastrointestinal Stromal Tumors"
+    ],
+    "Non-Hodgkin's Lymphoma (NHL)": [
+      "Hematological Malignancies"
+    ],
+    "HR positive, HER2 negative advanced breast cancer": [
+      "Breast Cancer"
+    ],
+    "HR-positive advanced breast cancer": [
+      "Breast Cancer"
+    ],
+    "cutaneous manifestations in patients with cutaneous T-cell lymphoma": [
+      "Hematological Malignancies"
+    ],
+    "adult patients with hormone receptor (HR)-positive, human epidermal growth factor receptor 2 (HER2)-negative, locally advanced or metastatic breast cancer with one or more PIK3CA/AKT1/PTEN-alteration": [
+      "Breast Cancer"
+    ],
+    "Philadelphia chromosome-positive (Ph+) chronic myeloid leukemia (CML)": [
+      "Hematological Malignancies"
+    ],
+    "Endobronchial Cancer": [
+      "Lung Cancers"
+    ],
+    "High-Grade Dysplasia in Barrett's Esophagus": [
+      "Esophageal Cancer"
+    ],
+    "chronic myeloid leukemia (CML)": [
+      "Hematological Malignancies"
+    ],
+    "chronic myeloid leukemia (CML) in pediatric patients 1 year of age and older": [
+      "Hematological Malignancies",
+      "Pediatric Cancers"
+    ],
+    "acute lymphoblastic leukemia in pediatric patients 1 year of age and older": [
+      "Hematological Malignancies",
+      "Pediatric Cancers"
+    ],
+    "BCG-refractory carcinoma in situ (CIS) of the urinary bladder": [
+      "Bladder Cancer"
+    ],
+    "Acute Promyelocytic Leukemia (APL)": [
+      "Hematological Malignancies"
+    ],
+    "Philadelphia chromosome-positive chronic myelogenous leukemia (Ph+ CML)": [
+      "Hematological Malignancies"
+    ],
+    "Non-Squamous Non-Small Cell Lung Cancer(NSCLC)": [
+      "Lung Cancers"
+    ],
+    "BCG-refractory carcinoma in situ(CIS) of the urinary bladder": [
+      "Bladder Cancer"
+    ],
+    "prostate cancer": [
+      "Prostate Cancer"
+    ],
+    "Brain tumors glioblastoma, brainstem glioma, medulloblastoma, astrocytoma, ependymoma, and metastatic brain tumors.": [
+      "Brain and Other Nervous System"
+    ],
+    "KRAS G12C-mutated locally advanced or metastatic non-small cell lung cancer (NSCLC)": [
+      "Lung Cancers"
+    ],
+    "Relapsed or Refractory, Low-grade or Follicular NHL": [
+      "Hematological Malignancies"
+    ],
+    "Previously Untreated Follicular NHL": [
+      "Hematological Malignancies"
+    ],
+    "Metastatic BreastCancer": [
+      "Breast Cancer"
+    ],
+    "metastatic Non-Small Cell Lung Cancer (NSCLC)": [
+      "Lung Cancers"
+    ],
+    "relapsed or refractory hairy cell leukemia (HCL)": [
+      "Hematological Malignancies"
+    ],
+    "Metastatic Melanoma": [
+      "Skin Cancers"
+    ],
+    "Wilms'  tumor": [
+      "Pediatric Cancers"
+    ],
+    "soft tissue and bone sarcomas": [
+      "Soft Tissue Cancers (including Heart)",
+      "Bone and Joint Cancers"
+    ],
+    "breast carcinoma": [
+      "Breast Cancer"
+    ],
+    "ovarian carcinoma": [
+      "Gynecological Cancers"
+    ],
+    "transitional cell bladder carcinoma": [
+      "Bladder Cancer"
+    ],
+    "thyroid carcinoma": [
+      "Thyroid Cancer"
+    ],
+    "gastric carcinoma": [
+      "Gastric (Stomach) Cancer"
+    ],
+    "malignant lymphoma": [
+      "Hematological Malignancies"
+    ],
+    "bronchogenic carcinoma": [
+      "Lung Cancers"
+    ],
+    "axillary lymph node involvement following resection of primary breast cancer": [
+      "Breast Cancer"
+    ],
+    "metastatic HER2-positive breast cancer": [
+      "Breast Cancer"
+    ],
+    "small cell lung cancer (SCLC)": [
+      "Lung Cancers"
+    ],
+    "gastrointestinal adenocarcinoma metastatic to the liver": [
+      "Gastric (Stomach) Cancer"
+    ],
+    "third line chemotherapy of germ cell testicular cancer": [
+      "Pediatric Cancers",
+      "Testicular Cancer"
+    ],
+    "previously treated, unresectable locally advanced or metastatic cholangiocarcinoma": [
+      "Liver and Bile Duct Cancers"
+    ],
+    "diagnosing adrenomedullary disorders and neuroendocrine tumors": [
+      "Adrenal Cancer and Neuroendocrine Tumors"
+    ],
+    "symptomatic or progressive medullary thyroid cancer": [
+      "Thyroid Cancer"
+    ],
+    "adult patients with BCG-unresponsive nonmuscle invasive bladder cancer (NMIBC) with carcinoma in situ (CIS) with or without papillary tumors": [
+      "Breast Cancer",
+      "Bladder Cancer"
+    ],
+    "Prostatic Carcinoma": [
+      "Prostate Cancer"
+    ],
+    "hormone receptor (HR)-positive, human epidermal growth factor receptor 2 (HER2)-negative advanced or metastatic breast cancer": [
+      "Breast Cancer"
+    ],
+    "Metastatic castration-sensitive prostate cancer (mCSPC)": [
+      "Prostate Cancer"
+    ],
+    "Non-metastatic castration-resistant prostate cancer (nmCRPC)": [
+      "Prostate Cancer"
+    ],
+    "adult patients with relapsed or refractory diffuse large B-cell lymphoma (DLBCL)": [
+      "Hematological Malignancies"
+    ],
+    "Pancreatic Cancer previously treatd with fluorouracil": [
+      "Pancreatic Cancer"
+    ],
+    "Metastatic RET Fusion-Positive Non-Small Cell Lung Cancer": [
+      "Lung Cancers"
+    ],
+    "RET Fusion-Positive Thyroid Cancer adult and pediatric patients 12 years of age and older": [
+      "Pediatric Cancers",
+      "Thyroid Cancer"
+    ],
+    "non small cell lung cancer": [
+      "Lung Cancers"
+    ],
+    "adrenocortical carcinoma (ACC).": [
+      "Adrenal Cancer and Neuroendocrine Tumors"
+    ],
+    "neuroendocrine tumors (NETs) in adult and pediatric patients": [
+      "Pediatric Cancers",
+      "Adrenal Cancer and Neuroendocrine Tumors"
+    ],
+    "advanced breast cancer": [
+      "Breast Cancer"
+    ],
+    "Metastatic RETFusion-Positive Non-Small Cell Lung Cancer": [
+      "Lung Cancers"
+    ],
+    "RETFusion-Positive Thyroid Cancer in adult and pediatric patients 12 years of age and older": [
+      "Pediatric Cancers",
+      "Thyroid Cancer"
+    ],
+    "hairy cell leukemia": [
+      "Hematological Malignancies"
+    ],
+    "autologous transplantation in patients with multiple myeloma": [
+      "Hematological Malignancies"
+    ],
+    "unresectable or metastatic HER2-positive (IHC 3+) biliary tract cancer (BTC)": [
+      "Liver and Bile Duct Cancers"
+    ],
+    "Advanced Unresectable or Metastatic NRG1 Fusion-Positive Non-Small Cell Lung Cancer": [
+      "Lung Cancers"
+    ],
+    "Advanced Unresectable or Metastatic NRG1 Fusion-Positive Pancreatic Adenocarcinoma": [
+      "Pancreatic Cancer"
+    ],
+    "pancreatic adenocarcinoma": [
+      "Pancreatic Cancer"
+    ],
+    "Previously Untreated Mantle Cell Lymphoma": [
+      "Hematological Malignancies"
+    ],
+    "Previously Treated Mantle Cell Lymphoma": [
+      "Hematological Malignancies"
+    ],
+    "Recurrent or Metastatic Squamous Cell Carcinoma of the Head and Neck": [
+      "Head and Neck Cancers"
+    ],
+    "unresectable or metastatic Urothelial Carcinoma": [
+      "Bladder Cancer"
+    ],
+    "locally advanced or metastatic Urothelial Carcinoma": [
+      "Bladder Cancer"
+    ],
+    "unresectable advanced or metastatic esophageal squamous cell carcinoma (ESCC)": [
+      "Esophageal Cancer"
+    ],
+    "unresectable advanced, recurrent, or metastatic esophageal squamous cell carcinoma": [
+      "Esophageal Cancer"
+    ],
+    "ALK-positive locally advanced or metastatic non-small cell lung cancer (NSCLC)": [
+      "Lung Cancers"
+    ],
+    "Myelodysplastic Syndrome": [
+      "Hematological Malignancies"
+    ],
+    "Neurofibromatosis type 1 (NF1) plexiform neurofibromas (PN)": [
+      "Soft Tissue Cancers (including Heart)",
+      "Specific Syndromes"
+    ],
+    "Symptomatic tenosynovial giant cell tumor (TGCT)": [
+      "Soft Tissue Cancers (including Heart)"
+    ],
+    "advanced or metastatic, non-squamous non-small cell lung cancer (NSCLC)": [
+      "Lung Cancers"
+    ],
+    "locally advanced or metastatic ROS1-positive non-small cell lung cancer (NSCLC)": [
+      "Lung Cancers"
+    ],
+    "recurrent low-grade intermediate-risk non-muscle invasive bladder cancer (LG-IR-NMIBC)": [
+      "Bladder Cancer"
+    ],
+    "Relapsed or Refractory Diffuse Large B-cell Lymphoma": [
+      "Hematological Malignancies"
+    ],
+    "adult and pediatric patients 1 year of age and older with diffuse midline glioma harboring an H3 K27M mutation": [
+      "Pediatric Cancers",
+      "Brain and Other Nervous System"
+    ],
+    "unresectable or metastatic non-squamous non-small cell lung cancer (NSCLC)": [
+      "Lung Cancers"
+    ],
+    "cer (NSCLC)": [
+      "Lung Cancers"
+    ],
+    "Bacillus Calmette-Gu\u00e9rin (BCG)-unresponsive, non-muscle invasive bladder cancer (NMIBC)": [
+      "Bladder Cancer"
+    ],
+    "non-small cell lung cancer (NSCLC)": [
+      "Lung Cancers"
+    ],
+    "advanced ovarian cancer": [
+      "Gynecological Cancers"
+    ],
+    "inoperable, locally advanced (Stage IIIA or IIIB) Non-Small Cell Lung Cancer": [
+      "Lung Cancers"
+    ],
+    "Stage IIB, IIC, or III melanoma": [
+      "Skin Cancers"
+    ],
+    "metastatic nonsquamous non-small cell lung cancer (NSCLC)": [
+      "Lung Cancers"
+    ],
+    "metastatic squamous NSCLC": [
+      "Lung Cancers"
+    ],
+    "NSCLC": [
+      "Lung Cancers"
+    ],
+    "metastatic NSCLC": [
+      "Lung Cancers"
+    ],
+    "resectable (tumors \u22654 cm or node positive) NSCLC": [
+      "Lung Cancers"
+    ],
+    "Stage IB (T2a \u22654 cm), II, or IIIA NSCLC.": [
+      "Lung Cancers"
+    ],
+    "non-muscle invasive bladder cancer (NMIBC) with carcinoma in situ (CIS) with or without papillary tumors": [
+      "Bladder Cancer"
+    ],
+    "gastric or gastroesophageal junction (GEJ) adenocarcinoma": [
+      "Gastric (Stomach) Cancer"
+    ],
+    "esophageal or gastroesophageal junction (GEJ)": [
+      "Esophageal Cancer"
+    ],
+    "locally advanced cervical cancer": [
+      "Gynecological Cancers"
+    ],
+    "persistent, recurrent, or metastatic cervical cancer": [
+      "Gynecological Cancers"
+    ],
+    "hepatocellular carcinoma (HCC)": [
+      "Liver and Bile Duct Cancers"
+    ],
+    "locally advanced unresectable or metastatic biliary tract cancer (BTC)": [
+      "Liver and Bile Duct Cancers"
+    ],
+    "recurrent locally advanced or metastatic Merkel cell carcinoma (MCC)": [
+      "Skin Cancers"
+    ],
+    "advanced renal cell carcinoma (RCC)": [
+      "Kidney (Renal) and Urethral Cancers"
+    ],
+    "renal cell carcinoma (RCC)": [
+      "Kidney (Renal) and Urethral Cancers"
+    ],
+    "advanced endometrial carcinoma": [
+      "Gynecological Cancers"
+    ],
+    "advanced endometrial carcinoma that is MSI-H or dMMR": [
+      "Gynecological Cancers"
+    ],
+    "high-risk early-stage triple-negative breast cancer (TNBC)": [
+      "Breast Cancer"
+    ],
+    "triple-negative breast cancer (TNBC)": [
+      "Breast Cancer"
+    ],
+    "Acute myeloid leukemia (AML)": [
+      "Hematological Malignancies"
+    ],
+    "non-squamous non-small cell lung cancer": [
+      "Lung Cancers"
+    ],
+    "Non-small cell lung cancer": [
+      "Lung Cancers"
+    ]
+  }
+}

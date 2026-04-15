@@ -1,0 +1,366 @@
+{
+  "ontology_name": "oncology_stage_and_disease_status_terms",
+  "version": "1.0",
+  "notes": [
+    "Built from OncRef.Drugs_feb_26.json indications + CT.gov condition text analysis.",
+    "Regex patterns are case-insensitive. Ordered from most specific to least specific to avoid partial matches.",
+    "Categories: staging_system, disease_extent, disease_status, risk_stratification, grade, treatment_response"
+  ],
+  "terms": [
+    {
+      "canonical_name": "stage_IVB",
+      "category": "staging_system",
+      "regex": "(?i)\\bstage\\s+IVB\\b"
+    },
+    {
+      "canonical_name": "stage_IVA",
+      "category": "staging_system",
+      "regex": "(?i)\\bstage\\s+IVA\\b"
+    },
+    {
+      "canonical_name": "stage_IV",
+      "category": "staging_system",
+      "regex": "(?i)\\bstage\\s+(?:IV|4)\\b"
+    },
+    {
+      "canonical_name": "stage_IIIC",
+      "category": "staging_system",
+      "regex": "(?i)\\bstage\\s+IIIC\\b"
+    },
+    {
+      "canonical_name": "stage_IIIB",
+      "category": "staging_system",
+      "regex": "(?i)\\bstage\\s+IIIB\\b"
+    },
+    {
+      "canonical_name": "stage_IIIA",
+      "category": "staging_system",
+      "regex": "(?i)\\bstage\\s+IIIA\\b"
+    },
+    {
+      "canonical_name": "stage_III",
+      "category": "staging_system",
+      "regex": "(?i)\\bstage\\s+(?:III|3)\\b"
+    },
+    {
+      "canonical_name": "stage_IIC",
+      "category": "staging_system",
+      "regex": "(?i)\\bstage\\s+IIC\\b"
+    },
+    {
+      "canonical_name": "stage_IIB",
+      "category": "staging_system",
+      "regex": "(?i)\\bstage\\s+IIB\\b"
+    },
+    {
+      "canonical_name": "stage_IIA",
+      "category": "staging_system",
+      "regex": "(?i)\\bstage\\s+IIA\\b"
+    },
+    {
+      "canonical_name": "stage_II",
+      "category": "staging_system",
+      "regex": "(?i)\\bstage\\s+(?:II|2)(?!I)\\b"
+    },
+    {
+      "canonical_name": "stage_IB",
+      "category": "staging_system",
+      "regex": "(?i)\\bstage\\s+IB\\b"
+    },
+    {
+      "canonical_name": "stage_IA",
+      "category": "staging_system",
+      "regex": "(?i)\\bstage\\s+IA\\b"
+    },
+    {
+      "canonical_name": "stage_I",
+      "category": "staging_system",
+      "regex": "(?i)\\bstage\\s+(?:I|1)(?![IVAB])\\b"
+    },
+    {
+      "canonical_name": "FIGO_stage",
+      "category": "staging_system",
+      "regex": "(?i)\\bFIGO\\s+(?:stage\\s+)?(?:I{1,4}[A-C]?\\d?|[1-4][A-C]?)\\b"
+    },
+    {
+      "canonical_name": "Ann_Arbor_stage",
+      "category": "staging_system",
+      "regex": "(?i)\\bAnn\\s+Arbor\\s+(?:stage\\s+)?(?:I{1,4}[A-E]?)\\b"
+    },
+    {
+      "canonical_name": "Rai_stage",
+      "category": "staging_system",
+      "regex": "(?i)\\bRai\\s+(?:stage\\s+)?(?:0|I{1,4}|[0-4])\\b"
+    },
+    {
+      "canonical_name": "Binet_stage",
+      "category": "staging_system",
+      "regex": "(?i)\\bBinet\\s+(?:stage\\s+)?[A-C]\\b"
+    },
+    {
+      "canonical_name": "Dukes_stage",
+      "category": "staging_system",
+      "regex": "(?i)\\bDukes(?:'?s?)?\\s+(?:stage\\s+)?[A-D]\\b"
+    },
+    {
+      "canonical_name": "Gleason_score",
+      "category": "staging_system",
+      "regex": "(?i)\\bGleason\\s+(?:score\\s+)?\\d+\\b"
+    },
+    {
+      "canonical_name": "TNM_stage",
+      "category": "staging_system",
+      "regex": "(?i)\\b[cp]?T[0-4][a-c]?\\s*N[0-3][a-c]?\\s*M[01x]\\b"
+    },
+    {
+      "canonical_name": "metastatic",
+      "category": "disease_extent",
+      "regex": "(?i)\\bmetastatic\\b"
+    },
+    {
+      "canonical_name": "non_metastatic",
+      "category": "disease_extent",
+      "regex": "(?i)\\bnon[\\s-]?metastatic\\b"
+    },
+    {
+      "canonical_name": "locally_advanced",
+      "category": "disease_extent",
+      "regex": "(?i)\\blocally\\s+advanced\\b"
+    },
+    {
+      "canonical_name": "locally_advanced_or_metastatic",
+      "category": "disease_extent",
+      "regex": "(?i)\\blocally\\s+advanced\\s+or\\s+metastatic\\b"
+    },
+    {
+      "canonical_name": "advanced",
+      "category": "disease_extent",
+      "regex": "(?i)\\badvanced\\b"
+    },
+    {
+      "canonical_name": "early",
+      "category": "disease_extent",
+      "regex": "(?i)\\bearly(?:[\\s-]?stage)?\\b"
+    },
+    {
+      "canonical_name": "localized",
+      "category": "disease_extent",
+      "regex": "(?i)\\blocalized\\b"
+    },
+    {
+      "canonical_name": "regional",
+      "category": "disease_extent",
+      "regex": "(?i)\\bregional\\b"
+    },
+    {
+      "canonical_name": "distant",
+      "category": "disease_extent",
+      "regex": "(?i)\\bdistant\\b"
+    },
+    {
+      "canonical_name": "disseminated",
+      "category": "disease_extent",
+      "regex": "(?i)\\bdisseminated\\b"
+    },
+    {
+      "canonical_name": "unresectable",
+      "category": "disease_extent",
+      "regex": "(?i)\\bunresectable\\b"
+    },
+    {
+      "canonical_name": "resectable",
+      "category": "disease_extent",
+      "regex": "(?i)\\bresectable\\b"
+    },
+    {
+      "canonical_name": "inoperable",
+      "category": "disease_extent",
+      "regex": "(?i)\\binoperable\\b"
+    },
+    {
+      "canonical_name": "operable",
+      "category": "disease_extent",
+      "regex": "(?i)\\boperable\\b"
+    },
+    {
+      "canonical_name": "muscle_invasive",
+      "category": "disease_extent",
+      "regex": "(?i)\\bmuscle[\\s-]?invasive\\b"
+    },
+    {
+      "canonical_name": "non_muscle_invasive",
+      "category": "disease_extent",
+      "regex": "(?i)\\bnon[\\s-]?muscle[\\s-]?invasive\\b"
+    },
+    {
+      "canonical_name": "bilateral",
+      "category": "disease_extent",
+      "regex": "(?i)\\bbilateral\\b"
+    },
+    {
+      "canonical_name": "unilateral",
+      "category": "disease_extent",
+      "regex": "(?i)\\bunilateral\\b"
+    },
+    {
+      "canonical_name": "relapsed_or_refractory",
+      "category": "disease_status",
+      "regex": "(?i)\\brelapsed\\s+(?:or|and|/)\\s+refractory\\b"
+    },
+    {
+      "canonical_name": "relapsed",
+      "category": "disease_status",
+      "regex": "(?i)\\brelapsed\\b"
+    },
+    {
+      "canonical_name": "refractory",
+      "category": "disease_status",
+      "regex": "(?i)\\brefractory\\b"
+    },
+    {
+      "canonical_name": "recurrent",
+      "category": "disease_status",
+      "regex": "(?i)\\brecurrent\\b"
+    },
+    {
+      "canonical_name": "progressive",
+      "category": "disease_status",
+      "regex": "(?i)\\bprogressive\\b"
+    },
+    {
+      "canonical_name": "newly_diagnosed",
+      "category": "disease_status",
+      "regex": "(?i)\\bnewly\\s+diagnosed\\b"
+    },
+    {
+      "canonical_name": "untreated",
+      "category": "disease_status",
+      "regex": "(?i)\\buntreated\\b"
+    },
+    {
+      "canonical_name": "treatment_naive",
+      "category": "disease_status",
+      "regex": "(?i)\\btreatment[\\s-]?na[iï]ve\\b"
+    },
+    {
+      "canonical_name": "de_novo",
+      "category": "disease_status",
+      "regex": "(?i)\\bde\\s+novo\\b"
+    },
+    {
+      "canonical_name": "smoldering",
+      "category": "disease_status",
+      "regex": "(?i)\\bsmoldering\\b"
+    },
+    {
+      "canonical_name": "indolent",
+      "category": "disease_status",
+      "regex": "(?i)\\bindolent\\b"
+    },
+    {
+      "canonical_name": "aggressive",
+      "category": "disease_status",
+      "regex": "(?i)\\baggressive\\b"
+    },
+    {
+      "canonical_name": "castration_resistant",
+      "category": "treatment_response",
+      "regex": "(?i)\\bcastration[\\s-]?resistant\\b"
+    },
+    {
+      "canonical_name": "castration_sensitive",
+      "category": "treatment_response",
+      "regex": "(?i)\\bcastration[\\s-]?sensitive\\b"
+    },
+    {
+      "canonical_name": "hormone_sensitive",
+      "category": "treatment_response",
+      "regex": "(?i)\\bhormone[\\s-]?sensitive\\b"
+    },
+    {
+      "canonical_name": "platinum_resistant",
+      "category": "treatment_response",
+      "regex": "(?i)\\bplatinum[\\s-]?resistant\\b"
+    },
+    {
+      "canonical_name": "platinum_sensitive",
+      "category": "treatment_response",
+      "regex": "(?i)\\bplatinum[\\s-]?sensitive\\b"
+    },
+    {
+      "canonical_name": "BCG_unresponsive",
+      "category": "treatment_response",
+      "regex": "(?i)\\bBCG[\\s-]?unresponsive\\b"
+    },
+    {
+      "canonical_name": "resistant",
+      "category": "treatment_response",
+      "regex": "(?i)\\bresistant\\b"
+    },
+    {
+      "canonical_name": "high_risk",
+      "category": "risk_stratification",
+      "regex": "(?i)\\bhigh[\\s-]?risk\\b"
+    },
+    {
+      "canonical_name": "intermediate_risk",
+      "category": "risk_stratification",
+      "regex": "(?i)\\bintermediate[\\s-]?risk\\b"
+    },
+    {
+      "canonical_name": "low_risk",
+      "category": "risk_stratification",
+      "regex": "(?i)\\blow[\\s-]?risk\\b"
+    },
+    {
+      "canonical_name": "high_grade",
+      "category": "grade",
+      "regex": "(?i)\\bhigh[\\s-]?grade\\b"
+    },
+    {
+      "canonical_name": "low_grade",
+      "category": "grade",
+      "regex": "(?i)\\blow[\\s-]?grade\\b"
+    },
+    {
+      "canonical_name": "grade_1",
+      "category": "grade",
+      "regex": "(?i)\\bgrade\\s+[1I]\\b"
+    },
+    {
+      "canonical_name": "grade_2",
+      "category": "grade",
+      "regex": "(?i)\\bgrade\\s+(?:2|II(?!I))\\b"
+    },
+    {
+      "canonical_name": "grade_3",
+      "category": "grade",
+      "regex": "(?i)\\bgrade\\s+(?:3|III(?!I))\\b"
+    },
+    {
+      "canonical_name": "grade_4",
+      "category": "grade",
+      "regex": "(?i)\\bgrade\\s+(?:4|IV)\\b"
+    },
+    {
+      "canonical_name": "malignant",
+      "category": "grade",
+      "regex": "(?i)\\bmalignant\\b"
+    },
+    {
+      "canonical_name": "severe",
+      "category": "grade",
+      "regex": "(?i)\\bsevere\\b"
+    },
+    {
+      "canonical_name": "chronic",
+      "category": "disease_status",
+      "regex": "(?i)\\bchronic\\b"
+    },
+    {
+      "canonical_name": "acute",
+      "category": "disease_status",
+      "regex": "(?i)\\bacute\\b"
+    }
+  ]
+}

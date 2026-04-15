@@ -1,0 +1,344 @@
+{
+  "ontology_name": "oncology_line_of_therapy_terms",
+  "version": "1.0",
+  "notes": [
+    "This is a practical regex ontology for common oncology line/phase-of-therapy language, not a claim of every possible expression in the literature.",
+    "Regex patterns are case-insensitive and intended for text mining, not final clinical adjudication."
+  ],
+  "terms": [
+    {
+      "canonical_name": "line_of_therapy_general",
+      "category": "general",
+      "names": [
+        "line of therapy",
+        "lines of therapy",
+        "therapy line",
+        "treatment line"
+      ],
+      "nicknames": [
+        "LOT",
+        "LoT"
+      ],
+      "acronyms": [
+        "LOT",
+        "LoT"
+      ],
+      "regex": "(?i)\\b(?:line(?:s)?\\s+of\\s+therapy|therapy\\s+line|treatment\\s+line|LOT|LoT)\\b"
+    },
+    {
+      "canonical_name": "first_line_therapy",
+      "category": "line_of_therapy",
+      "names": [
+        "first-line therapy",
+        "first line therapy",
+        "initial therapy",
+        "initial treatment",
+        "primary treatment",
+        "upfront therapy",
+        "upfront treatment",
+        "frontline therapy",
+        "front line therapy"
+      ],
+      "nicknames": [
+        "frontline",
+        "upfront",
+        "initial therapy"
+      ],
+      "acronyms": [
+        "1L",
+        "1LT",
+        "1LOT",
+        "LOT1"
+      ],
+      "regex": "(?i)\\b(?:1L|1LT|1LOT|LOT1|first[\\s-]?line(?:\\s+(?:therapy|treatment))?|front[\\s-]?line(?:\\s+(?:therapy|treatment))?|frontline|initial(?:\\s+(?:therapy|treatment))?|upfront(?:\\s+(?:therapy|treatment))?|primary\\s+treatment)\\b"
+    },
+    {
+      "canonical_name": "second_line_therapy",
+      "category": "line_of_therapy",
+      "names": [
+        "second-line therapy",
+        "second line therapy",
+        "subsequent therapy",
+        "therapy after progression",
+        "treatment after progression"
+      ],
+      "nicknames": [
+        "post-progression therapy"
+      ],
+      "acronyms": [
+        "2L",
+        "2LT",
+        "2LOT",
+        "LOT2"
+      ],
+      "regex": "(?i)\\b(?:2L|2LT|2LOT|LOT2|second[\\s-]?line(?:\\s+(?:therapy|treatment))?|subsequent\\s+therapy|therapy\\s+after\\s+progression|treatment\\s+after\\s+progression)\\b"
+    },
+    {
+      "canonical_name": "third_line_therapy",
+      "category": "line_of_therapy",
+      "names": [
+        "third-line therapy",
+        "third line therapy"
+      ],
+      "nicknames": [
+        "third-line"
+      ],
+      "acronyms": [
+        "3L",
+        "3LT",
+        "3LOT",
+        "LOT3"
+      ],
+      "regex": "(?i)\\b(?:3L|3LT|3LOT|LOT3|third[\\s-]?line(?:\\s+(?:therapy|treatment))?)\\b"
+    },
+    {
+      "canonical_name": "fourth_line_therapy",
+      "category": "line_of_therapy",
+      "names": [
+        "fourth-line therapy",
+        "fourth line therapy"
+      ],
+      "nicknames": [
+        "fourth-line"
+      ],
+      "acronyms": [
+        "4L",
+        "4LT",
+        "4LOT",
+        "LOT4"
+      ],
+      "regex": "(?i)\\b(?:4L|4LT|4LOT|LOT4|fourth[\\s-]?line(?:\\s+(?:therapy|treatment))?)\\b"
+    },
+    {
+      "canonical_name": "fifth_line_or_beyond_therapy",
+      "category": "line_of_therapy",
+      "names": [
+        "fifth-line therapy",
+        "fifth line therapy",
+        "fifth-line and beyond",
+        "fifth-line or later",
+        "later-line therapy",
+        "later line therapy",
+        "advanced-line therapy",
+        "subsequent-line therapy",
+        "post-second-line therapy",
+        "post-3L therapy"
+      ],
+      "nicknames": [
+        "later-line",
+        "advanced-line"
+      ],
+      "acronyms": [
+        "5L",
+        "5LT",
+        "5LOT",
+        "5L+",
+        "LOT5",
+        "LL"
+      ],
+      "regex": "(?i)\\b(?:5L\\+|5L|5LT|5LOT|LOT5|fifth[\\s-]?line(?:\\s+(?:therapy|treatment))?|fifth[\\s-]?line\\s+(?:and\\s+beyond|or\\s+later)|later[\\s-]?line(?:\\s+(?:therapy|treatment))?|advanced[\\s-]?line(?:\\s+(?:therapy|treatment))?|subsequent[\\s-]?line(?:\\s+(?:therapy|treatment))?|post[\\s-]?(?:second|2L|third|3L)[\\s-]?line(?:\\s+(?:therapy|treatment))?)\\b"
+    },
+    {
+      "canonical_name": "maintenance_therapy",
+      "category": "treatment_phase",
+      "names": [
+        "maintenance therapy",
+        "maintenance treatment",
+        "remission maintenance",
+        "continued treatment",
+        "continued therapy",
+        "disease control therapy"
+      ],
+      "nicknames": [
+        "maintenance",
+        "maint"
+      ],
+      "acronyms": [
+        "MT"
+      ],
+      "regex": "(?i)\\b(?:maintenance(?:\\s+(?:therapy|treatment))?|continuation\\s+maintenance|switch\\s+maintenance|remission\\s+maintenance|continued\\s+(?:therapy|treatment)|disease\\s+control\\s+therapy|maint)\\b"
+    },
+    {
+      "canonical_name": "adjuvant_therapy",
+      "category": "treatment_phase",
+      "names": [
+        "adjuvant therapy",
+        "adjuvant treatment",
+        "post-surgery therapy",
+        "postoperative therapy",
+        "additional therapy",
+        "post-resection therapy"
+      ],
+      "nicknames": [
+        "adjuvant"
+      ],
+      "acronyms": [
+        "AT"
+      ],
+      "regex": "(?i)\\b(?:adjuvant(?:\\s+(?:therapy|treatment))?|post[\\s-]?(?:surgery|operative|resection)\\s+(?:therapy|treatment)|additional\\s+therapy)\\b"
+    },
+    {
+      "canonical_name": "neoadjuvant_therapy",
+      "category": "treatment_phase",
+      "names": [
+        "neoadjuvant therapy",
+        "neoadjuvant treatment",
+        "pre-surgery therapy",
+        "preoperative therapy",
+        "tumor shrinkage therapy",
+        "downstaging therapy"
+      ],
+      "nicknames": [
+        "neoadjuvant"
+      ],
+      "acronyms": [
+        "NAT"
+      ],
+      "regex": "(?i)\\b(?:neoadjuvant(?:\\s+(?:therapy|treatment))?|pre[\\s-]?(?:surgery|operative)\\s+(?:therapy|treatment)|tumou?r\\s+shrinkage\\s+(?:therapy|treatment)|downstaging)\\b"
+    },
+    {
+      "canonical_name": "perioperative_therapy",
+      "category": "treatment_phase",
+      "names": [
+        "perioperative therapy",
+        "peri-operative therapy",
+        "perioperative treatment"
+      ],
+      "nicknames": [
+        "perioperative"
+      ],
+      "acronyms": [],
+      "regex": "(?i)\\b(?:peri[\\s-]?operative(?:\\s+(?:therapy|treatment))?)\\b"
+    },
+    {
+      "canonical_name": "induction_therapy",
+      "category": "treatment_phase",
+      "names": [
+        "induction therapy",
+        "induction treatment",
+        "initial induction",
+        "debulking induction"
+      ],
+      "nicknames": [
+        "induction"
+      ],
+      "acronyms": [],
+      "regex": "(?i)\\b(?:induction(?:\\s+(?:therapy|treatment))?|initial\\s+induction|debulking\\s+induction)\\b"
+    },
+    {
+      "canonical_name": "consolidation_therapy",
+      "category": "treatment_phase",
+      "names": [
+        "consolidation therapy",
+        "consolidation treatment",
+        "post-remission therapy",
+        "post-remission treatment",
+        "consolidation phase"
+      ],
+      "nicknames": [
+        "consolidation"
+      ],
+      "acronyms": [],
+      "regex": "(?i)\\b(?:consolidation(?:\\s+(?:therapy|treatment|phase))?|post[\\s-]?remission\\s+(?:therapy|treatment))\\b"
+    },
+    {
+      "canonical_name": "reinduction_therapy",
+      "category": "treatment_phase",
+      "names": [
+        "reinduction therapy",
+        "re-induction therapy",
+        "reinduction treatment"
+      ],
+      "nicknames": [
+        "reinduction"
+      ],
+      "acronyms": [],
+      "regex": "(?i)\\b(?:re[\\s-]?induction(?:\\s+(?:therapy|treatment))?)\\b"
+    },
+    {
+      "canonical_name": "salvage_therapy",
+      "category": "rescue_or_late_line",
+      "names": [
+        "salvage therapy",
+        "salvage treatment",
+        "rescue therapy",
+        "rescue treatment",
+        "last resort therapy",
+        "final attempt therapy"
+      ],
+      "nicknames": [
+        "salvage",
+        "rescue"
+      ],
+      "acronyms": [],
+      "regex": "(?i)\\b(?:salvage(?:\\s+(?:therapy|treatment))?|rescue(?:\\s+(?:therapy|treatment))?|last\\s+resort\\s+(?:therapy|treatment)|final\\s+attempt\\s+(?:therapy|treatment))\\b"
+    },
+    {
+      "canonical_name": "rechallenge_therapy",
+      "category": "rescue_or_late_line",
+      "names": [
+        "rechallenge therapy",
+        "re-challenge therapy",
+        "retreatment",
+        "re-treatment"
+      ],
+      "nicknames": [
+        "rechallenge",
+        "retreatment"
+      ],
+      "acronyms": [],
+      "regex": "(?i)\\b(?:re[\\s-]?challenge(?:\\s+(?:therapy|treatment))?|re[\\s-]?treatment)\\b"
+    },
+    {
+      "canonical_name": "palliative_therapy",
+      "category": "supportive_or_intent",
+      "names": [
+        "palliative therapy",
+        "palliative treatment",
+        "comfort care",
+        "end-of-life care",
+        "symptom relief therapy"
+      ],
+      "nicknames": [
+        "palliative"
+      ],
+      "acronyms": [],
+      "regex": "(?i)\\b(?:palliative(?:\\s+(?:therapy|treatment))?|comfort\\s+care|end[\\s-]?of[\\s-]?life\\s+care|symptom\\s+relief(?:\\s+therapy)?)\\b"
+    },
+    {
+      "canonical_name": "supportive_care",
+      "category": "supportive_or_intent",
+      "names": [
+        "supportive care",
+        "best supportive care"
+      ],
+      "nicknames": [
+        "BSC"
+      ],
+      "acronyms": [
+        "BSC"
+      ],
+      "regex": "(?i)\\b(?:best\\s+supportive\\s+care|supportive\\s+care|BSC)\\b"
+    },
+    {
+      "canonical_name": "experimental_or_investigational_therapy",
+      "category": "research_or_nonstandard",
+      "names": [
+        "experimental therapy",
+        "investigational therapy",
+        "investigational treatment",
+        "clinical trial therapy",
+        "clinical trial treatment",
+        "non-standard treatment",
+        "experimental drug"
+      ],
+      "nicknames": [
+        "investigational",
+        "experimental",
+        "trial therapy"
+      ],
+      "acronyms": [],
+      "regex": "(?i)\\b(?:experimental(?:\\s+(?:therapy|treatment|drug))?|investigational(?:\\s+(?:therapy|treatment))?|clinical\\s+trial\\s+(?:therapy|treatment)|non[\\s-]?standard\\s+treatment|trial\\s+therapy)\\b"
+    }
+  ]
+}
