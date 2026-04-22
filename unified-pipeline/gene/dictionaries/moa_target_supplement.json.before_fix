@@ -1,0 +1,52 @@
+{
+  "_comment": "Hand-curated alias → gene map. Only entries whose target gene exists in New_Gene_updated.xlsx are loaded. Add new entries here without code changes.",
+
+  "krg": "KRAS",
+  "k-ras": "KRAS",
+  "kras2": "KRAS",
+
+  "mek1": "MAP2K1",
+  "mek-1": "MAP2K1",
+  "mek2": "MAP2K2",
+  "mek-2": "MAP2K2",
+
+  "c-met": "MET",
+  "cmet": "MET",
+  "c met": "MET",
+
+  "estrogen": "ESR1",
+  "estrogens": "ESR1",
+  "estrogen receptor": "ESR1",
+  "ers": "ESR1",
+  "er-alpha": "ESR1",
+  "eralpha": "ESR1",
+
+  "androgen": "AR",
+  "androgens": "AR",
+  "androgen receptor": "AR",
+
+  "bcl-2": "BCL2",
+  "bcl2": "BCL2",
+  "bcl-6": "BCL6",
+  "bcl-10": "BCL10",
+
+  "her2": "ERBB2",
+  "her-2": "ERBB2",
+  "her2/neu": "ERBB2",
+
+  "pd-l1": "CD274",
+  "pdl1": "CD274",
+  "pd l1": "CD274",
+
+  "bcr-abl": "ABL1",
+  "bcr/abl": "ABL1",
+  "bcr abl": "ABL1",
+  "bcrabl": "ABL1",
+  "ph+": "ABL1",
+
+  "trk": "NTRK1",
+  "trka": "NTRK1",
+  "trkb": "NTRK2",
+  "trkc": "NTRK3",
+  "trks": "NTRK1"
+}

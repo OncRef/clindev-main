@@ -15,6 +15,43 @@ from datetime import datetime
 
 from config import GEMINI_API_KEY, GEMINI_MODEL, LOG_DIR
 
+
+PLACEHOLDER_VALUES = {"", "...", "....", ".....", "n/a", "na", "none", "null",
+                      "not applicable", "not available", "tbd", "unknown",
+                      "undefined", "placeholder"}
+
+# Fields where a literal placeholder value indicates Gemini echoed the
+# prompt template instead of producing a real answer.
+_VALIDATED_FIELDS = ("generic_name", "short_moa", "long_moa", "target",
+                     "drug_class", "company")
+
+
+def _looks_like_placeholder(value):
+    if value is None:
+        return True
+    if isinstance(value, str):
+        return value.strip().lower() in PLACEHOLDER_VALUES
+    return False
+
+
+def _is_template_echo(parsed):
+    """Detect responses where Gemini returned the prompt template unchanged.
+
+    A real enrichment must have a non-placeholder generic_name AND at least
+    one of short_moa / long_moa / drug_class / target filled in. If all the
+    validated fields are placeholders, the model didn't actually answer.
+    """
+    if not isinstance(parsed, dict):
+        return True
+    gn = parsed.get("generic_name")
+    if _looks_like_placeholder(gn):
+        return True
+    real_fields = sum(
+        1 for f in _VALIDATED_FIELDS[1:]   # skip generic_name (checked above)
+        if not _looks_like_placeholder(parsed.get(f))
+    )
+    return real_fields == 0
+
 GEMINI_PROMPT = """You are a pharmaceutical and oncology expert. For the drug "{drug_name}", provide:
 
 1. generic_name: INN (International Nonproprietary Name). Keep compound code if no INN exists.
@@ -85,7 +122,10 @@ def _gemini_call(drug_name):
         if text.startswith("```"):
             text = re.sub(r"^```(?:json)?\s*", "", text)
             text = re.sub(r"\s*```$", "", text)
-        return json.loads(text)
+        parsed = json.loads(text)
+        if _is_template_echo(parsed):
+            return {"drug_name": drug_name, "error": "placeholder_response", "is_drug": None}
+        return parsed
 
     except Exception as e:
         return {"drug_name": drug_name, "error": str(e), "is_drug": None}

@@ -32,9 +32,32 @@ from config import (
 CANCER_WORDS = re.compile(
     r"\b(?:cancer|carcinoma|tumor|tumou?r|neoplasm|malignant|malignancy|sarcoma|lymphoma|"
     r"leukemia|leukaemia|myeloma|blastoma|glioma|mesothelioma|adenoma|melanoma|"
-    r"metastat|carcinoid|dysplasia|neoplasia)\b",
+    r"metastat|carcinoid|dysplasia|neoplasia|oncolog)\b",
     re.IGNORECASE,
 )
+
+# A title/condition that loudly mentions a benign or non-cancerous condition
+# should not be classified as a cancer trial even if a substring incidentally
+# matches an oncotree node. Without this guard, "Benign Prostatic Hyperplasia"
+# was flagged as a Solid Tumor via title_oncotree substring matching.
+BENIGN_INDICATORS = re.compile(
+    r"\b(?:benign\s+prostatic\s+hyperplasia|"
+    r"benign|non[-\s]?malignant|non[-\s]?cancerous|hyperplasia|"
+    r"healthy\s+(?:volunteer|subject|control)|"
+    r"normal\s+(?:tissue|control)|"
+    r"endometriosis|"
+    r"polycystic\s+ovary|"
+    r"uterine\s+fibroid)\b",
+    re.IGNORECASE,
+)
+
+
+def _is_clearly_benign(text):
+    if not text:
+        return False
+    if BENIGN_INDICATORS.search(text) and not CANCER_WORDS.search(text):
+        return True
+    return False
 
 
 def load_classifier_config():
@@ -105,6 +128,11 @@ def classify_condition(original, core, cfg):
                 return ([bc] if isinstance(bc, str) else bc), "tier_1.5_recycle"
             return [], "unclassifiable"
 
+    # Refuse substring matching for clearly-benign condition strings — they
+    # incidentally overlap oncotree node names and produce false cancer tags.
+    if _is_clearly_benign(original) or _is_clearly_benign(core):
+        return [], "unclassifiable"
+
     core_lower = core.lower().strip()
     if core_lower in cfg["oncotree_broad"]:
         return [cfg["oncotree_broad"][core_lower]["broad_cancer"]], "tier_2"
@@ -145,12 +173,24 @@ def classify_from_title(title, cfg):
         return None
     tl = title.lower()
 
+    # Refuse to classify titles that loudly describe a benign / non-cancer
+    # condition. Substring matching against oncotree (next block) is too
+    # eager — it tagged "Benign Prostatic Hyperplasia" as Solid Tumors via
+    # an incidental oncotree-name overlap.
+    if _is_clearly_benign(tl):
+        return None
+
     best, best_len = None, 0
     for name, entry in cfg["oncotree_broad"].items():
         if len(name) >= 4 and name in tl and len(name) > best_len:
             best, best_len = entry, len(name)
     if best:
-        return [best["broad_cancer"]], "title_oncotree"
+        # Require a real cancer keyword somewhere in the title. Without this,
+        # any title containing a noun like "prostate", "lung", "breast" gets
+        # mapped to a cancer broad-bucket regardless of whether the trial is
+        # actually oncology.
+        if CANCER_WORDS.search(tl):
+            return [best["broad_cancer"]], "title_oncotree"
 
     has_cancer = bool(CANCER_WORDS.search(tl))
     scores = []

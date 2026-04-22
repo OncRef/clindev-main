@@ -12,6 +12,23 @@ from datetime import datetime
 from config import DRUG_MASTER_FILE, EXCLUDED_CLASSES
 
 
+PLACEHOLDER_NAMES = {
+    "", "...", "....", ".....", "n/a", "na", "none", "null",
+    "not applicable", "not available", "multiple", "various",
+    "various brand names", "tbd", "unknown", "undefined",
+    "drug", "drugs", "compound", "test", "placeholder",
+}
+
+MAX_BRAND_NAMES = 50
+MAX_OTHER_NAMES = 50
+
+
+def _is_placeholder(name):
+    if not isinstance(name, str):
+        return True
+    return name.strip().lower() in PLACEHOLDER_NAMES
+
+
 class DrugMaster:
     def __init__(self, path=None):
         self.path = path or DRUG_MASTER_FILE
@@ -35,19 +52,24 @@ class DrugMaster:
             self._add_to_index(key, entry)
 
     def _add_to_index(self, key, entry):
+        # Defensive: if the canonical key itself is a placeholder, the entry
+        # is a corrupted bucket — refuse to index it so it can never be
+        # discovered by lookup() and continue absorbing unrelated drugs.
+        if _is_placeholder(key):
+            return
         k = key.lower().strip()
-        if k:
+        if k and not _is_placeholder(k):
             self._index[k] = key
         gn = (entry.get("generic_name") or "").lower().strip()
-        if gn and gn not in self._index:
+        if gn and not _is_placeholder(gn) and gn not in self._index:
             self._index[gn] = key
         for name in entry.get("brand_names", []) or []:
             n = name.lower().strip()
-            if n and n not in self._index:
+            if n and not _is_placeholder(n) and n not in self._index:
                 self._index[n] = key
         for name in entry.get("other_names", []) or []:
             n = name.lower().strip()
-            if n and n not in self._index:
+            if n and not _is_placeholder(n) and n not in self._index:
                 self._index[n] = key
 
     def lookup(self, name):
@@ -75,24 +97,48 @@ class DrugMaster:
         if dc in EXCLUDED_CLASSES:
             return "skipped", f"excluded class: {dc}"
 
-        gn = (enrichment.get("generic_name") or raw_name).lower().strip()
-        if not gn:
-            gn = raw_name.lower().strip()
+        # Reject placeholder-shaped raw_name outright — there is no real drug
+        # called "...", "N/A", etc., and accepting one creates a bucket that
+        # absorbs every subsequent unidentified enrichment.
+        if _is_placeholder(raw_name):
+            return "skipped", f"placeholder raw_name: {raw_name!r}"
+
+        # Reject the entire enrichment if generic_name is a placeholder —
+        # that's the signature of a Gemini template echo, and the rest of
+        # the fields can't be trusted either. Don't fall back to raw_name;
+        # that's exactly what created the original "..." / "N/A" buckets.
+        gn_raw = enrichment.get("generic_name")
+        if _is_placeholder(gn_raw):
+            return "skipped", f"placeholder generic_name (raw_name={raw_name!r})"
+        gn = gn_raw.lower().strip()
+        if not gn or _is_placeholder(gn):
+            return "skipped", "placeholder generic_name"
 
         all_alt = set()
         for alt in enrichment.get("alternative_names", []) or []:
-            if alt and alt.lower() != gn:
+            if alt and not _is_placeholder(alt) and alt.lower() != gn:
                 all_alt.add(alt)
-        if raw_name.lower() != gn:
+        if raw_name.lower() != gn and not _is_placeholder(raw_name):
             all_alt.add(raw_name)
 
-        brand_names = [b for b in (enrichment.get("brand_names") or []) if b]
+        brand_names = [
+            b for b in (enrichment.get("brand_names") or [])
+            if b and not _is_placeholder(b)
+        ]
 
         existing, canon_key = self.lookup(gn)
         if not existing:
             existing, canon_key = self.lookup(raw_name)
 
         if existing:
+            # Defense-in-depth: if the lookup somehow returned a bucket
+            # entry, refuse to merge — that's the original failure mode.
+            if (
+                _is_placeholder(canon_key)
+                or len(existing.get("brand_names") or []) > MAX_BRAND_NAMES
+                or len(existing.get("other_names") or []) > MAX_OTHER_NAMES
+            ):
+                return "skipped", f"refused merge into bucket-shaped entry {canon_key!r}"
             changed = False
             for field in ("short_moa", "long_moa", "drug_class", "company", "target"):
                 if enrichment.get(field) and not existing.get(field):
@@ -114,7 +160,7 @@ class DrugMaster:
             return ("updated", f"updated {canon_key}") if changed else ("skipped", f"already complete in {canon_key}")
 
         entry = {
-            "generic_name": enrichment.get("generic_name") or raw_name,
+            "generic_name": enrichment.get("generic_name") if not _is_placeholder(enrichment.get("generic_name")) else raw_name,
             "brand_names": sorted(set(brand_names)),
             "other_names": sorted(all_alt),
             "short_moa": enrichment.get("short_moa", ""),

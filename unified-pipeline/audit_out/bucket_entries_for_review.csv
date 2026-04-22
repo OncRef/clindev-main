@@ -1,0 +1,79 @@
+approved_action,suggested_action,canonical_key,generic_name,brand_count,other_names_count,names_routing_here,trial_refs_via_this_bucket,short_moa,reasons
+,trim,trastuzumab-qyyp,trastuzumab-qyyp,111,1865,1388,2875,HER2 antagonist,oversize_brand_names=111; oversize_other_names=1865
+,trim,cyclophosphamide,cyclophosphamide,11,95,91,2288,Alkylating agent,oversize_other_names=95
+,trim,dexamethasone,dexamethasone,10,54,54,1211,Glucocorticoid receptor agonist,oversize_other_names=54
+,trim,irinotecan,irinotecan,6,59,53,698,Topoisomerase I inhibitor,oversize_other_names=59
+,trim,temozolomide,temozolomide,6,51,49,672,Alkylating agent,oversize_other_names=51
+,delete,velcade thalidomide dexamethasone,Velcade Thalidomide Dexamethasone,14,119,91,450,proteasome inhibitor and immunomodulator,oversize_other_names=119
+,trim,tlc178,TLC178,1,55,48,274,liposomal doxorubicin,oversize_other_names=55
+,trim,metformin,metformin,1,58,52,254,"Decreases hepatic glucose production, increases insulin sensitivity",oversize_other_names=58
+,trim,mitoxantrone,mitoxantrone,1,55,46,218,Topoisomerase II inhibitor,oversize_other_names=55
+,delete,da-epoch-r followed by nivolumab,DA-EPOCH-R followed by Nivolumab,6,129,109,182,Chemotherapy + PD-1 inhibitor,oversize_other_names=129
+,delete,...,...,307,3378,2498,178,CD22-targeted T cells kill B cells,placeholder_key='...'; placeholder_generic_name='...'; oversize_brand_names=307; oversize_other_names=3378
+,trim,prednisolone,prednisolone,0,62,61,133,"Glucocorticoid receptor agonist, anti-inflammatory",oversize_other_names=62
+,delete,pembrolizumab and berahyaluronidase alfa-pmph,pembrolizumab and berahyaluronidase alfa-pmph,3,101,91,98,PD-1 inhibitor,oversize_other_names=101
+,trim,bupivacaine liposome,bupivacaine liposome,3,67,63,80,Local anesthetic,oversize_other_names=67
+,trim,cytarabine liposome,cytarabine liposome,5,109,82,57,antimetabolite,oversize_other_names=109
+,delete,gp100 human melanoma peptide,gp100 human melanoma peptide,1,53,46,50,Activates melanoma-specific T-cells,oversize_other_names=53
+,trim,lutetium lu 177 dotatate,lutetium lu 177 dotatate,1,60,54,43,Targeted radiotherapy,oversize_other_names=60
+,delete,n/a,N/A,48,539,435,42,"Blocks CTLA-4, enhances T cell activation",placeholder_key='n/a'; placeholder_generic_name='n/a'; oversize_other_names=539
+,trim,estradiol,estradiol,33,57,57,34,Estrogen receptor agonist,oversize_other_names=57
+,trim,lutetium lu 177 jh020002,Lutetium Lu 177 JH020002,2,62,34,24,Radiopharmaceutical,oversize_other_names=62
+,trim,fluorocholine,Fluorocholine,1,82,65,23,Mimics choline uptake in cells,oversize_other_names=82
+,delete,imatinib mesylate & hydroxyurea,Imatinib Mesylate & Hydroxyurea,4,57,46,16,BCR-ABL inhibitor & Ribonucleotide reductase inhibitor,oversize_other_names=57
+,delete,unknown,Unknown,0,57,54,15,Cholinesterase inhibitor,placeholder_key='unknown'; placeholder_generic_name='unknown'; oversize_other_names=57
+,trim,gonadorelin,gonadorelin,1,80,78,11,"GnRH receptor agonist, LH/FSH release",oversize_other_names=80
+,trim,lactobacillus,lactobacillus,1,72,72,11,"Restores intestinal flora, inhibits pathogen growth",oversize_other_names=72
+,trim,methoxyamine,Methoxyamine,0,70,66,8,Base excision repair (BER) inhibitor,oversize_other_names=70
+,trim,gallium ga 68 dotatate,gallium ga 68 dotatate,1,62,28,7,"SSTR binder, positron-emitting radiopharmaceutical",oversize_other_names=62
+,trim,nitroglycerin,nitroglycerin,1,69,65,7,Vasodilator; converts to nitric oxide,oversize_other_names=69
+,trim,[68ga]ga-psma,[68Ga]Ga-PSMA,0,60,37,6,PSMA-targeted PET imaging agent,oversize_other_names=60
+,trim,bisacodyl,bisacodyl,1,68,68,6,Stimulates enteric nerves to cause peristalsis,oversize_other_names=68
+,trim,papaverine,Papaverine,2,54,53,5,"Phosphodiesterase inhibitor, smooth muscle relaxant",oversize_other_names=54
+,trim,cefixime,cefixime,1,53,53,4,Inhibits bacterial cell wall synthesis,oversize_other_names=53
+,trim,fluorodopa,fluorodopa,0,62,61,4,Visualizes dopaminergic nerve terminals via PET,oversize_other_names=62
+,trim,urea,urea,0,80,78,4,"Osmotic diuretic, keratolytic agent",oversize_other_names=80
+,delete,not applicable,Not applicable,12,156,100,4,Engineered T cells target cancer,placeholder_key='not applicable'; placeholder_generic_name='not applicable'; oversize_other_names=156
+,trim,dydrogesterone,dydrogesterone,1,53,53,3,Progesterone receptor agonist,oversize_other_names=53
+,trim,barium,barium,0,80,77,3,Radiopaque contrast agent for X-rays,oversize_other_names=80
+,trim,[18f]-dcfpyl ligand,[18F]-DCFPyl Ligand,1,70,54,3,Radiotracer,oversize_other_names=70
+,trim,clopidogrel,clopidogrel,1,67,65,3,P2Y12 ADP receptor antagonist,oversize_other_names=67
+,trim,flurbiprofen,flurbiprofen,1,95,94,3,COX-1 and COX-2 inhibitor,oversize_other_names=95
+,trim,estrogens,estrogens,0,51,20,2,"Estrogen receptor agonist, modulates gene expression",oversize_other_names=51
+,trim,rta 744,RTA 744,0,62,61,2,"Topoisomerase II inhibitor, NF-κB Agonist",oversize_other_names=62
+,trim,cefpodoxime,cefpodoxime,1,67,67,2,Inhibits bacterial cell wall synthesis,oversize_other_names=67
+,trim,glucosamine hydrochloride,Glucosamine Hydrochloride,2,51,48,2,Supports cartilage synthesis and reduces inflammation,oversize_other_names=51
+,trim,toluenesulfonamide,toluenesulfonamide,0,56,47,2,Versatile building block in chemical synthesis,oversize_other_names=56
+,trim,sodium hypochlorite,sodium hypochlorite,1,77,78,2,Oxidizing agent; protein and DNA oxidation,oversize_other_names=77
+,trim,zio-201-t,ZIO-201-T,0,67,63,2,DNA alkylating and crosslinking agent,oversize_other_names=67
+,trim,mosapride,mosapride,1,70,67,2,"5-HT4 agonist, 5-HT3 antagonist",oversize_other_names=70
+,delete,not available,Not available,0,27,20,2,Neutralizing antibody combination for COVID-19,placeholder_key='not available'; placeholder_generic_name='not available'
+,trim,coloverin,coloverin,0,67,66,1,"Antispasmodic, relaxes gastrointestinal smooth muscle",oversize_other_names=67
+,trim,cortisone acetate,cortisone acetate,1,52,51,1,Glucocorticoid receptor agonist; alters gene expression,oversize_other_names=52
+,trim,menadione,menadione,0,54,54,1,Precursor to active vitamin K2,oversize_other_names=54
+,trim,varies,Varies,1,61,18,1,PD-L1 immune checkpoint inhibitor,oversize_other_names=61
+,trim,clomiphene citrate,clomiphene citrate,1,107,96,1,Selective Estrogen Receptor Modulator (SERM),oversize_other_names=107
+,trim,carbendazim,carbendazim,0,67,63,1,Inhibits tubulin formation during fungal mitosis,oversize_other_names=67
+,trim,prenisolone,prenisolone,0,68,11,1,"Glucocorticoid receptor agonist, reduces inflammation",oversize_other_names=68
+,trim,glutamic acid,glutamic acid,0,53,49,1,Excitatory neurotransmitter and GABA precursor,oversize_other_names=53
+,trim,pcb,pcb,0,84,81,1,NMDA receptor antagonist,oversize_other_names=84
+,trim,selenomethionine,Selenomethionine,0,61,58,1,Antioxidant; depletes reactive oxygen species,oversize_other_names=61
+,trim,meclizine,Meclizine,2,52,52,1,"H1 receptor antagonist, anticholinergic",oversize_other_names=52
+,trim,activated charcoal,Activated Charcoal,0,65,65,1,"Adsorbs toxins, prevents systemic absorption",oversize_other_names=65
+,trim,chlorhexidine gluconate,chlorhexidine gluconate,2,58,43,1,Disrupts bacterial cell membranes,oversize_other_names=58
+,trim,ebastine,Ebastine,1,89,89,1,Selective histamine H1-receptor antagonist,oversize_other_names=89
+,trim,vitamin c,vitamin c,0,54,44,1,Antioxidant and enzyme cofactor,oversize_other_names=54
+,trim,withania somnifera,withania somnifera,0,53,54,1,"Modulates HPA axis, reduces stress hormones",oversize_other_names=53
+,trim,fludeoxyglucose f-18,fludeoxyglucose f-18,3,54,34,1,Glucose analog for PET imaging,oversize_other_names=54
+,trim,mebeverine,mebeverine,1,99,40,1,"Smooth muscle relaxant, antispasmodic",oversize_other_names=99
+,trim,fluorescein sodium,fluorescein sodium,0,59,42,1,Fluorescent dye for angiography/angioscopy,oversize_other_names=59
+,trim,viscum album,viscum album,1,56,45,0,Cytotoxic and immunomodulatory effects,oversize_other_names=56
+,delete,multiple,Multiple,0,1,1,0,Multiple mechanisms of action,placeholder_key='multiple'; placeholder_generic_name='multiple'
+,trim,methoxyamine hydrochloride,methoxyamine hydrochloride,0,64,9,0,Base excision repair (BER) inhibitor,oversize_other_names=64
+,trim,diatrizoate,diatrizoate,1,55,47,0,X-ray contrast agent,oversize_other_names=55
+,trim,norethisterone acetate,norethisterone acetate,1,63,48,0,Progesterone receptor agonist,oversize_other_names=63
+,trim,iron saccharate,iron saccharate,1,56,28,0,Replenishes iron stores for red blood cell production,oversize_other_names=56
+,delete,"varies, see alternative names","Varies, see alternative names",0,80,31,0,PD-1 receptor blocker,oversize_other_names=80
+,trim,l-selenomethionine,L-selenomethionine,0,67,22,0,Increases glutathione peroxidase expression,oversize_other_names=67
+,trim,senna,senna,0,70,60,0,"Stimulates intestinal muscles, increases fluid secretion",oversize_other_names=70
+,delete,see alternative names,See alternative names,0,53,30,0,Inhibits ALK tyrosine kinase activity,oversize_other_names=53

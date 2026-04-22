@@ -1,0 +1,3068 @@
+{
+  "metadata": {
+    "version": "1.1",
+    "built_at": "2026-04-19T19:30:52.170187",
+    "source": "conquest_master.json",
+    "n_trials_scanned": 50777,
+    "n_conditions_scanned": 118922,
+    "n_oncotree_codes": 444,
+    "n_tissue_codes": 32,
+    "n_subtype_codes": 412,
+    "n_broad_cancers": 39
+  },
+  "oncotree_to_name": {
+    "ABC": "Activated B-cell Type",
+    "ACA": "Adrenocortical Adenoma",
+    "ACC": "Adrenocortical Carcinoma",
+    "ACRM": "Acral Melanoma",
+    "ACYC": "Adenoid Cystic Carcinoma",
+    "ADIFG": "Adult-Type Diffuse Glioma",
+    "ADMA": "Adamantinoma",
+    "ADRENAL_GLAND": "Adrenal Gland",
+    "AECA": "Sweat Gland Carcinoma/Apocrine Eccrine Carcinoma",
+    "AFH": "Angiomatoid Fibrous Histiocytoma",
+    "AFX": "Atypical Fibroxanthoma",
+    "AGNG": "Anaplastic Ganglioglioma",
+    "AHCD": "Alpha Heavy-Chain Disease",
+    "AIS": "Adenocarcinoma In Situ",
+    "AITL": "Angioimmunoblastic T-Cell Lymphoma",
+    "ALCL": "Anaplastic Large Cell Lymphoma",
+    "ALT": "Atypical Lipomatous Tumor",
+    "AMKL": "Acute Megakaryoblastic Leukemia",
+    "AML": "Acute Myeloid Leukemia",
+    "AMLGATA2MECOM": "AML with inv(3)(q21.3q26.2) or t(3;3)(q21.3;q26.2); GATA2, MECOM",
+    "AMLMRC": "AML with Myelodysplasia-Related Changes",
+    "AMLNOS": "AML, NOS",
+    "AMLRGA": "AML with Recurrent Genetic Abnormalities",
+    "AMPCA": "Ampullary Carcinoma",
+    "AMPULLA_OF_VATER": "Ampulla of Vater",
+    "ANGL": "Angiocentric Glioma",
+    "ANGS": "Angiosarcoma",
+    "ANM": "Anaplastic Meningioma",
+    "ANSC": "Anal Squamous Cell Carcinoma",
+    "APAD": "Appendiceal Adenocarcinoma",
+    "APE": "Anaplastic Ependymoma",
+    "APXA": "Anaplastic Pleomorphic Xanthoastrocytoma",
+    "ARMS": "Alveolar Rhabdomyosarcoma",
+    "ASPS": "Alveolar Soft Part Sarcoma",
+    "ASTR": "Astrocytoma, IDH-Mutant",
+    "ATLL": "Adult T-Cell Leukemia/Lymphoma",
+    "ATM": "Atypical Meningioma",
+    "ATRT": "Atypical Teratoid/Rhabdoid Tumor",
+    "BCC": "Basal Cell Carcinoma",
+    "BCCA": "Choriocarcinoma",
+    "BEC": "Embryonal Carcinoma",
+    "BFN": "Breast Fibroepithelial Neoplasms",
+    "BGCT": "Germ Cell Tumor, Brain",
+    "BILIARY_TRACT": "Biliary Tract",
+    "BIMT": "Immature Teratoma",
+    "BL": "Burkitt Lymphoma",
+    "BLAD": "Bladder Adenocarcinoma",
+    "BLADDER": "Bladder/Urinary Tract",
+    "BLCA": "Bladder Urothelial Carcinoma",
+    "BLL": "B-Lymphoblastic Leukemia/Lymphoma",
+    "BLL11Q": "Burkitt-Like Lymphoma with 11q Aberration",
+    "BLLKMT2A": "B-Lymphoblastic Leukemia/Lymphoma with t(v;11q23.3);KMT2A Rearranged",
+    "BLLRGA": "B-Lymphoblastic Leukemia/Lymphoma with Recurrent Genetic Abnormalities",
+    "BLSC": "Bladder Squamous Cell Carcinoma",
+    "BMGCT": "Mixed Germ Cell Tumor",
+    "BMT": "Mature Teratoma",
+    "BONE": "Bone",
+    "BOWEL": "Bowel",
+    "BPDCN": "Blastic Plasmacytoid Dendritic Cell Neoplasm",
+    "BPLL": "B-Cell Prolymphocytic Leukemia",
+    "BRAIN": "CNS/Brain",
+    "BRCA": "Invasive Breast Carcinoma",
+    "BREAST": "Breast",
+    "BTOV": "Brenner Tumor",
+    "BYST": "Yolk Sac Tumor",
+    "CCE": "Clear Cell Ependymoma",
+    "CCHM": "Carcinoma with Chondroid Metaplasia",
+    "CCOV": "Clear Cell Ovarian Cancer",
+    "CCRCC": "Renal Clear Cell Carcinoma",
+    "CCS": "Clear Cell Sarcoma",
+    "CDRCC": "Collecting Duct Renal Cell Carcinoma",
+    "CEAD": "Cervical Adenocarcinoma",
+    "CEAIS": "Cervical Adenocarcinoma In Situ",
+    "CEAS": "Cervical Adenosquamous Carcinoma",
+    "CEMU": "Mucinous Carcinoma",
+    "CERVIX": "Cervix",
+    "CESC": "Cervical Squamous Cell Carcinoma",
+    "CHDM": "Chordoma",
+    "CHL": "Classical Hodgkin Lymphoma",
+    "CHOL": "Cholangiocarcinoma",
+    "CHRCC": "Chromophobe Renal Cell Carcinoma",
+    "CHS": "Chondrosarcoma",
+    "CLNC": "Cerebellar Liponeurocytoma",
+    "CM": "Conjunctival Melanoma",
+    "CMCD": "Cutaneous Mastocytosis",
+    "CML": "Chronic Myelogenous Leukemia",
+    "CMLBCRABL1": "Chronic Myeloid Leukemia, BCR-ABL1+",
+    "CMML": "Chronic Myelomonocytic Leukemia",
+    "CNC": "Central Neurocytoma",
+    "COAD": "Colon Adenocarcinoma",
+    "COADREAD": "Colorectal Adenocarcinoma",
+    "CPC": "Choroid Plexus Carcinoma",
+    "CPT": "Choroid Plexus Tumor",
+    "CSCC": "Cutaneous Squamous Cell Carcinoma",
+    "CUP": "Cancer of Unknown Primary",
+    "DA": "Duodenal Adenocarcinoma",
+    "DCIS": "Breast Ductal Carcinoma In Situ",
+    "DDCHS": "Dedifferentiated Chondrosarcoma",
+    "DDLS": "Dedifferentiated Liposarcoma",
+    "DESM": "Desmoplastic Melanoma",
+    "DFL": "Duodenal-Type Follicular Lymphoma",
+    "DFSP": "Dermatofibrosarcoma Protuberans",
+    "DHG": "Diffuse Hemispheric Glioma, H3 G34-Mutant",
+    "DIA": "Desmoplastic Infantile Astrocytoma",
+    "DIFG": "Diffuse Glioma",
+    "DLBCLCI": "DLBCL Associated with Chronic Inflammation",
+    "DLBCLNOS": "Diffuse Large B-Cell Lymphoma, NOS",
+    "DMBL": "Desmoplastic/Nodular Medulloblastoma",
+    "DMG": "Diffuse Midline Glioma, H3 K27-Altered",
+    "DNT": "Dysembryoplastic Neuroepithelial Tumor",
+    "DSRCT": "Desmoplastic Small-Round-Cell Tumor",
+    "DTE": "Desmoplastic Trichoepithelioma",
+    "EATL": "Enteropathy-Associated T-Cell Lymphoma",
+    "EBVMCU": "EBV Positive Mucocutaneous Ulcer",
+    "ECAD": "Endocervical Adenocarcinoma",
+    "ECD": "Erdheim-Chester Disease",
+    "EGC": "Esophagogastric Adenocarcinoma",
+    "EHAE": "Epithelioid Hemangioendothelioma",
+    "EHCH": "Extrahepatic Cholangiocarcinoma",
+    "EMBT": "Embryonal Tumor",
+    "EMCHS": "Extraskeletal Myxoid Chondrosarcoma",
+    "EMPD": "Extramammary Paget Disease",
+    "EMYOCA": "Epithelial-Myoepithelial Carcinoma",
+    "ENCG": "Encapsulated Glioma",
+    "EOV": "Endometrioid Ovarian Cancer",
+    "EPIS": "Epithelioid Sarcoma",
+    "EPM": "Ependymoma",
+    "EPMT": "Ependymomal Tumor",
+    "ERMS": "Embryonal Rhabdomyosarcoma",
+    "ES": "Ewing Sarcoma",
+    "ESCA": "Esophageal Adenocarcinoma",
+    "ESCC": "Esophageal Squamous Cell Carcinoma",
+    "ESS": "Endometrial Stromal Sarcoma",
+    "ESST": "Ewing Sarcoma of Soft Tissue",
+    "ET": "Essential Thrombocythemia",
+    "ETANTR": "Embryonal Tumor with Abundant Neuropil and True Rosettes",
+    "ETMF": "Essential Thrombocythemia Myelofibrosis",
+    "EVN": "Extraventricular Neurocytoma",
+    "EYE": "Eye",
+    "FA": "Fibroadenoma",
+    "FIBS": "Fibrosarcoma",
+    "FL": "Follicular Lymphoma",
+    "FLC": "Fibrolamellar Carcinoma",
+    "FTCL": "Follicular T-Cell Lymphoma",
+    "GB": "Glioblastoma, IDH-Wildtype",
+    "GBC": "Gallbladder Cancer",
+    "GCB": "Germinal Center B-Cell Type",
+    "GCT": "Granular Cell Tumor",
+    "GCTB": "Giant Cell Tumor of Bone",
+    "GEJ": "Adenocarcinoma of the Gastroesophageal Junction",
+    "GINET": "Gastrointestinal Neuroendocrine Tumors",
+    "GIST": "Gastrointestinal Stromal Tumor",
+    "GMN": "Germinoma",
+    "GN": "Ganglioneuroma",
+    "GNBL": "Ganglioneuroblastoma",
+    "GNC": "Gangliocytoma",
+    "GNG": "Ganglioglioma",
+    "GRCT": "Granulosa Cell Tumor",
+    "GSARC": "Gliosarcoma",
+    "GTD": "Gestational Trophoblastic Disease",
+    "HCC": "Hepatocellular Carcinoma",
+    "HCL": "Hairy Cell Leukemia",
+    "HDCN": "Histiocytic and Dendritic Cell Neoplasms",
+    "HEAD_NECK": "Head and Neck",
+    "HEMA": "Hemangioma",
+    "HGBCL": "High-Grade B-Cell Lymphoma, NOS",
+    "HGBCLMYCBCL2": "High-Grade B-Cell Lymphoma, with MYC and BCL2 and/or BCL6 Rearrangements",
+    "HGNEC": "High-Grade Neuroendocrine Carcinoma of the Colon and Rectum",
+    "HL": "Hodgkin Lymphoma",
+    "HMBL": "Hemangioblastoma",
+    "HNMUCM": "Head and Neck Mucosal Melanoma",
+    "HNSC": "Head and Neck Squamous Cell Carcinoma",
+    "HPHSC": "Hypopharynx Squamous Cell Carcinoma",
+    "HS": "Histiocytic Sarcoma",
+    "HSTCL": "Hepatosplenic T-cell Lymphoma",
+    "IBC": "Inflammatory Breast Cancer",
+    "ICPN": "Intracholecystic Papillary Neoplasm",
+    "IDCS": "Interdigitating Dendritic Cell Sarcoma",
+    "IFS": "Infantile Fibrosarcoma",
+    "IHCH": "Intrahepatic Cholangiocarcinoma",
+    "IMS": "Myofibromatosis",
+    "IMT": "Inflammatory Myofibroblastic Tumor",
+    "INTS": "Intimal Sarcoma",
+    "IPMN": "Intraductal Papillary Mucinous Neoplasm",
+    "IPN": "Intraductal Papillary Neoplasm of the Bile Duct",
+    "IVBCL": "Intravascular Large B-Cell Lymphoma",
+    "JMML": "Juvenile Myelomonocytic Leukemia",
+    "KIDNEY": "Kidney",
+    "LAM": "Pulmonary Lymphangiomyomatosis",
+    "LCH": "Langerhans Cell Histiocytosis",
+    "LCIS": "Breast Lobular Carcinoma In Situ",
+    "LCLC": "Large Cell Lung Carcinoma",
+    "LDCHL": "Lymphocyte-Depleted Classical Hodgkin Lymphoma",
+    "LDD": "Dysplastic Gangliocytoma of the Cerebellum/Lhermitte-Duclos Disease",
+    "LECLC": "Lymphoepithelioma-like Carcinoma of the Lung",
+    "LGFMS": "Low-Grade Fibromyxoid Sarcoma",
+    "LIAD": "Hepatocellular Adenoma",
+    "LIHB": "Hepatoblastoma",
+    "LIPO": "Liposarcoma",
+    "LIVER": "Liver",
+    "LM": "Leiomyoma",
+    "LMS": "Leiomyosarcoma",
+    "LNET": "Lung Neuroendocrine Tumor",
+    "LNM": "Lymphoid Neoplasm",
+    "LPL": "Lymphoplasmacytic Lymphoma",
+    "LUAD": "Lung Adenocarcinoma",
+    "LUAS": "Lung Adenosquamous Carcinoma",
+    "LUCA": "Lung Carcinoid",
+    "LUNE": "Large Cell Neuroendocrine Carcinoma",
+    "LUNG": "Lung",
+    "LUSC": "Lung Squamous Cell Carcinoma",
+    "LXSC": "Larynx Squamous Cell Carcinoma",
+    "LYG": "Lymphomatoid Granulomatosis",
+    "LYMPH": "Lymphoid",
+    "LYP": "Lymphomatoid Papulosis",
+    "MAC": "Microcystic Adnexal Carcinoma",
+    "MBC": "Metaplastic Breast Cancer",
+    "MBEN": "Medulloblastoma with Extensive Nodularity",
+    "MBL": "Medulloblastoma",
+    "MBLG3": "Medulloblastoma, Group 3",
+    "MBLG4": "Medulloblastoma, Group 4",
+    "MBLNWS": "Medulloblastoma, Non-WNT, Non-SHH",
+    "MBN": "Mature B-Cell Neoplasms",
+    "MBT": "Miscellaneous Brain Tumor",
+    "MCBCL": "Monoclonal B-Cell Lymphocytosis",
+    "MCC": "Merkel Cell Carcinoma",
+    "MCCHL": "Mixed Cellularity Classical Hodgkin Lymphoma",
+    "MCD": "Mastocytosis",
+    "MCHS": "Mesenchymal Chondrosarcoma",
+    "MCL": "Mantle Cell Lymphoma",
+    "MCN": "Mucinous Cystic Neoplasm",
+    "MDEP": "Medulloepithelioma",
+    "MDS": "Myelodysplastic Syndromes",
+    "MDS/MPN": "Myelodysplastic/Myeloproliferative Neoplasms",
+    "MDSEB": "MDS with Excess Blasts",
+    "MDSMPNRST": "MDS/MPN with Ring Sideroblasts and Thrombocytosis",
+    "MEITL": "Monomorphic Epitheliotropic Intestinal T-Cell Lymphoma",
+    "MEL": "Melanoma",
+    "MELC": "Melanocytoma",
+    "MFS": "Myxofibrosarcoma",
+    "MGUS": "Monoclonal Gammopathy of Undetermined Significance",
+    "MIDD": "Monoclonal Immunoglobulin Deposition Diseases",
+    "MIDDA": "Amyloidosis",
+    "MLADS": "Myeloid Leukemia Associated with Down Syndrome",
+    "MMBC": "Mixed Type Metaplastic Breast Cancer",
+    "MNET": "Miscellaneous Neuroepithelial Tumor",
+    "MNG": "Meningioma",
+    "MNGT": "Meningothelial Tumor",
+    "MNM": "Myeloid Neoplasm",
+    "MOV": "Mucinous Ovarian Cancer",
+    "MP": "Molar Pregnancy",
+    "MPE": "Myxopapillary Ependymoma",
+    "MPN": "Myeloproliferative Neoplasms",
+    "MPNST": "Malignant Peripheral Nerve Sheath Tumor",
+    "MPRDS": "Myeloid Proliferations Related to Down Syndrome",
+    "MRC": "Renal Medullary Carcinoma",
+    "MS": "Myeloid Sarcoma",
+    "MT": "Malignant Tumor",
+    "MTNN": "Mature T and NK Neoplasms",
+    "MUCC": "Mucoepidermoid Carcinoma",
+    "MUP": "Melanoma of Unknown Primary",
+    "MYCF": "Mycosis Fungoides",
+    "MYCHS": "Myxoid Chondrosarcoma",
+    "MYELOID": "Myeloid",
+    "MYXO": "Myxoma",
+    "MZL": "Marginal Zone Lymphoma",
+    "NBL": "Neuroblastoma",
+    "NCCRCC": "Renal Non-Clear Cell Carcinoma",
+    "NFIB": "Neurofibroma",
+    "NHL": "Non-Hodgkin Lymphoma",
+    "NMCHN": "NUT Midline Carcinoma of the Head and Neck",
+    "NMZL": "Nodal Marginal Zone Lymphoma",
+    "NPC": "Nasopharyngeal Carcinoma",
+    "NPTLTFH": "Nodal Peripheral T-Cell Lymphoma with TFH Phenotype",
+    "NSCHL": "Nodular Sclerosis Classical Hodgkin Lymphoma",
+    "NSCLC": "Non-Small Cell Lung Cancer",
+    "NSGCT": "Non-Seminomatous Germ Cell Tumor",
+    "NST": "Nerve Sheath Tumor",
+    "OCS": "Ovarian Carcinosarcoma/Malignant Mixed Mesodermal Tumor",
+    "OCSC": "Oral Cavity Squamous Cell Carcinoma",
+    "OGCT": "Ovarian Germ Cell Tumor",
+    "OHNCA": "Head and Neck Carcinoma, Other",
+    "OM": "Ocular Melanoma",
+    "ONBL": "Olfactory Neuroblastoma",
+    "OPHSC": "Oropharynx Squamous Cell Carcinoma",
+    "OS": "Osteosarcoma",
+    "OSMCA": "Ovarian Seromucinous Carcinoma",
+    "OTHER": "Other",
+    "OVARY": "Ovary/Fallopian Tube",
+    "OVT": "Ovarian Epithelial Tumor",
+    "PAAD": "Pancreatic Adenocarcinoma",
+    "PAASC": "Adenosquamous Carcinoma of the Pancreas",
+    "PACT": "Cystic Tumor of the Pancreas",
+    "PADA": "Pleomorphic Adenoma",
+    "PANCREAS": "Pancreas",
+    "PANEC": "Pancreatic Neuroendocrine Carcinoma",
+    "PANET": "Pancreatic Neuroendocrine Tumor",
+    "PAST": "Pilocytic Astrocytoma",
+    "PBL": "Pineoblastoma",
+    "PBT": "Primary Brain Tumor",
+    "PCALCL": "Primary Cutaneous Anaplastic Large Cell Lymphoma",
+    "PCFCL": "Primary Cutaneous Follicle Center Lymphoma",
+    "PCLPD": "Primary Cutaneous CD30 Positive T-Cell Lymphoproliferative Disorders",
+    "PCM": "Plasma Cell Myeloma",
+    "PCNSL": "Primary DLBCL of the central nervous system",
+    "PCNSMT": "Primary CNS Melanocytic Tumors",
+    "PDIFHG": "Pediatric-Type Diffuse High-Grade Glioma",
+    "PDIFLG": "Pediatric-Type Diffuse Low-Grade Glioma",
+    "PECOMA": "Perivascular Epithelioid Cell Tumor",
+    "PEL": "Primary Effusion Lymphoma",
+    "PEMESO": "Peritoneal Mesothelioma",
+    "PENIS": "Penis",
+    "PERITONEUM": "Peritoneum",
+    "PERL": "Pure Erythroid Leukemia",
+    "PGNG": "Paraganglioma",
+    "PGNT": "Papillary Glioneuronal Tumor",
+    "PHC": "Pheochromocytoma",
+    "PHCH": "Perihilar Cholangiocarcinoma",
+    "PINC": "Pineocytoma",
+    "PINT": "Pineal Tumor",
+    "PLBL": "Plasmablastic Lymphoma",
+    "PLEURA": "Pleura",
+    "PLLS": "Pleomorphic Liposarcoma",
+    "PLMESO": "Pleural Mesothelioma",
+    "PLRMS": "Pleomorphic Rhabdomyosarcoma",
+    "PMA": "Pilomyxoid Astrocytoma",
+    "PMBL": "Primary Mediastinal (Thymic) Large B-Cell Lymphoma",
+    "PMF": "Primary Myelofibrosis",
+    "PNET": "Primitive Neuroectodermal Tumor",
+    "PNS": "Peripheral Nervous System",
+    "POCA": "Porocarcinoma/Spiroadenocarcinoma",
+    "PPB": "Pleuropulmonary Blastoma",
+    "PPM": "Papillary Meningioma",
+    "PPTID": "Pineal Parenchymal Tumor of Intermediate Differentiation",
+    "PRAD": "Prostate Adenocarcinoma",
+    "PRCC": "Papillary Renal Cell Carcinoma",
+    "PRNE": "Prostate Neuroendocrine Carcinoma",
+    "PROSTATE": "Prostate",
+    "PRSCC": "Prostate Small Cell Carcinoma",
+    "PSC": "Serous Cystadenoma of the Pancreas",
+    "PSCC": "Penile Squamous Cell Carcinoma",
+    "PTAD": "Pituitary Adenoma",
+    "PTCA": "Pituitary Carcinoma",
+    "PTFL": "Pediatric-Type Follicular Lymphoma",
+    "PTH": "Parathyroid Cancer",
+    "PTHC": "Parathyroid Carcinoma",
+    "PTPR": "Papillary Tumor of the Pineal Region",
+    "PV": "Polycythemia Vera",
+    "PXA": "Pleomorphic Xanthoastrocytoma",
+    "RAML": "Renal Angiomyolipoma",
+    "RAS": "Radiation-Associated Sarcoma",
+    "RBL": "Retinoblastoma",
+    "RCC": "Renal Cell Carcinoma",
+    "RDD": "Rosai-Dorfman Disease",
+    "READ": "Rectal Adenocarcinoma",
+    "RMS": "Rhabdomyosarcoma",
+    "SACA": "Salivary Carcinoma",
+    "SBC": "Small Bowel Cancer",
+    "SCGBM": "Small Cell Glioblastoma",
+    "SCHW": "Schwannoma",
+    "SCLC": "Small Cell Lung Cancer",
+    "SCRMS": "Spindle Cell Rhabdomyosarcoma",
+    "SCSRMS": "Spindle Cell/Sclerosing Rhabdomyosarcoma",
+    "SCST": "Sex Cord Stromal Tumor",
+    "SDCA": "Salivary Duct Carcinoma",
+    "SEBA": "Sebaceous Carcinoma",
+    "SECOS": "Secondary Osteosarcoma",
+    "SEF": "Sclerosing Epithelioid Fibrosarcoma",
+    "SELT": "Sellar Tumor",
+    "SEM": "Seminoma",
+    "SFT": "Solitary Fibrous Tumor/Hemangiopericytoma",
+    "SIC": "Small Intestinal Carcinoma",
+    "SKAC": "Skin Adnexal Carcinoma",
+    "SKCM": "Cutaneous Melanoma",
+    "SKCN": "Congenital Nevus",
+    "SKIN": "Skin",
+    "SKLMM": "Lentigo Maligna Melanoma",
+    "SLCT": "Sertoli-Leydig Cell Tumor",
+    "SM": "Systemic Mastocytosis",
+    "SMMCL": "Mast Cell Leukemia",
+    "SMZL": "Splenic Marginal Zone Lymphoma",
+    "SNA": "Sinonasal Adenocarcinoma",
+    "SNSC": "Sinonasal Squamous Cell Carcinoma",
+    "SNUC": "Sinonasal Undifferentiated Carcinoma",
+    "SOC": "Serous Ovarian Cancer",
+    "SOFT_TISSUE": "Soft Tissue",
+    "SPN": "Solid Pseudopapillary Neoplasm of the Pancreas",
+    "SPTCL": "Subcutaneous Panniculitis-Like T-Cell Lymphoma",
+    "SRCC": "Sarcomatoid Renal Cell Carcinoma",
+    "SS": "Sezary Syndrome",
+    "STAD": "Stomach Adenocarcinoma",
+    "STOMACH": "Esophagus/Stomach",
+    "SUBE": "Subependymoma",
+    "SYNS": "Synovial Sarcoma",
+    "TESTIS": "Testis",
+    "TET": "Thymic Epithelial Tumor",
+    "TGCT": "Tenosynovial Giant Cell Tumor Diffuse Type",
+    "THAP": "Anaplastic Thyroid Cancer",
+    "THFO": "Follicular Thyroid Cancer",
+    "THHC": "Hurthle Cell Thyroid Cancer",
+    "THME": "Medullary Thyroid Cancer",
+    "THPA": "Papillary Thyroid Cancer",
+    "THPD": "Poorly Differentiated Thyroid Cancer",
+    "THRLBCL": "T-Cell/Histiocyte-Rich Large B-Cell Lymphoma",
+    "THYC": "Thymic Carcinoma",
+    "THYM": "Thymoma",
+    "THYMUS": "Thymus",
+    "THYROID": "Thyroid",
+    "TLGL": "T-Cell Large Granular Lymphocytic Leukemia",
+    "TLL": "T-Lymphoblastic Leukemia/Lymphoma",
+    "TLYM": "Testicular Lymphoma",
+    "TMDS": "Therapy-Related Myelodysplastic Syndrome",
+    "TMN": "Therapy-Related Myeloid Neoplasms",
+    "TNET": "Thymic Neuroendocrine Tumor",
+    "TPLL": "T-Cell Prolymphocytic Leukemia",
+    "TSCST": "Sex Cord Stromal Tumor",
+    "TSTAD": "Tubular Stomach Adenocarcinoma",
+    "TT": "Teratoma",
+    "UA": "Urachal Adenocarcinoma",
+    "UAD": "Urethral Adenocarcinoma",
+    "UAS": "Uterine Adenosarcoma",
+    "UCA": "Urethral Cancer",
+    "UCEC": "Endometrial Carcinoma",
+    "UCU": "Urethral Urothelial Carcinoma",
+    "ULM": "Uterine Leiomyoma",
+    "ULMS": "Uterine Leiomyosarcoma",
+    "UM": "Uveal Melanoma",
+    "URCA": "Urachal Carcinoma",
+    "URCC": "Unclassified Renal Cell Carcinoma",
+    "USARC": "Uterine Sarcoma/Mesenchymal",
+    "USCC": "Urethral Squamous Cell Carcinoma",
+    "USMT": "Uterine Smooth Muscle Tumor",
+    "UTERUS": "Uterus",
+    "UTUC": "Upper Tract Urothelial Carcinoma",
+    "VA": "Vaginal Adenocarcinoma",
+    "VDYS": "Dysgerminoma",
+    "VGCT": "Germ Cell Tumor of the Vulva",
+    "VPE": "Polyembryoma",
+    "VULVA": "Vulva/Vagina",
+    "WDTC": "Well-Differentiated Thyroid Cancer",
+    "WM": "Waldenstrom Macroglobulinemia",
+    "WPSCC": "Warty Penile Squamous Cell Carcinoma",
+    "WT": "Wilms' Tumor",
+    "XGA": "Xanthogranuloma"
+  },
+  "oncotree_to_level": {
+    "ABC": 6,
+    "ACA": 2,
+    "ACC": 2,
+    "ACRM": 3,
+    "ACYC": 3,
+    "ADIFG": 3,
+    "ADMA": 2,
+    "ADRENAL_GLAND": 1,
+    "AECA": 2,
+    "AFH": 2,
+    "AFX": 2,
+    "AGNG": 3,
+    "AHCD": 5,
+    "AIS": 2,
+    "AITL": 5,
+    "ALCL": 5,
+    "ALT": 2,
+    "AMKL": 5,
+    "AML": 3,
+    "AMLGATA2MECOM": 5,
+    "AMLMRC": 4,
+    "AMLNOS": 4,
+    "AMLRGA": 4,
+    "AMPCA": 2,
+    "AMPULLA_OF_VATER": 1,
+    "ANGL": 4,
+    "ANGS": 2,
+    "ANM": 3,
+    "ANSC": 2,
+    "APAD": 2,
+    "APE": 3,
+    "APXA": 3,
+    "ARMS": 3,
+    "ASPS": 2,
+    "ASTR": 4,
+    "ATLL": 5,
+    "ATM": 3,
+    "ATRT": 3,
+    "BCC": 2,
+    "BCCA": 3,
+    "BEC": 3,
+    "BFN": 2,
+    "BGCT": 2,
+    "BILIARY_TRACT": 1,
+    "BIMT": 3,
+    "BL": 5,
+    "BLAD": 2,
+    "BLADDER": 1,
+    "BLCA": 2,
+    "BLL": 3,
+    "BLL11Q": 5,
+    "BLLKMT2A": 5,
+    "BLLRGA": 4,
+    "BLSC": 2,
+    "BMGCT": 3,
+    "BMT": 3,
+    "BONE": 1,
+    "BOWEL": 1,
+    "BPDCN": 3,
+    "BPLL": 5,
+    "BRAIN": 1,
+    "BRCA": 2,
+    "BREAST": 1,
+    "BTOV": 3,
+    "BYST": 3,
+    "CCE": 3,
+    "CCHM": 4,
+    "CCOV": 3,
+    "CCRCC": 3,
+    "CCS": 2,
+    "CDRCC": 4,
+    "CEAD": 2,
+    "CEAIS": 2,
+    "CEAS": 2,
+    "CEMU": 3,
+    "CERVIX": 1,
+    "CESC": 2,
+    "CHDM": 2,
+    "CHL": 4,
+    "CHOL": 3,
+    "CHRCC": 4,
+    "CHS": 2,
+    "CLNC": 3,
+    "CM": 3,
+    "CMCD": 4,
+    "CML": 4,
+    "CMLBCRABL1": 5,
+    "CMML": 4,
+    "CNC": 3,
+    "COAD": 3,
+    "COADREAD": 2,
+    "CPC": 3,
+    "CPT": 2,
+    "CSCC": 2,
+    "CUP": 2,
+    "DA": 3,
+    "DCIS": 2,
+    "DDCHS": 3,
+    "DDLS": 3,
+    "DESM": 3,
+    "DFL": 6,
+    "DFSP": 2,
+    "DHG": 4,
+    "DIA": 3,
+    "DIFG": 2,
+    "DLBCLCI": 5,
+    "DLBCLNOS": 5,
+    "DMBL": 3,
+    "DMG": 4,
+    "DNT": 3,
+    "DSRCT": 2,
+    "DTE": 2,
+    "EATL": 5,
+    "EBVMCU": 5,
+    "ECAD": 3,
+    "ECD": 4,
+    "EGC": 2,
+    "EHAE": 2,
+    "EHCH": 4,
+    "EMBT": 2,
+    "EMCHS": 3,
+    "EMPD": 2,
+    "EMYOCA": 3,
+    "ENCG": 2,
+    "EOV": 3,
+    "EPIS": 2,
+    "EPM": 3,
+    "EPMT": 2,
+    "ERMS": 3,
+    "ES": 2,
+    "ESCA": 3,
+    "ESCC": 2,
+    "ESS": 3,
+    "ESST": 2,
+    "ET": 4,
+    "ETANTR": 3,
+    "ETMF": 5,
+    "EVN": 3,
+    "EYE": 1,
+    "FA": 3,
+    "FIBS": 2,
+    "FL": 5,
+    "FLC": 2,
+    "FTCL": 5,
+    "GB": 4,
+    "GBC": 3,
+    "GCB": 6,
+    "GCT": 3,
+    "GCTB": 2,
+    "GEJ": 3,
+    "GINET": 2,
+    "GIST": 2,
+    "GMN": 3,
+    "GN": 2,
+    "GNBL": 2,
+    "GNC": 3,
+    "GNG": 3,
+    "GRCT": 3,
+    "GSARC": 5,
+    "GTD": 2,
+    "HCC": 2,
+    "HCL": 5,
+    "HDCN": 3,
+    "HEAD_NECK": 1,
+    "HEMA": 2,
+    "HGBCL": 5,
+    "HGBCLMYCBCL2": 5,
+    "HGNEC": 3,
+    "HL": 3,
+    "HMBL": 3,
+    "HNMUCM": 2,
+    "HNSC": 2,
+    "HPHSC": 3,
+    "HS": 4,
+    "HSTCL": 5,
+    "IBC": 2,
+    "ICPN": 2,
+    "IDCS": 4,
+    "IFS": 2,
+    "IHCH": 4,
+    "IMS": 2,
+    "IMT": 2,
+    "INTS": 2,
+    "IPMN": 3,
+    "IPN": 2,
+    "IVBCL": 5,
+    "JMML": 4,
+    "KIDNEY": 1,
+    "LAM": 2,
+    "LCH": 4,
+    "LCIS": 2,
+    "LCLC": 3,
+    "LDCHL": 5,
+    "LDD": 3,
+    "LECLC": 4,
+    "LGFMS": 2,
+    "LIAD": 2,
+    "LIHB": 2,
+    "LIPO": 2,
+    "LIVER": 1,
+    "LM": 2,
+    "LMS": 2,
+    "LNET": 2,
+    "LNM": 2,
+    "LPL": 5,
+    "LUAD": 3,
+    "LUAS": 3,
+    "LUCA": 3,
+    "LUNE": 3,
+    "LUNG": 1,
+    "LUSC": 3,
+    "LXSC": 3,
+    "LYG": 5,
+    "LYMPH": 1,
+    "LYP": 6,
+    "MAC": 2,
+    "MBC": 2,
+    "MBEN": 3,
+    "MBL": 3,
+    "MBLG3": 5,
+    "MBLG4": 5,
+    "MBLNWS": 4,
+    "MBN": 4,
+    "MBT": 2,
+    "MCBCL": 5,
+    "MCC": 2,
+    "MCCHL": 5,
+    "MCD": 3,
+    "MCHS": 3,
+    "MCL": 5,
+    "MCN": 3,
+    "MDEP": 3,
+    "MDS": 3,
+    "MDS/MPN": 3,
+    "MDSEB": 4,
+    "MDSMPNRST": 4,
+    "MEITL": 5,
+    "MEL": 2,
+    "MELC": 3,
+    "MFS": 2,
+    "MGUS": 5,
+    "MIDD": 5,
+    "MIDDA": 6,
+    "MLADS": 5,
+    "MMBC": 3,
+    "MNET": 2,
+    "MNG": 3,
+    "MNGT": 2,
+    "MNM": 2,
+    "MOV": 3,
+    "MP": 3,
+    "MPE": 3,
+    "MPN": 3,
+    "MPNST": 3,
+    "MPRDS": 4,
+    "MRC": 4,
+    "MS": 4,
+    "MT": 3,
+    "MTNN": 4,
+    "MUCC": 3,
+    "MUP": 3,
+    "MYCF": 5,
+    "MYCHS": 3,
+    "MYELOID": 1,
+    "MYXO": 2,
+    "MZL": 5,
+    "NBL": 2,
+    "NCCRCC": 3,
+    "NFIB": 3,
+    "NHL": 3,
+    "NMCHN": 3,
+    "NMZL": 6,
+    "NPC": 2,
+    "NPTLTFH": 5,
+    "NSCHL": 5,
+    "NSCLC": 2,
+    "NSGCT": 2,
+    "NST": 2,
+    "OCS": 3,
+    "OCSC": 3,
+    "OGCT": 2,
+    "OHNCA": 2,
+    "OM": 2,
+    "ONBL": 3,
+    "OPHSC": 3,
+    "OS": 2,
+    "OSMCA": 3,
+    "OTHER": 1,
+    "OVARY": 1,
+    "OVT": 2,
+    "PAAD": 2,
+    "PAASC": 2,
+    "PACT": 2,
+    "PADA": 3,
+    "PANCREAS": 1,
+    "PANEC": 2,
+    "PANET": 2,
+    "PAST": 3,
+    "PBL": 3,
+    "PBT": 3,
+    "PCALCL": 6,
+    "PCFCL": 5,
+    "PCLPD": 5,
+    "PCM": 5,
+    "PCNSL": 5,
+    "PCNSMT": 2,
+    "PDIFHG": 3,
+    "PDIFLG": 3,
+    "PECOMA": 2,
+    "PEL": 5,
+    "PEMESO": 2,
+    "PENIS": 1,
+    "PERITONEUM": 1,
+    "PERL": 5,
+    "PGNG": 2,
+    "PGNT": 3,
+    "PHC": 2,
+    "PHCH": 4,
+    "PINC": 3,
+    "PINT": 2,
+    "PLBL": 5,
+    "PLEURA": 1,
+    "PLLS": 3,
+    "PLMESO": 2,
+    "PLRMS": 3,
+    "PMA": 3,
+    "PMBL": 5,
+    "PMF": 4,
+    "PNET": 3,
+    "PNS": 1,
+    "POCA": 2,
+    "PPB": 2,
+    "PPM": 3,
+    "PPTID": 3,
+    "PRAD": 2,
+    "PRCC": 4,
+    "PRNE": 2,
+    "PROSTATE": 1,
+    "PRSCC": 2,
+    "PSC": 3,
+    "PSCC": 2,
+    "PTAD": 3,
+    "PTCA": 3,
+    "PTFL": 5,
+    "PTH": 2,
+    "PTHC": 3,
+    "PTPR": 3,
+    "PV": 4,
+    "PXA": 3,
+    "RAML": 4,
+    "RAS": 2,
+    "RBL": 2,
+    "RCC": 2,
+    "RDD": 4,
+    "READ": 3,
+    "RMS": 2,
+    "SACA": 2,
+    "SBC": 2,
+    "SCGBM": 5,
+    "SCHW": 3,
+    "SCLC": 3,
+    "SCRMS": 3,
+    "SCSRMS": 3,
+    "SCST": 2,
+    "SDCA": 3,
+    "SEBA": 2,
+    "SECOS": 3,
+    "SEF": 3,
+    "SELT": 2,
+    "SEM": 2,
+    "SFT": 2,
+    "SIC": 2,
+    "SKAC": 2,
+    "SKCM": 3,
+    "SKCN": 3,
+    "SKIN": 1,
+    "SKLMM": 3,
+    "SLCT": 3,
+    "SM": 4,
+    "SMMCL": 5,
+    "SMZL": 6,
+    "SNA": 3,
+    "SNSC": 3,
+    "SNUC": 3,
+    "SOC": 3,
+    "SOFT_TISSUE": 1,
+    "SPN": 2,
+    "SPTCL": 5,
+    "SRCC": 4,
+    "SS": 5,
+    "STAD": 3,
+    "STOMACH": 1,
+    "SUBE": 3,
+    "SYNS": 2,
+    "TESTIS": 1,
+    "TET": 2,
+    "TGCT": 2,
+    "THAP": 2,
+    "THFO": 3,
+    "THHC": 2,
+    "THME": 2,
+    "THPA": 3,
+    "THPD": 2,
+    "THRLBCL": 5,
+    "THYC": 3,
+    "THYM": 3,
+    "THYMUS": 1,
+    "THYROID": 1,
+    "TLGL": 5,
+    "TLL": 3,
+    "TLYM": 2,
+    "TMDS": 5,
+    "TMN": 4,
+    "TNET": 2,
+    "TPLL": 5,
+    "TSCST": 2,
+    "TSTAD": 4,
+    "TT": 3,
+    "UA": 3,
+    "UAD": 3,
+    "UAS": 3,
+    "UCA": 2,
+    "UCEC": 2,
+    "UCU": 3,
+    "ULM": 4,
+    "ULMS": 4,
+    "UM": 3,
+    "URCA": 2,
+    "URCC": 4,
+    "USARC": 2,
+    "USCC": 3,
+    "USMT": 3,
+    "UTERUS": 1,
+    "UTUC": 2,
+    "VA": 2,
+    "VDYS": 3,
+    "VGCT": 2,
+    "VPE": 3,
+    "VULVA": 1,
+    "WDTC": 2,
+    "WM": 6,
+    "WPSCC": 3,
+    "WT": 2,
+    "XGA": 4
+  },
+  "tissue_codes": {
+    "ADRENAL_GLAND": "Adrenal Gland",
+    "AMPULLA_OF_VATER": "Ampulla of Vater",
+    "BILIARY_TRACT": "Biliary Tract",
+    "BLADDER": "Bladder/Urinary Tract",
+    "BONE": "Bone",
+    "BOWEL": "Bowel",
+    "BRAIN": "CNS/Brain",
+    "BREAST": "Breast",
+    "CERVIX": "Cervix",
+    "EYE": "Eye",
+    "HEAD_NECK": "Head and Neck",
+    "KIDNEY": "Kidney",
+    "LIVER": "Liver",
+    "LUNG": "Lung",
+    "LYMPH": "Lymphoid",
+    "MYELOID": "Myeloid",
+    "OTHER": "Other",
+    "OVARY": "Ovary/Fallopian Tube",
+    "PANCREAS": "Pancreas",
+    "PENIS": "Penis",
+    "PERITONEUM": "Peritoneum",
+    "PLEURA": "Pleura",
+    "PNS": "Peripheral Nervous System",
+    "PROSTATE": "Prostate",
+    "SKIN": "Skin",
+    "SOFT_TISSUE": "Soft Tissue",
+    "STOMACH": "Esophagus/Stomach",
+    "TESTIS": "Testis",
+    "THYMUS": "Thymus",
+    "THYROID": "Thyroid",
+    "UTERUS": "Uterus",
+    "VULVA": "Vulva/Vagina"
+  },
+  "subtype_codes": {
+    "ABC": "Activated B-cell Type",
+    "ACA": "Adrenocortical Adenoma",
+    "ACC": "Adrenocortical Carcinoma",
+    "ACRM": "Acral Melanoma",
+    "ACYC": "Adenoid Cystic Carcinoma",
+    "ADIFG": "Adult-Type Diffuse Glioma",
+    "ADMA": "Adamantinoma",
+    "AECA": "Sweat Gland Carcinoma/Apocrine Eccrine Carcinoma",
+    "AFH": "Angiomatoid Fibrous Histiocytoma",
+    "AFX": "Atypical Fibroxanthoma",
+    "AGNG": "Anaplastic Ganglioglioma",
+    "AHCD": "Alpha Heavy-Chain Disease",
+    "AIS": "Adenocarcinoma In Situ",
+    "AITL": "Angioimmunoblastic T-Cell Lymphoma",
+    "ALCL": "Anaplastic Large Cell Lymphoma",
+    "ALT": "Atypical Lipomatous Tumor",
+    "AMKL": "Acute Megakaryoblastic Leukemia",
+    "AML": "Acute Myeloid Leukemia",
+    "AMLGATA2MECOM": "AML with inv(3)(q21.3q26.2) or t(3;3)(q21.3;q26.2); GATA2, MECOM",
+    "AMLMRC": "AML with Myelodysplasia-Related Changes",
+    "AMLNOS": "AML, NOS",
+    "AMLRGA": "AML with Recurrent Genetic Abnormalities",
+    "AMPCA": "Ampullary Carcinoma",
+    "ANGL": "Angiocentric Glioma",
+    "ANGS": "Angiosarcoma",
+    "ANM": "Anaplastic Meningioma",
+    "ANSC": "Anal Squamous Cell Carcinoma",
+    "APAD": "Appendiceal Adenocarcinoma",
+    "APE": "Anaplastic Ependymoma",
+    "APXA": "Anaplastic Pleomorphic Xanthoastrocytoma",
+    "ARMS": "Alveolar Rhabdomyosarcoma",
+    "ASPS": "Alveolar Soft Part Sarcoma",
+    "ASTR": "Astrocytoma, IDH-Mutant",
+    "ATLL": "Adult T-Cell Leukemia/Lymphoma",
+    "ATM": "Atypical Meningioma",
+    "ATRT": "Atypical Teratoid/Rhabdoid Tumor",
+    "BCC": "Basal Cell Carcinoma",
+    "BCCA": "Choriocarcinoma",
+    "BEC": "Embryonal Carcinoma",
+    "BFN": "Breast Fibroepithelial Neoplasms",
+    "BGCT": "Germ Cell Tumor, Brain",
+    "BIMT": "Immature Teratoma",
+    "BL": "Burkitt Lymphoma",
+    "BLAD": "Bladder Adenocarcinoma",
+    "BLCA": "Bladder Urothelial Carcinoma",
+    "BLL": "B-Lymphoblastic Leukemia/Lymphoma",
+    "BLL11Q": "Burkitt-Like Lymphoma with 11q Aberration",
+    "BLLKMT2A": "B-Lymphoblastic Leukemia/Lymphoma with t(v;11q23.3);KMT2A Rearranged",
+    "BLLRGA": "B-Lymphoblastic Leukemia/Lymphoma with Recurrent Genetic Abnormalities",
+    "BLSC": "Bladder Squamous Cell Carcinoma",
+    "BMGCT": "Mixed Germ Cell Tumor",
+    "BMT": "Mature Teratoma",
+    "BPDCN": "Blastic Plasmacytoid Dendritic Cell Neoplasm",
+    "BPLL": "B-Cell Prolymphocytic Leukemia",
+    "BRCA": "Invasive Breast Carcinoma",
+    "BTOV": "Brenner Tumor",
+    "BYST": "Yolk Sac Tumor",
+    "CCE": "Clear Cell Ependymoma",
+    "CCHM": "Carcinoma with Chondroid Metaplasia",
+    "CCOV": "Clear Cell Ovarian Cancer",
+    "CCRCC": "Renal Clear Cell Carcinoma",
+    "CCS": "Clear Cell Sarcoma",
+    "CDRCC": "Collecting Duct Renal Cell Carcinoma",
+    "CEAD": "Cervical Adenocarcinoma",
+    "CEAIS": "Cervical Adenocarcinoma In Situ",
+    "CEAS": "Cervical Adenosquamous Carcinoma",
+    "CEMU": "Mucinous Carcinoma",
+    "CESC": "Cervical Squamous Cell Carcinoma",
+    "CHDM": "Chordoma",
+    "CHL": "Classical Hodgkin Lymphoma",
+    "CHOL": "Cholangiocarcinoma",
+    "CHRCC": "Chromophobe Renal Cell Carcinoma",
+    "CHS": "Chondrosarcoma",
+    "CLNC": "Cerebellar Liponeurocytoma",
+    "CM": "Conjunctival Melanoma",
+    "CMCD": "Cutaneous Mastocytosis",
+    "CML": "Chronic Myelogenous Leukemia",
+    "CMLBCRABL1": "Chronic Myeloid Leukemia, BCR-ABL1+",
+    "CMML": "Chronic Myelomonocytic Leukemia",
+    "CNC": "Central Neurocytoma",
+    "COAD": "Colon Adenocarcinoma",
+    "COADREAD": "Colorectal Adenocarcinoma",
+    "CPC": "Choroid Plexus Carcinoma",
+    "CPT": "Choroid Plexus Tumor",
+    "CSCC": "Cutaneous Squamous Cell Carcinoma",
+    "CUP": "Cancer of Unknown Primary",
+    "DA": "Duodenal Adenocarcinoma",
+    "DCIS": "Breast Ductal Carcinoma In Situ",
+    "DDCHS": "Dedifferentiated Chondrosarcoma",
+    "DDLS": "Dedifferentiated Liposarcoma",
+    "DESM": "Desmoplastic Melanoma",
+    "DFL": "Duodenal-Type Follicular Lymphoma",
+    "DFSP": "Dermatofibrosarcoma Protuberans",
+    "DHG": "Diffuse Hemispheric Glioma, H3 G34-Mutant",
+    "DIA": "Desmoplastic Infantile Astrocytoma",
+    "DIFG": "Diffuse Glioma",
+    "DLBCLCI": "DLBCL Associated with Chronic Inflammation",
+    "DLBCLNOS": "Diffuse Large B-Cell Lymphoma, NOS",
+    "DMBL": "Desmoplastic/Nodular Medulloblastoma",
+    "DMG": "Diffuse Midline Glioma, H3 K27-Altered",
+    "DNT": "Dysembryoplastic Neuroepithelial Tumor",
+    "DSRCT": "Desmoplastic Small-Round-Cell Tumor",
+    "DTE": "Desmoplastic Trichoepithelioma",
+    "EATL": "Enteropathy-Associated T-Cell Lymphoma",
+    "EBVMCU": "EBV Positive Mucocutaneous Ulcer",
+    "ECAD": "Endocervical Adenocarcinoma",
+    "ECD": "Erdheim-Chester Disease",
+    "EGC": "Esophagogastric Adenocarcinoma",
+    "EHAE": "Epithelioid Hemangioendothelioma",
+    "EHCH": "Extrahepatic Cholangiocarcinoma",
+    "EMBT": "Embryonal Tumor",
+    "EMCHS": "Extraskeletal Myxoid Chondrosarcoma",
+    "EMPD": "Extramammary Paget Disease",
+    "EMYOCA": "Epithelial-Myoepithelial Carcinoma",
+    "ENCG": "Encapsulated Glioma",
+    "EOV": "Endometrioid Ovarian Cancer",
+    "EPIS": "Epithelioid Sarcoma",
+    "EPM": "Ependymoma",
+    "EPMT": "Ependymomal Tumor",
+    "ERMS": "Embryonal Rhabdomyosarcoma",
+    "ES": "Ewing Sarcoma",
+    "ESCA": "Esophageal Adenocarcinoma",
+    "ESCC": "Esophageal Squamous Cell Carcinoma",
+    "ESS": "Endometrial Stromal Sarcoma",
+    "ESST": "Ewing Sarcoma of Soft Tissue",
+    "ET": "Essential Thrombocythemia",
+    "ETANTR": "Embryonal Tumor with Abundant Neuropil and True Rosettes",
+    "ETMF": "Essential Thrombocythemia Myelofibrosis",
+    "EVN": "Extraventricular Neurocytoma",
+    "FA": "Fibroadenoma",
+    "FIBS": "Fibrosarcoma",
+    "FL": "Follicular Lymphoma",
+    "FLC": "Fibrolamellar Carcinoma",
+    "FTCL": "Follicular T-Cell Lymphoma",
+    "GB": "Glioblastoma, IDH-Wildtype",
+    "GBC": "Gallbladder Cancer",
+    "GCB": "Germinal Center B-Cell Type",
+    "GCT": "Granular Cell Tumor",
+    "GCTB": "Giant Cell Tumor of Bone",
+    "GEJ": "Adenocarcinoma of the Gastroesophageal Junction",
+    "GINET": "Gastrointestinal Neuroendocrine Tumors",
+    "GIST": "Gastrointestinal Stromal Tumor",
+    "GMN": "Germinoma",
+    "GN": "Ganglioneuroma",
+    "GNBL": "Ganglioneuroblastoma",
+    "GNC": "Gangliocytoma",
+    "GNG": "Ganglioglioma",
+    "GRCT": "Granulosa Cell Tumor",
+    "GSARC": "Gliosarcoma",
+    "GTD": "Gestational Trophoblastic Disease",
+    "HCC": "Hepatocellular Carcinoma",
+    "HCL": "Hairy Cell Leukemia",
+    "HDCN": "Histiocytic and Dendritic Cell Neoplasms",
+    "HEMA": "Hemangioma",
+    "HGBCL": "High-Grade B-Cell Lymphoma, NOS",
+    "HGBCLMYCBCL2": "High-Grade B-Cell Lymphoma, with MYC and BCL2 and/or BCL6 Rearrangements",
+    "HGNEC": "High-Grade Neuroendocrine Carcinoma of the Colon and Rectum",
+    "HL": "Hodgkin Lymphoma",
+    "HMBL": "Hemangioblastoma",
+    "HNMUCM": "Head and Neck Mucosal Melanoma",
+    "HNSC": "Head and Neck Squamous Cell Carcinoma",
+    "HPHSC": "Hypopharynx Squamous Cell Carcinoma",
+    "HS": "Histiocytic Sarcoma",
+    "HSTCL": "Hepatosplenic T-cell Lymphoma",
+    "IBC": "Inflammatory Breast Cancer",
+    "ICPN": "Intracholecystic Papillary Neoplasm",
+    "IDCS": "Interdigitating Dendritic Cell Sarcoma",
+    "IFS": "Infantile Fibrosarcoma",
+    "IHCH": "Intrahepatic Cholangiocarcinoma",
+    "IMS": "Myofibromatosis",
+    "IMT": "Inflammatory Myofibroblastic Tumor",
+    "INTS": "Intimal Sarcoma",
+    "IPMN": "Intraductal Papillary Mucinous Neoplasm",
+    "IPN": "Intraductal Papillary Neoplasm of the Bile Duct",
+    "IVBCL": "Intravascular Large B-Cell Lymphoma",
+    "JMML": "Juvenile Myelomonocytic Leukemia",
+    "LAM": "Pulmonary Lymphangiomyomatosis",
+    "LCH": "Langerhans Cell Histiocytosis",
+    "LCIS": "Breast Lobular Carcinoma In Situ",
+    "LCLC": "Large Cell Lung Carcinoma",
+    "LDCHL": "Lymphocyte-Depleted Classical Hodgkin Lymphoma",
+    "LDD": "Dysplastic Gangliocytoma of the Cerebellum/Lhermitte-Duclos Disease",
+    "LECLC": "Lymphoepithelioma-like Carcinoma of the Lung",
+    "LGFMS": "Low-Grade Fibromyxoid Sarcoma",
+    "LIAD": "Hepatocellular Adenoma",
+    "LIHB": "Hepatoblastoma",
+    "LIPO": "Liposarcoma",
+    "LM": "Leiomyoma",
+    "LMS": "Leiomyosarcoma",
+    "LNET": "Lung Neuroendocrine Tumor",
+    "LNM": "Lymphoid Neoplasm",
+    "LPL": "Lymphoplasmacytic Lymphoma",
+    "LUAD": "Lung Adenocarcinoma",
+    "LUAS": "Lung Adenosquamous Carcinoma",
+    "LUCA": "Lung Carcinoid",
+    "LUNE": "Large Cell Neuroendocrine Carcinoma",
+    "LUSC": "Lung Squamous Cell Carcinoma",
+    "LXSC": "Larynx Squamous Cell Carcinoma",
+    "LYG": "Lymphomatoid Granulomatosis",
+    "LYP": "Lymphomatoid Papulosis",
+    "MAC": "Microcystic Adnexal Carcinoma",
+    "MBC": "Metaplastic Breast Cancer",
+    "MBEN": "Medulloblastoma with Extensive Nodularity",
+    "MBL": "Medulloblastoma",
+    "MBLG3": "Medulloblastoma, Group 3",
+    "MBLG4": "Medulloblastoma, Group 4",
+    "MBLNWS": "Medulloblastoma, Non-WNT, Non-SHH",
+    "MBN": "Mature B-Cell Neoplasms",
+    "MBT": "Miscellaneous Brain Tumor",
+    "MCBCL": "Monoclonal B-Cell Lymphocytosis",
+    "MCC": "Merkel Cell Carcinoma",
+    "MCCHL": "Mixed Cellularity Classical Hodgkin Lymphoma",
+    "MCD": "Mastocytosis",
+    "MCHS": "Mesenchymal Chondrosarcoma",
+    "MCL": "Mantle Cell Lymphoma",
+    "MCN": "Mucinous Cystic Neoplasm",
+    "MDEP": "Medulloepithelioma",
+    "MDS": "Myelodysplastic Syndromes",
+    "MDS/MPN": "Myelodysplastic/Myeloproliferative Neoplasms",
+    "MDSEB": "MDS with Excess Blasts",
+    "MDSMPNRST": "MDS/MPN with Ring Sideroblasts and Thrombocytosis",
+    "MEITL": "Monomorphic Epitheliotropic Intestinal T-Cell Lymphoma",
+    "MEL": "Melanoma",
+    "MELC": "Melanocytoma",
+    "MFS": "Myxofibrosarcoma",
+    "MGUS": "Monoclonal Gammopathy of Undetermined Significance",
+    "MIDD": "Monoclonal Immunoglobulin Deposition Diseases",
+    "MIDDA": "Amyloidosis",
+    "MLADS": "Myeloid Leukemia Associated with Down Syndrome",
+    "MMBC": "Mixed Type Metaplastic Breast Cancer",
+    "MNET": "Miscellaneous Neuroepithelial Tumor",
+    "MNG": "Meningioma",
+    "MNGT": "Meningothelial Tumor",
+    "MNM": "Myeloid Neoplasm",
+    "MOV": "Mucinous Ovarian Cancer",
+    "MP": "Molar Pregnancy",
+    "MPE": "Myxopapillary Ependymoma",
+    "MPN": "Myeloproliferative Neoplasms",
+    "MPNST": "Malignant Peripheral Nerve Sheath Tumor",
+    "MPRDS": "Myeloid Proliferations Related to Down Syndrome",
+    "MRC": "Renal Medullary Carcinoma",
+    "MS": "Myeloid Sarcoma",
+    "MT": "Malignant Tumor",
+    "MTNN": "Mature T and NK Neoplasms",
+    "MUCC": "Mucoepidermoid Carcinoma",
+    "MUP": "Melanoma of Unknown Primary",
+    "MYCF": "Mycosis Fungoides",
+    "MYCHS": "Myxoid Chondrosarcoma",
+    "MYXO": "Myxoma",
+    "MZL": "Marginal Zone Lymphoma",
+    "NBL": "Neuroblastoma",
+    "NCCRCC": "Renal Non-Clear Cell Carcinoma",
+    "NFIB": "Neurofibroma",
+    "NHL": "Non-Hodgkin Lymphoma",
+    "NMCHN": "NUT Midline Carcinoma of the Head and Neck",
+    "NMZL": "Nodal Marginal Zone Lymphoma",
+    "NPC": "Nasopharyngeal Carcinoma",
+    "NPTLTFH": "Nodal Peripheral T-Cell Lymphoma with TFH Phenotype",
+    "NSCHL": "Nodular Sclerosis Classical Hodgkin Lymphoma",
+    "NSCLC": "Non-Small Cell Lung Cancer",
+    "NSGCT": "Non-Seminomatous Germ Cell Tumor",
+    "NST": "Nerve Sheath Tumor",
+    "OCS": "Ovarian Carcinosarcoma/Malignant Mixed Mesodermal Tumor",
+    "OCSC": "Oral Cavity Squamous Cell Carcinoma",
+    "OGCT": "Ovarian Germ Cell Tumor",
+    "OHNCA": "Head and Neck Carcinoma, Other",
+    "OM": "Ocular Melanoma",
+    "ONBL": "Olfactory Neuroblastoma",
+    "OPHSC": "Oropharynx Squamous Cell Carcinoma",
+    "OS": "Osteosarcoma",
+    "OSMCA": "Ovarian Seromucinous Carcinoma",
+    "OVT": "Ovarian Epithelial Tumor",
+    "PAAD": "Pancreatic Adenocarcinoma",
+    "PAASC": "Adenosquamous Carcinoma of the Pancreas",
+    "PACT": "Cystic Tumor of the Pancreas",
+    "PADA": "Pleomorphic Adenoma",
+    "PANEC": "Pancreatic Neuroendocrine Carcinoma",
+    "PANET": "Pancreatic Neuroendocrine Tumor",
+    "PAST": "Pilocytic Astrocytoma",
+    "PBL": "Pineoblastoma",
+    "PBT": "Primary Brain Tumor",
+    "PCALCL": "Primary Cutaneous Anaplastic Large Cell Lymphoma",
+    "PCFCL": "Primary Cutaneous Follicle Center Lymphoma",
+    "PCLPD": "Primary Cutaneous CD30 Positive T-Cell Lymphoproliferative Disorders",
+    "PCM": "Plasma Cell Myeloma",
+    "PCNSL": "Primary DLBCL of the central nervous system",
+    "PCNSMT": "Primary CNS Melanocytic Tumors",
+    "PDIFHG": "Pediatric-Type Diffuse High-Grade Glioma",
+    "PDIFLG": "Pediatric-Type Diffuse Low-Grade Glioma",
+    "PECOMA": "Perivascular Epithelioid Cell Tumor",
+    "PEL": "Primary Effusion Lymphoma",
+    "PEMESO": "Peritoneal Mesothelioma",
+    "PERL": "Pure Erythroid Leukemia",
+    "PGNG": "Paraganglioma",
+    "PGNT": "Papillary Glioneuronal Tumor",
+    "PHC": "Pheochromocytoma",
+    "PHCH": "Perihilar Cholangiocarcinoma",
+    "PINC": "Pineocytoma",
+    "PINT": "Pineal Tumor",
+    "PLBL": "Plasmablastic Lymphoma",
+    "PLLS": "Pleomorphic Liposarcoma",
+    "PLMESO": "Pleural Mesothelioma",
+    "PLRMS": "Pleomorphic Rhabdomyosarcoma",
+    "PMA": "Pilomyxoid Astrocytoma",
+    "PMBL": "Primary Mediastinal (Thymic) Large B-Cell Lymphoma",
+    "PMF": "Primary Myelofibrosis",
+    "PNET": "Primitive Neuroectodermal Tumor",
+    "POCA": "Porocarcinoma/Spiroadenocarcinoma",
+    "PPB": "Pleuropulmonary Blastoma",
+    "PPM": "Papillary Meningioma",
+    "PPTID": "Pineal Parenchymal Tumor of Intermediate Differentiation",
+    "PRAD": "Prostate Adenocarcinoma",
+    "PRCC": "Papillary Renal Cell Carcinoma",
+    "PRNE": "Prostate Neuroendocrine Carcinoma",
+    "PRSCC": "Prostate Small Cell Carcinoma",
+    "PSC": "Serous Cystadenoma of the Pancreas",
+    "PSCC": "Penile Squamous Cell Carcinoma",
+    "PTAD": "Pituitary Adenoma",
+    "PTCA": "Pituitary Carcinoma",
+    "PTFL": "Pediatric-Type Follicular Lymphoma",
+    "PTH": "Parathyroid Cancer",
+    "PTHC": "Parathyroid Carcinoma",
+    "PTPR": "Papillary Tumor of the Pineal Region",
+    "PV": "Polycythemia Vera",
+    "PXA": "Pleomorphic Xanthoastrocytoma",
+    "RAML": "Renal Angiomyolipoma",
+    "RAS": "Radiation-Associated Sarcoma",
+    "RBL": "Retinoblastoma",
+    "RCC": "Renal Cell Carcinoma",
+    "RDD": "Rosai-Dorfman Disease",
+    "READ": "Rectal Adenocarcinoma",
+    "RMS": "Rhabdomyosarcoma",
+    "SACA": "Salivary Carcinoma",
+    "SBC": "Small Bowel Cancer",
+    "SCGBM": "Small Cell Glioblastoma",
+    "SCHW": "Schwannoma",
+    "SCLC": "Small Cell Lung Cancer",
+    "SCRMS": "Spindle Cell Rhabdomyosarcoma",
+    "SCSRMS": "Spindle Cell/Sclerosing Rhabdomyosarcoma",
+    "SCST": "Sex Cord Stromal Tumor",
+    "SDCA": "Salivary Duct Carcinoma",
+    "SEBA": "Sebaceous Carcinoma",
+    "SECOS": "Secondary Osteosarcoma",
+    "SEF": "Sclerosing Epithelioid Fibrosarcoma",
+    "SELT": "Sellar Tumor",
+    "SEM": "Seminoma",
+    "SFT": "Solitary Fibrous Tumor/Hemangiopericytoma",
+    "SIC": "Small Intestinal Carcinoma",
+    "SKAC": "Skin Adnexal Carcinoma",
+    "SKCM": "Cutaneous Melanoma",
+    "SKCN": "Congenital Nevus",
+    "SKLMM": "Lentigo Maligna Melanoma",
+    "SLCT": "Sertoli-Leydig Cell Tumor",
+    "SM": "Systemic Mastocytosis",
+    "SMMCL": "Mast Cell Leukemia",
+    "SMZL": "Splenic Marginal Zone Lymphoma",
+    "SNA": "Sinonasal Adenocarcinoma",
+    "SNSC": "Sinonasal Squamous Cell Carcinoma",
+    "SNUC": "Sinonasal Undifferentiated Carcinoma",
+    "SOC": "Serous Ovarian Cancer",
+    "SPN": "Solid Pseudopapillary Neoplasm of the Pancreas",
+    "SPTCL": "Subcutaneous Panniculitis-Like T-Cell Lymphoma",
+    "SRCC": "Sarcomatoid Renal Cell Carcinoma",
+    "SS": "Sezary Syndrome",
+    "STAD": "Stomach Adenocarcinoma",
+    "SUBE": "Subependymoma",
+    "SYNS": "Synovial Sarcoma",
+    "TET": "Thymic Epithelial Tumor",
+    "TGCT": "Tenosynovial Giant Cell Tumor Diffuse Type",
+    "THAP": "Anaplastic Thyroid Cancer",
+    "THFO": "Follicular Thyroid Cancer",
+    "THHC": "Hurthle Cell Thyroid Cancer",
+    "THME": "Medullary Thyroid Cancer",
+    "THPA": "Papillary Thyroid Cancer",
+    "THPD": "Poorly Differentiated Thyroid Cancer",
+    "THRLBCL": "T-Cell/Histiocyte-Rich Large B-Cell Lymphoma",
+    "THYC": "Thymic Carcinoma",
+    "THYM": "Thymoma",
+    "TLGL": "T-Cell Large Granular Lymphocytic Leukemia",
+    "TLL": "T-Lymphoblastic Leukemia/Lymphoma",
+    "TLYM": "Testicular Lymphoma",
+    "TMDS": "Therapy-Related Myelodysplastic Syndrome",
+    "TMN": "Therapy-Related Myeloid Neoplasms",
+    "TNET": "Thymic Neuroendocrine Tumor",
+    "TPLL": "T-Cell Prolymphocytic Leukemia",
+    "TSCST": "Sex Cord Stromal Tumor",
+    "TSTAD": "Tubular Stomach Adenocarcinoma",
+    "TT": "Teratoma",
+    "UA": "Urachal Adenocarcinoma",
+    "UAD": "Urethral Adenocarcinoma",
+    "UAS": "Uterine Adenosarcoma",
+    "UCA": "Urethral Cancer",
+    "UCEC": "Endometrial Carcinoma",
+    "UCU": "Urethral Urothelial Carcinoma",
+    "ULM": "Uterine Leiomyoma",
+    "ULMS": "Uterine Leiomyosarcoma",
+    "UM": "Uveal Melanoma",
+    "URCA": "Urachal Carcinoma",
+    "URCC": "Unclassified Renal Cell Carcinoma",
+    "USARC": "Uterine Sarcoma/Mesenchymal",
+    "USCC": "Urethral Squamous Cell Carcinoma",
+    "USMT": "Uterine Smooth Muscle Tumor",
+    "UTUC": "Upper Tract Urothelial Carcinoma",
+    "VA": "Vaginal Adenocarcinoma",
+    "VDYS": "Dysgerminoma",
+    "VGCT": "Germ Cell Tumor of the Vulva",
+    "VPE": "Polyembryoma",
+    "WDTC": "Well-Differentiated Thyroid Cancer",
+    "WM": "Waldenstrom Macroglobulinemia",
+    "WPSCC": "Warty Penile Squamous Cell Carcinoma",
+    "WT": "Wilms' Tumor",
+    "XGA": "Xanthogranuloma"
+  },
+  "name_to_oncotree": {
+    "acral melanoma": "ACRM",
+    "activated b-cell type": "ABC",
+    "acute megakaryoblastic leukemia": "AMKL",
+    "acute myeloid leukemia": "AML",
+    "adamantinoma": "ADMA",
+    "adenocarcinoma in situ": "AIS",
+    "adenocarcinoma of the gastroesophageal junction": "GEJ",
+    "adenoid cystic carcinoma": "ACYC",
+    "adenosquamous carcinoma of the pancreas": "PAASC",
+    "adrenal gland": "ADRENAL_GLAND",
+    "adrenocortical adenoma": "ACA",
+    "adrenocortical carcinoma": "ACC",
+    "adult t-cell leukemia/lymphoma": "ATLL",
+    "adult-type diffuse glioma": "ADIFG",
+    "alpha heavy-chain disease": "AHCD",
+    "alveolar rhabdomyosarcoma": "ARMS",
+    "alveolar soft part sarcoma": "ASPS",
+    "aml with inv(3)(q21.3q26.2) or t(3;3)(q21.3;q26.2); gata2, mecom": "AMLGATA2MECOM",
+    "aml with myelodysplasia-related changes": "AMLMRC",
+    "aml with recurrent genetic abnormalities": "AMLRGA",
+    "aml, nos": "AMLNOS",
+    "ampulla of vater": "AMPULLA_OF_VATER",
+    "ampullary carcinoma": "AMPCA",
+    "amyloidosis": "MIDDA",
+    "anal squamous cell carcinoma": "ANSC",
+    "anaplastic ependymoma": "APE",
+    "anaplastic ganglioglioma": "AGNG",
+    "anaplastic large cell lymphoma": "ALCL",
+    "anaplastic meningioma": "ANM",
+    "anaplastic pleomorphic xanthoastrocytoma": "APXA",
+    "anaplastic thyroid cancer": "THAP",
+    "angiocentric glioma": "ANGL",
+    "angioimmunoblastic t-cell lymphoma": "AITL",
+    "angiomatoid fibrous histiocytoma": "AFH",
+    "angiosarcoma": "ANGS",
+    "appendiceal adenocarcinoma": "APAD",
+    "astrocytoma, idh-mutant": "ASTR",
+    "atypical fibroxanthoma": "AFX",
+    "atypical lipomatous tumor": "ALT",
+    "atypical meningioma": "ATM",
+    "atypical teratoid/rhabdoid tumor": "ATRT",
+    "b-cell prolymphocytic leukemia": "BPLL",
+    "b-lymphoblastic leukemia/lymphoma": "BLL",
+    "b-lymphoblastic leukemia/lymphoma with recurrent genetic abnormalities": "BLLRGA",
+    "b-lymphoblastic leukemia/lymphoma with t(v;11q23.3);kmt2a rearranged": "BLLKMT2A",
+    "basal cell carcinoma": "BCC",
+    "biliary tract": "BILIARY_TRACT",
+    "bladder adenocarcinoma": "BLAD",
+    "bladder squamous cell carcinoma": "BLSC",
+    "bladder urothelial carcinoma": "BLCA",
+    "bladder/urinary tract": "BLADDER",
+    "blastic plasmacytoid dendritic cell neoplasm": "BPDCN",
+    "bone": "BONE",
+    "bowel": "BOWEL",
+    "breast": "BREAST",
+    "breast ductal carcinoma in situ": "DCIS",
+    "breast fibroepithelial neoplasms": "BFN",
+    "breast lobular carcinoma in situ": "LCIS",
+    "brenner tumor": "BTOV",
+    "burkitt lymphoma": "BL",
+    "burkitt-like lymphoma with 11q aberration": "BLL11Q",
+    "cancer of unknown primary": "CUP",
+    "carcinoma with chondroid metaplasia": "CCHM",
+    "central neurocytoma": "CNC",
+    "cerebellar liponeurocytoma": "CLNC",
+    "cervical adenocarcinoma": "CEAD",
+    "cervical adenocarcinoma in situ": "CEAIS",
+    "cervical adenosquamous carcinoma": "CEAS",
+    "cervical squamous cell carcinoma": "CESC",
+    "cervix": "CERVIX",
+    "cholangiocarcinoma": "CHOL",
+    "chondrosarcoma": "CHS",
+    "chordoma": "CHDM",
+    "choriocarcinoma": "BCCA",
+    "choroid plexus carcinoma": "CPC",
+    "choroid plexus tumor": "CPT",
+    "chromophobe renal cell carcinoma": "CHRCC",
+    "chronic myelogenous leukemia": "CML",
+    "chronic myeloid leukemia, bcr-abl1+": "CMLBCRABL1",
+    "chronic myelomonocytic leukemia": "CMML",
+    "classical hodgkin lymphoma": "CHL",
+    "clear cell ependymoma": "CCE",
+    "clear cell ovarian cancer": "CCOV",
+    "clear cell sarcoma": "CCS",
+    "cns/brain": "BRAIN",
+    "collecting duct renal cell carcinoma": "CDRCC",
+    "colon adenocarcinoma": "COAD",
+    "colorectal adenocarcinoma": "COADREAD",
+    "congenital nevus": "SKCN",
+    "conjunctival melanoma": "CM",
+    "cutaneous mastocytosis": "CMCD",
+    "cutaneous melanoma": "SKCM",
+    "cutaneous squamous cell carcinoma": "CSCC",
+    "cystic tumor of the pancreas": "PACT",
+    "dedifferentiated chondrosarcoma": "DDCHS",
+    "dedifferentiated liposarcoma": "DDLS",
+    "dermatofibrosarcoma protuberans": "DFSP",
+    "desmoplastic infantile astrocytoma": "DIA",
+    "desmoplastic melanoma": "DESM",
+    "desmoplastic small-round-cell tumor": "DSRCT",
+    "desmoplastic trichoepithelioma": "DTE",
+    "desmoplastic/nodular medulloblastoma": "DMBL",
+    "diffuse glioma": "DIFG",
+    "diffuse hemispheric glioma, h3 g34-mutant": "DHG",
+    "diffuse large b-cell lymphoma, nos": "DLBCLNOS",
+    "diffuse midline glioma, h3 k27-altered": "DMG",
+    "dlbcl associated with chronic inflammation": "DLBCLCI",
+    "duodenal adenocarcinoma": "DA",
+    "duodenal-type follicular lymphoma": "DFL",
+    "dysembryoplastic neuroepithelial tumor": "DNT",
+    "dysgerminoma": "VDYS",
+    "dysplastic gangliocytoma of the cerebellum/lhermitte-duclos disease": "LDD",
+    "ebv positive mucocutaneous ulcer": "EBVMCU",
+    "embryonal carcinoma": "BEC",
+    "embryonal rhabdomyosarcoma": "ERMS",
+    "embryonal tumor": "EMBT",
+    "embryonal tumor with abundant neuropil and true rosettes": "ETANTR",
+    "encapsulated glioma": "ENCG",
+    "endocervical adenocarcinoma": "ECAD",
+    "endometrial carcinoma": "UCEC",
+    "endometrial stromal sarcoma": "ESS",
+    "endometrioid ovarian cancer": "EOV",
+    "enteropathy-associated t-cell lymphoma": "EATL",
+    "ependymoma": "EPM",
+    "ependymomal tumor": "EPMT",
+    "epithelial-myoepithelial carcinoma": "EMYOCA",
+    "epithelioid hemangioendothelioma": "EHAE",
+    "epithelioid sarcoma": "EPIS",
+    "erdheim-chester disease": "ECD",
+    "esophageal adenocarcinoma": "ESCA",
+    "esophageal squamous cell carcinoma": "ESCC",
+    "esophagogastric adenocarcinoma": "EGC",
+    "esophagus/stomach": "STOMACH",
+    "essential thrombocythemia": "ET",
+    "essential thrombocythemia myelofibrosis": "ETMF",
+    "ewing sarcoma": "ES",
+    "ewing sarcoma of soft tissue": "ESST",
+    "extrahepatic cholangiocarcinoma": "EHCH",
+    "extramammary paget disease": "EMPD",
+    "extraskeletal myxoid chondrosarcoma": "EMCHS",
+    "extraventricular neurocytoma": "EVN",
+    "eye": "EYE",
+    "fibroadenoma": "FA",
+    "fibrolamellar carcinoma": "FLC",
+    "fibrosarcoma": "FIBS",
+    "follicular lymphoma": "FL",
+    "follicular t-cell lymphoma": "FTCL",
+    "follicular thyroid cancer": "THFO",
+    "gallbladder cancer": "GBC",
+    "gangliocytoma": "GNC",
+    "ganglioglioma": "GNG",
+    "ganglioneuroblastoma": "GNBL",
+    "ganglioneuroma": "GN",
+    "gastrointestinal neuroendocrine tumors": "GINET",
+    "gastrointestinal stromal tumor": "GIST",
+    "germ cell tumor of the vulva": "VGCT",
+    "germ cell tumor, brain": "BGCT",
+    "germinal center b-cell type": "GCB",
+    "germinoma": "GMN",
+    "gestational trophoblastic disease": "GTD",
+    "giant cell tumor of bone": "GCTB",
+    "glioblastoma, idh-wildtype": "GB",
+    "gliosarcoma": "GSARC",
+    "granular cell tumor": "GCT",
+    "granulosa cell tumor": "GRCT",
+    "hairy cell leukemia": "HCL",
+    "head and neck": "HEAD_NECK",
+    "head and neck carcinoma, other": "OHNCA",
+    "head and neck mucosal melanoma": "HNMUCM",
+    "head and neck squamous cell carcinoma": "HNSC",
+    "hemangioblastoma": "HMBL",
+    "hemangioma": "HEMA",
+    "hepatoblastoma": "LIHB",
+    "hepatocellular adenoma": "LIAD",
+    "hepatocellular carcinoma": "HCC",
+    "hepatosplenic t-cell lymphoma": "HSTCL",
+    "high-grade b-cell lymphoma, nos": "HGBCL",
+    "high-grade b-cell lymphoma, with myc and bcl2 and/or bcl6 rearrangements": "HGBCLMYCBCL2",
+    "high-grade neuroendocrine carcinoma of the colon and rectum": "HGNEC",
+    "histiocytic and dendritic cell neoplasms": "HDCN",
+    "histiocytic sarcoma": "HS",
+    "hodgkin lymphoma": "HL",
+    "hurthle cell thyroid cancer": "THHC",
+    "hypopharynx squamous cell carcinoma": "HPHSC",
+    "immature teratoma": "BIMT",
+    "infantile fibrosarcoma": "IFS",
+    "inflammatory breast cancer": "IBC",
+    "inflammatory myofibroblastic tumor": "IMT",
+    "interdigitating dendritic cell sarcoma": "IDCS",
+    "intimal sarcoma": "INTS",
+    "intracholecystic papillary neoplasm": "ICPN",
+    "intraductal papillary mucinous neoplasm": "IPMN",
+    "intraductal papillary neoplasm of the bile duct": "IPN",
+    "intrahepatic cholangiocarcinoma": "IHCH",
+    "intravascular large b-cell lymphoma": "IVBCL",
+    "invasive breast carcinoma": "BRCA",
+    "juvenile myelomonocytic leukemia": "JMML",
+    "kidney": "KIDNEY",
+    "langerhans cell histiocytosis": "LCH",
+    "large cell lung carcinoma": "LCLC",
+    "large cell neuroendocrine carcinoma": "LUNE",
+    "larynx squamous cell carcinoma": "LXSC",
+    "leiomyoma": "LM",
+    "leiomyosarcoma": "LMS",
+    "lentigo maligna melanoma": "SKLMM",
+    "liposarcoma": "LIPO",
+    "liver": "LIVER",
+    "low-grade fibromyxoid sarcoma": "LGFMS",
+    "lung": "LUNG",
+    "lung adenocarcinoma": "LUAD",
+    "lung adenosquamous carcinoma": "LUAS",
+    "lung carcinoid": "LUCA",
+    "lung neuroendocrine tumor": "LNET",
+    "lung squamous cell carcinoma": "LUSC",
+    "lymphocyte-depleted classical hodgkin lymphoma": "LDCHL",
+    "lymphoepithelioma-like carcinoma of the lung": "LECLC",
+    "lymphoid": "LYMPH",
+    "lymphoid neoplasm": "LNM",
+    "lymphomatoid granulomatosis": "LYG",
+    "lymphomatoid papulosis": "LYP",
+    "lymphoplasmacytic lymphoma": "LPL",
+    "malignant peripheral nerve sheath tumor": "MPNST",
+    "malignant tumor": "MT",
+    "mantle cell lymphoma": "MCL",
+    "marginal zone lymphoma": "MZL",
+    "mast cell leukemia": "SMMCL",
+    "mastocytosis": "MCD",
+    "mature b-cell neoplasms": "MBN",
+    "mature t and nk neoplasms": "MTNN",
+    "mature teratoma": "BMT",
+    "mds with excess blasts": "MDSEB",
+    "mds/mpn with ring sideroblasts and thrombocytosis": "MDSMPNRST",
+    "medullary thyroid cancer": "THME",
+    "medulloblastoma": "MBL",
+    "medulloblastoma with extensive nodularity": "MBEN",
+    "medulloblastoma, group 3": "MBLG3",
+    "medulloblastoma, group 4": "MBLG4",
+    "medulloblastoma, non-wnt, non-shh": "MBLNWS",
+    "medulloepithelioma": "MDEP",
+    "melanocytoma": "MELC",
+    "melanoma": "MEL",
+    "melanoma of unknown primary": "MUP",
+    "meningioma": "MNG",
+    "meningothelial tumor": "MNGT",
+    "merkel cell carcinoma": "MCC",
+    "mesenchymal chondrosarcoma": "MCHS",
+    "metaplastic breast cancer": "MBC",
+    "microcystic adnexal carcinoma": "MAC",
+    "miscellaneous brain tumor": "MBT",
+    "miscellaneous neuroepithelial tumor": "MNET",
+    "mixed cellularity classical hodgkin lymphoma": "MCCHL",
+    "mixed germ cell tumor": "BMGCT",
+    "mixed type metaplastic breast cancer": "MMBC",
+    "molar pregnancy": "MP",
+    "monoclonal b-cell lymphocytosis": "MCBCL",
+    "monoclonal gammopathy of undetermined significance": "MGUS",
+    "monoclonal immunoglobulin deposition diseases": "MIDD",
+    "monomorphic epitheliotropic intestinal t-cell lymphoma": "MEITL",
+    "mucinous carcinoma": "CEMU",
+    "mucinous cystic neoplasm": "MCN",
+    "mucinous ovarian cancer": "MOV",
+    "mucoepidermoid carcinoma": "MUCC",
+    "mycosis fungoides": "MYCF",
+    "myelodysplastic syndromes": "MDS",
+    "myelodysplastic/myeloproliferative neoplasms": "MDS/MPN",
+    "myeloid": "MYELOID",
+    "myeloid leukemia associated with down syndrome": "MLADS",
+    "myeloid neoplasm": "MNM",
+    "myeloid proliferations related to down syndrome": "MPRDS",
+    "myeloid sarcoma": "MS",
+    "myeloproliferative neoplasms": "MPN",
+    "myofibromatosis": "IMS",
+    "myxofibrosarcoma": "MFS",
+    "myxoid chondrosarcoma": "MYCHS",
+    "myxoma": "MYXO",
+    "myxopapillary ependymoma": "MPE",
+    "nasopharyngeal carcinoma": "NPC",
+    "nerve sheath tumor": "NST",
+    "neuroblastoma": "NBL",
+    "neurofibroma": "NFIB",
+    "nodal marginal zone lymphoma": "NMZL",
+    "nodal peripheral t-cell lymphoma with tfh phenotype": "NPTLTFH",
+    "nodular sclerosis classical hodgkin lymphoma": "NSCHL",
+    "non-hodgkin lymphoma": "NHL",
+    "non-seminomatous germ cell tumor": "NSGCT",
+    "non-small cell lung cancer": "NSCLC",
+    "nut midline carcinoma of the head and neck": "NMCHN",
+    "ocular melanoma": "OM",
+    "olfactory neuroblastoma": "ONBL",
+    "oral cavity squamous cell carcinoma": "OCSC",
+    "oropharynx squamous cell carcinoma": "OPHSC",
+    "osteosarcoma": "OS",
+    "other": "OTHER",
+    "ovarian carcinosarcoma/malignant mixed mesodermal tumor": "OCS",
+    "ovarian epithelial tumor": "OVT",
+    "ovarian germ cell tumor": "OGCT",
+    "ovarian seromucinous carcinoma": "OSMCA",
+    "ovary/fallopian tube": "OVARY",
+    "pancreas": "PANCREAS",
+    "pancreatic adenocarcinoma": "PAAD",
+    "pancreatic neuroendocrine carcinoma": "PANEC",
+    "pancreatic neuroendocrine tumor": "PANET",
+    "papillary glioneuronal tumor": "PGNT",
+    "papillary meningioma": "PPM",
+    "papillary renal cell carcinoma": "PRCC",
+    "papillary thyroid cancer": "THPA",
+    "papillary tumor of the pineal region": "PTPR",
+    "paraganglioma": "PGNG",
+    "parathyroid cancer": "PTH",
+    "parathyroid carcinoma": "PTHC",
+    "pediatric-type diffuse high-grade glioma": "PDIFHG",
+    "pediatric-type diffuse low-grade glioma": "PDIFLG",
+    "pediatric-type follicular lymphoma": "PTFL",
+    "penile squamous cell carcinoma": "PSCC",
+    "penis": "PENIS",
+    "perihilar cholangiocarcinoma": "PHCH",
+    "peripheral nervous system": "PNS",
+    "peritoneal mesothelioma": "PEMESO",
+    "peritoneum": "PERITONEUM",
+    "perivascular epithelioid cell tumor": "PECOMA",
+    "pheochromocytoma": "PHC",
+    "pilocytic astrocytoma": "PAST",
+    "pilomyxoid astrocytoma": "PMA",
+    "pineal parenchymal tumor of intermediate differentiation": "PPTID",
+    "pineal tumor": "PINT",
+    "pineoblastoma": "PBL",
+    "pineocytoma": "PINC",
+    "pituitary adenoma": "PTAD",
+    "pituitary carcinoma": "PTCA",
+    "plasma cell myeloma": "PCM",
+    "plasmablastic lymphoma": "PLBL",
+    "pleomorphic adenoma": "PADA",
+    "pleomorphic liposarcoma": "PLLS",
+    "pleomorphic rhabdomyosarcoma": "PLRMS",
+    "pleomorphic xanthoastrocytoma": "PXA",
+    "pleura": "PLEURA",
+    "pleural mesothelioma": "PLMESO",
+    "pleuropulmonary blastoma": "PPB",
+    "polycythemia vera": "PV",
+    "polyembryoma": "VPE",
+    "poorly differentiated thyroid cancer": "THPD",
+    "porocarcinoma/spiroadenocarcinoma": "POCA",
+    "primary brain tumor": "PBT",
+    "primary cns melanocytic tumors": "PCNSMT",
+    "primary cutaneous anaplastic large cell lymphoma": "PCALCL",
+    "primary cutaneous cd30 positive t-cell lymphoproliferative disorders": "PCLPD",
+    "primary cutaneous follicle center lymphoma": "PCFCL",
+    "primary dlbcl of the central nervous system": "PCNSL",
+    "primary effusion lymphoma": "PEL",
+    "primary mediastinal (thymic) large b-cell lymphoma": "PMBL",
+    "primary myelofibrosis": "PMF",
+    "primitive neuroectodermal tumor": "PNET",
+    "prostate": "PROSTATE",
+    "prostate adenocarcinoma": "PRAD",
+    "prostate neuroendocrine carcinoma": "PRNE",
+    "prostate small cell carcinoma": "PRSCC",
+    "pulmonary lymphangiomyomatosis": "LAM",
+    "pure erythroid leukemia": "PERL",
+    "radiation-associated sarcoma": "RAS",
+    "rectal adenocarcinoma": "READ",
+    "renal angiomyolipoma": "RAML",
+    "renal cell carcinoma": "RCC",
+    "renal clear cell carcinoma": "CCRCC",
+    "renal medullary carcinoma": "MRC",
+    "renal non-clear cell carcinoma": "NCCRCC",
+    "retinoblastoma": "RBL",
+    "rhabdomyosarcoma": "RMS",
+    "rosai-dorfman disease": "RDD",
+    "salivary carcinoma": "SACA",
+    "salivary duct carcinoma": "SDCA",
+    "sarcomatoid renal cell carcinoma": "SRCC",
+    "schwannoma": "SCHW",
+    "sclerosing epithelioid fibrosarcoma": "SEF",
+    "sebaceous carcinoma": "SEBA",
+    "secondary osteosarcoma": "SECOS",
+    "sellar tumor": "SELT",
+    "seminoma": "SEM",
+    "serous cystadenoma of the pancreas": "PSC",
+    "serous ovarian cancer": "SOC",
+    "sertoli-leydig cell tumor": "SLCT",
+    "sex cord stromal tumor": "TSCST",
+    "sezary syndrome": "SS",
+    "sinonasal adenocarcinoma": "SNA",
+    "sinonasal squamous cell carcinoma": "SNSC",
+    "sinonasal undifferentiated carcinoma": "SNUC",
+    "skin": "SKIN",
+    "skin adnexal carcinoma": "SKAC",
+    "small bowel cancer": "SBC",
+    "small cell glioblastoma": "SCGBM",
+    "small cell lung cancer": "SCLC",
+    "small intestinal carcinoma": "SIC",
+    "soft tissue": "SOFT_TISSUE",
+    "solid pseudopapillary neoplasm of the pancreas": "SPN",
+    "solitary fibrous tumor/hemangiopericytoma": "SFT",
+    "spindle cell rhabdomyosarcoma": "SCRMS",
+    "spindle cell/sclerosing rhabdomyosarcoma": "SCSRMS",
+    "splenic marginal zone lymphoma": "SMZL",
+    "stomach adenocarcinoma": "STAD",
+    "subcutaneous panniculitis-like t-cell lymphoma": "SPTCL",
+    "subependymoma": "SUBE",
+    "sweat gland carcinoma/apocrine eccrine carcinoma": "AECA",
+    "synovial sarcoma": "SYNS",
+    "systemic mastocytosis": "SM",
+    "t-cell large granular lymphocytic leukemia": "TLGL",
+    "t-cell prolymphocytic leukemia": "TPLL",
+    "t-cell/histiocyte-rich large b-cell lymphoma": "THRLBCL",
+    "t-lymphoblastic leukemia/lymphoma": "TLL",
+    "tenosynovial giant cell tumor diffuse type": "TGCT",
+    "teratoma": "TT",
+    "testicular lymphoma": "TLYM",
+    "testis": "TESTIS",
+    "therapy-related myelodysplastic syndrome": "TMDS",
+    "therapy-related myeloid neoplasms": "TMN",
+    "thymic carcinoma": "THYC",
+    "thymic epithelial tumor": "TET",
+    "thymic neuroendocrine tumor": "TNET",
+    "thymoma": "THYM",
+    "thymus": "THYMUS",
+    "thyroid": "THYROID",
+    "tubular stomach adenocarcinoma": "TSTAD",
+    "unclassified renal cell carcinoma": "URCC",
+    "upper tract urothelial carcinoma": "UTUC",
+    "urachal adenocarcinoma": "UA",
+    "urachal carcinoma": "URCA",
+    "urethral adenocarcinoma": "UAD",
+    "urethral cancer": "UCA",
+    "urethral squamous cell carcinoma": "USCC",
+    "urethral urothelial carcinoma": "UCU",
+    "uterine adenosarcoma": "UAS",
+    "uterine leiomyoma": "ULM",
+    "uterine leiomyosarcoma": "ULMS",
+    "uterine sarcoma/mesenchymal": "USARC",
+    "uterine smooth muscle tumor": "USMT",
+    "uterus": "UTERUS",
+    "uveal melanoma": "UM",
+    "vaginal adenocarcinoma": "VA",
+    "vulva/vagina": "VULVA",
+    "waldenstrom macroglobulinemia": "WM",
+    "warty penile squamous cell carcinoma": "WPSCC",
+    "well-differentiated thyroid cancer": "WDTC",
+    "wilms' tumor": "WT",
+    "xanthogranuloma": "XGA",
+    "yolk sac tumor": "BYST"
+  },
+  "oncotree_to_broad": {
+    "ABC": [
+      "Hematological Malignancies"
+    ],
+    "ACA": [
+      "Adrenal Cancer and Neuroendocrine Tumors"
+    ],
+    "ACC": [
+      "Adrenal Cancer and Neuroendocrine Tumors"
+    ],
+    "ACRM": [
+      "Skin Cancers"
+    ],
+    "ACYC": [
+      "Head and Neck Cancers"
+    ],
+    "ADMA": [
+      "Bone and Joint Cancers"
+    ],
+    "ADRENAL_GLAND": [
+      "Adrenal Cancer and Neuroendocrine Tumors"
+    ],
+    "AECA": [
+      "Skin Cancers"
+    ],
+    "AFH": [
+      "Soft Tissue Cancers (including Heart)"
+    ],
+    "AFX": [
+      "Skin Cancers"
+    ],
+    "AGNG": [
+      "Brain and Other Nervous System"
+    ],
+    "AHCD": [
+      "Hematological Malignancies"
+    ],
+    "AIS": [
+      "Solid Tumors"
+    ],
+    "AITL": [
+      "Hematological Malignancies"
+    ],
+    "ALCL": [
+      "Hematological Malignancies"
+    ],
+    "ALT": [
+      "Soft Tissue Cancers (including Heart)"
+    ],
+    "AMKL": [
+      "Hematological Malignancies"
+    ],
+    "AMLGATA2MECOM": [
+      "Hematological Malignancies"
+    ],
+    "AMLMRC": [
+      "Hematological Malignancies"
+    ],
+    "AMPCA": [
+      "Ampullary Adenocarcinoma"
+    ],
+    "AMPULLA_OF_VATER": [
+      "Ampullary Adenocarcinoma"
+    ],
+    "ANGL": [
+      "Brain and Other Nervous System"
+    ],
+    "ANGS": [
+      "Soft Tissue Cancers (including Heart)"
+    ],
+    "ANM": [
+      "Brain and Other Nervous System"
+    ],
+    "ANSC": [
+      "Colorectal Cancer"
+    ],
+    "APAD": [
+      "Colorectal Cancer"
+    ],
+    "APE": [
+      "Brain and Other Nervous System"
+    ],
+    "APXA": [
+      "Brain and Other Nervous System"
+    ],
+    "ARMS": [
+      "Soft Tissue Cancers (including Heart)"
+    ],
+    "ASPS": [
+      "Soft Tissue Cancers (including Heart)"
+    ],
+    "ASTR": [
+      "Brain and Other Nervous System"
+    ],
+    "ATLL": [
+      "Hematological Malignancies"
+    ],
+    "ATM": [
+      "Brain and Other Nervous System"
+    ],
+    "ATRT": [
+      "Brain and Other Nervous System"
+    ],
+    "BCC": [
+      "Skin Cancers"
+    ],
+    "BCCA": [
+      "Brain and Other Nervous System"
+    ],
+    "BEC": [
+      "Brain and Other Nervous System"
+    ],
+    "BILIARY_TRACT": [
+      "Liver and Bile Duct Cancers"
+    ],
+    "BIMT": [
+      "Brain and Other Nervous System"
+    ],
+    "BL": [
+      "Hematological Malignancies"
+    ],
+    "BLAD": [
+      "Bladder Cancer"
+    ],
+    "BLCA": [
+      "Bladder Cancer"
+    ],
+    "BLL11Q": [
+      "Hematological Malignancies"
+    ],
+    "BLLKMT2A": [
+      "Hematological Malignancies"
+    ],
+    "BLSC": [
+      "Bladder Cancer"
+    ],
+    "BMGCT": [
+      "Brain and Other Nervous System"
+    ],
+    "BMT": [
+      "Brain and Other Nervous System"
+    ],
+    "BONE": [
+      "Bone and Joint Cancers"
+    ],
+    "BOWEL": [
+      "Colorectal Cancer"
+    ],
+    "BPDCN": [
+      "Hematological Malignancies"
+    ],
+    "BPLL": [
+      "Hematological Malignancies"
+    ],
+    "BRAIN": [
+      "Brain and Other Nervous System"
+    ],
+    "BRCA": [
+      "Breast Cancer"
+    ],
+    "BREAST": [
+      "Breast Cancer"
+    ],
+    "BTOV": [
+      "Gynecological Cancers"
+    ],
+    "BYST": [
+      "Brain and Other Nervous System"
+    ],
+    "CCE": [
+      "Brain and Other Nervous System"
+    ],
+    "CCHM": [
+      "Breast Cancer"
+    ],
+    "CCOV": [
+      "Gynecological Cancers"
+    ],
+    "CCRCC": [
+      "Bladder Cancer"
+    ],
+    "CCS": [
+      "Soft Tissue Cancers (including Heart)"
+    ],
+    "CDRCC": [
+      "Bladder Cancer"
+    ],
+    "CEAD": [
+      "Gynecological Cancers"
+    ],
+    "CEAIS": [
+      "Gynecological Cancers"
+    ],
+    "CEAS": [
+      "Gynecological Cancers"
+    ],
+    "CEMU": [
+      "Gynecological Cancers"
+    ],
+    "CERVIX": [
+      "Gynecological Cancers"
+    ],
+    "CESC": [
+      "Gynecological Cancers"
+    ],
+    "CHDM": [
+      "Bone and Joint Cancers"
+    ],
+    "CHL": [
+      "Hematological Malignancies"
+    ],
+    "CHOL": [
+      "Liver and Bile Duct Cancers"
+    ],
+    "CHRCC": [
+      "Bladder Cancer"
+    ],
+    "CHS": [
+      "Bone and Joint Cancers"
+    ],
+    "CLNC": [
+      "Brain and Other Nervous System"
+    ],
+    "CM": [
+      "Brain and Other Nervous System"
+    ],
+    "CMCD": [
+      "Hematological Malignancies"
+    ],
+    "CML": [
+      "Hematological Malignancies"
+    ],
+    "CMLBCRABL1": [
+      "Hematological Malignancies"
+    ],
+    "CMML": [
+      "Hematological Malignancies"
+    ],
+    "CNC": [
+      "Brain and Other Nervous System"
+    ],
+    "COAD": [
+      "Colorectal Cancer"
+    ],
+    "COADREAD": [
+      "Colorectal Cancer"
+    ],
+    "CPC": [
+      "Brain and Other Nervous System"
+    ],
+    "CPT": [
+      "Brain and Other Nervous System"
+    ],
+    "CSCC": [
+      "Skin Cancers"
+    ],
+    "CUP": [
+      "Solid Tumors"
+    ],
+    "DA": [
+      "Colorectal Cancer"
+    ],
+    "DCIS": [
+      "Breast Cancer"
+    ],
+    "DDCHS": [
+      "Bone and Joint Cancers"
+    ],
+    "DDLS": [
+      "Soft Tissue Cancers (including Heart)"
+    ],
+    "DESM": [
+      "Skin Cancers"
+    ],
+    "DFL": [
+      "Hematological Malignancies"
+    ],
+    "DFSP": [
+      "Skin Cancers"
+    ],
+    "DHG": [
+      "Brain and Other Nervous System"
+    ],
+    "DIA": [
+      "Brain and Other Nervous System"
+    ],
+    "DIFG": [
+      "Brain and Other Nervous System"
+    ],
+    "DLBCLCI": [
+      "Hematological Malignancies"
+    ],
+    "DLBCLNOS": [
+      "Hematological Malignancies"
+    ],
+    "DMBL": [
+      "Brain and Other Nervous System"
+    ],
+    "DMG": [
+      "Brain and Other Nervous System"
+    ],
+    "DNT": [
+      "Brain and Other Nervous System"
+    ],
+    "DSRCT": [
+      "Soft Tissue Cancers (including Heart)"
+    ],
+    "DTE": [
+      "Skin Cancers"
+    ],
+    "EATL": [
+      "Hematological Malignancies"
+    ],
+    "EBVMCU": [
+      "Hematological Malignancies"
+    ],
+    "ECAD": [
+      "Gynecological Cancers"
+    ],
+    "ECD": [
+      "Hematological Malignancies"
+    ],
+    "EGC": [
+      "Esophageal Cancer"
+    ],
+    "EHAE": [
+      "Soft Tissue Cancers (including Heart)"
+    ],
+    "EHCH": [
+      "Liver and Bile Duct Cancers"
+    ],
+    "EMBT": [
+      "Brain and Other Nervous System"
+    ],
+    "EMCHS": [
+      "Bone and Joint Cancers"
+    ],
+    "EMPD": [
+      "Skin Cancers"
+    ],
+    "EMYOCA": [
+      "Head and Neck Cancers"
+    ],
+    "EOV": [
+      "Gynecological Cancers"
+    ],
+    "EPIS": [
+      "Soft Tissue Cancers (including Heart)"
+    ],
+    "EPM": [
+      "Brain and Other Nervous System"
+    ],
+    "EPMT": [
+      "Brain and Other Nervous System"
+    ],
+    "ERMS": [
+      "Soft Tissue Cancers (including Heart)"
+    ],
+    "ES": [
+      "Bone and Joint Cancers"
+    ],
+    "ESCA": [
+      "Esophageal Cancer"
+    ],
+    "ESCC": [
+      "Esophageal Cancer"
+    ],
+    "ESS": [
+      "Gynecological Cancers"
+    ],
+    "ESST": [
+      "Soft Tissue Cancers (including Heart)"
+    ],
+    "ET": [
+      "Hematological Malignancies"
+    ],
+    "ETANTR": [
+      "Brain and Other Nervous System"
+    ],
+    "ETMF": [
+      "Hematological Malignancies"
+    ],
+    "EVN": [
+      "Brain and Other Nervous System"
+    ],
+    "EYE": [
+      "Brain and Other Nervous System"
+    ],
+    "FA": [
+      "Breast Cancer"
+    ],
+    "FIBS": [
+      "Soft Tissue Cancers (including Heart)"
+    ],
+    "FL": [
+      "Hematological Malignancies"
+    ],
+    "FLC": [
+      "Liver and Bile Duct Cancers"
+    ],
+    "FTCL": [
+      "Hematological Malignancies"
+    ],
+    "GB": [
+      "Brain and Other Nervous System"
+    ],
+    "GBC": [
+      "Liver and Bile Duct Cancers"
+    ],
+    "GCB": [
+      "Hematological Malignancies"
+    ],
+    "GCT": [
+      "Brain and Other Nervous System"
+    ],
+    "GCTB": [
+      "Bone and Joint Cancers"
+    ],
+    "GEJ": [
+      "Esophageal Cancer"
+    ],
+    "GINET": [
+      "Colorectal Cancer"
+    ],
+    "GIST": [
+      "Gastric (Stomach) Cancer",
+      "Gastrointestinal Stromal Tumors",
+      "Soft Tissue Cancers (including Heart)"
+    ],
+    "GMN": [
+      "Brain and Other Nervous System"
+    ],
+    "GN": [
+      "Brain and Other Nervous System"
+    ],
+    "GNBL": [
+      "Brain and Other Nervous System"
+    ],
+    "GNC": [
+      "Brain and Other Nervous System"
+    ],
+    "GNG": [
+      "Brain and Other Nervous System"
+    ],
+    "GRCT": [
+      "Gynecological Cancers"
+    ],
+    "GSARC": [
+      "Brain and Other Nervous System"
+    ],
+    "GTD": [
+      "Gynecological Cancers"
+    ],
+    "HCC": [
+      "Liver and Bile Duct Cancers"
+    ],
+    "HCL": [
+      "Hematological Malignancies"
+    ],
+    "HEAD_NECK": [
+      "Head and Neck Cancers"
+    ],
+    "HEMA": [
+      "Soft Tissue Cancers (including Heart)"
+    ],
+    "HGBCL": [
+      "Hematological Malignancies"
+    ],
+    "HGBCLMYCBCL2": [
+      "Hematological Malignancies"
+    ],
+    "HGNEC": [
+      "Colorectal Cancer"
+    ],
+    "HL": [
+      "Hematological Malignancies"
+    ],
+    "HMBL": [
+      "Brain and Other Nervous System"
+    ],
+    "HNMUCM": [
+      "Head and Neck Cancers"
+    ],
+    "HNSC": [
+      "Head and Neck Cancers"
+    ],
+    "HPHSC": [
+      "Head and Neck Cancers"
+    ],
+    "HS": [
+      "Hematological Malignancies"
+    ],
+    "HSTCL": [
+      "Hematological Malignancies"
+    ],
+    "IBC": [
+      "Breast Cancer"
+    ],
+    "IDCS": [
+      "Hematological Malignancies"
+    ],
+    "IFS": [
+      "Soft Tissue Cancers (including Heart)"
+    ],
+    "IHCH": [
+      "Liver and Bile Duct Cancers"
+    ],
+    "IMS": [
+      "Soft Tissue Cancers (including Heart)"
+    ],
+    "IMT": [
+      "Soft Tissue Cancers (including Heart)"
+    ],
+    "INTS": [
+      "Soft Tissue Cancers (including Heart)"
+    ],
+    "IPMN": [
+      "Pancreatic Cancer"
+    ],
+    "IVBCL": [
+      "Hematological Malignancies"
+    ],
+    "JMML": [
+      "Hematological Malignancies"
+    ],
+    "KIDNEY": [
+      "Bladder Cancer"
+    ],
+    "LAM": [
+      "Lung Cancers"
+    ],
+    "LCH": [
+      "Hematological Malignancies"
+    ],
+    "LCIS": [
+      "Breast Cancer"
+    ],
+    "LCLC": [
+      "Lung Cancers"
+    ],
+    "LDCHL": [
+      "Hematological Malignancies"
+    ],
+    "LDD": [
+      "Brain and Other Nervous System"
+    ],
+    "LECLC": [
+      "Lung Cancers"
+    ],
+    "LGFMS": [
+      "Soft Tissue Cancers (including Heart)"
+    ],
+    "LIAD": [
+      "Liver and Bile Duct Cancers"
+    ],
+    "LIHB": [
+      "Liver and Bile Duct Cancers"
+    ],
+    "LIPO": [
+      "Soft Tissue Cancers (including Heart)"
+    ],
+    "LIVER": [
+      "Liver and Bile Duct Cancers"
+    ],
+    "LM": [
+      "Soft Tissue Cancers (including Heart)"
+    ],
+    "LMS": [
+      "Soft Tissue Cancers (including Heart)"
+    ],
+    "LNET": [
+      "Lung Cancers"
+    ],
+    "LNM": [
+      "Hematological Malignancies"
+    ],
+    "LPL": [
+      "Hematological Malignancies"
+    ],
+    "LUAD": [
+      "Lung Cancers"
+    ],
+    "LUAS": [
+      "Lung Cancers"
+    ],
+    "LUCA": [
+      "Lung Cancers"
+    ],
+    "LUNE": [
+      "Lung Cancers"
+    ],
+    "LUNG": [
+      "Lung Cancers"
+    ],
+    "LUSC": [
+      "Lung Cancers"
+    ],
+    "LXSC": [
+      "Head and Neck Cancers"
+    ],
+    "LYG": [
+      "Hematological Malignancies"
+    ],
+    "LYMPH": [
+      "Hematological Malignancies"
+    ],
+    "LYP": [
+      "Hematological Malignancies"
+    ],
+    "MAC": [
+      "Skin Cancers"
+    ],
+    "MBEN": [
+      "Brain and Other Nervous System"
+    ],
+    "MBL": [
+      "Brain and Other Nervous System"
+    ],
+    "MBLG3": [
+      "Brain and Other Nervous System"
+    ],
+    "MBLG4": [
+      "Brain and Other Nervous System"
+    ],
+    "MBN": [
+      "Hematological Malignancies"
+    ],
+    "MCBCL": [
+      "Hematological Malignancies"
+    ],
+    "MCC": [
+      "Skin Cancers"
+    ],
+    "MCCHL": [
+      "Hematological Malignancies"
+    ],
+    "MCD": [
+      "Hematological Malignancies"
+    ],
+    "MCHS": [
+      "Bone and Joint Cancers"
+    ],
+    "MCL": [
+      "Hematological Malignancies"
+    ],
+    "MCN": [
+      "Pancreatic Cancer"
+    ],
+    "MDEP": [
+      "Brain and Other Nervous System"
+    ],
+    "MDS": [
+      "Hematological Malignancies"
+    ],
+    "MDS/MPN": [
+      "Hematological Malignancies"
+    ],
+    "MDSEB": [
+      "Hematological Malignancies"
+    ],
+    "MDSMPNRST": [
+      "Hematological Malignancies"
+    ],
+    "MEITL": [
+      "Hematological Malignancies"
+    ],
+    "MEL": [
+      "Skin Cancers"
+    ],
+    "MELC": [
+      "Brain and Other Nervous System"
+    ],
+    "MFS": [
+      "Soft Tissue Cancers (including Heart)"
+    ],
+    "MGUS": [
+      "Hematological Malignancies"
+    ],
+    "MIDD": [
+      "Hematological Malignancies"
+    ],
+    "MIDDA": [
+      "Hematological Malignancies"
+    ],
+    "MLADS": [
+      "Hematological Malignancies"
+    ],
+    "MNG": [
+      "Brain and Other Nervous System"
+    ],
+    "MNGT": [
+      "Brain and Other Nervous System"
+    ],
+    "MNM": [
+      "Hematological Malignancies"
+    ],
+    "MOV": [
+      "Gynecological Cancers"
+    ],
+    "MP": [
+      "Gynecological Cancers"
+    ],
+    "MPE": [
+      "Brain and Other Nervous System"
+    ],
+    "MPN": [
+      "Hematological Malignancies"
+    ],
+    "MPNST": [
+      "Brain and Other Nervous System"
+    ],
+    "MRC": [
+      "Bladder Cancer"
+    ],
+    "MS": [
+      "Hematological Malignancies"
+    ],
+    "MT": [
+      "Brain and Other Nervous System"
+    ],
+    "MUCC": [
+      "Head and Neck Cancers"
+    ],
+    "MUP": [
+      "Skin Cancers"
+    ],
+    "MYCF": [
+      "Hematological Malignancies"
+    ],
+    "MYCHS": [
+      "Bone and Joint Cancers"
+    ],
+    "MYELOID": [
+      "Hematological Malignancies"
+    ],
+    "MYXO": [
+      "Soft Tissue Cancers (including Heart)"
+    ],
+    "MZL": [
+      "Hematological Malignancies"
+    ],
+    "NBL": [
+      "Neuroblastoma"
+    ],
+    "NFIB": [
+      "Brain and Other Nervous System"
+    ],
+    "NHL": [
+      "Hematological Malignancies"
+    ],
+    "NMCHN": [
+      "Head and Neck Cancers"
+    ],
+    "NMZL": [
+      "Hematological Malignancies"
+    ],
+    "NPC": [
+      "Head and Neck Cancers"
+    ],
+    "NPTLTFH": [
+      "Hematological Malignancies"
+    ],
+    "NSCHL": [
+      "Hematological Malignancies"
+    ],
+    "NSCLC": [
+      "Lung Cancers"
+    ],
+    "NSGCT": [
+      "Solid Tumors"
+    ],
+    "NST": [
+      "Brain and Other Nervous System"
+    ],
+    "OCS": [
+      "Gynecological Cancers"
+    ],
+    "OCSC": [
+      "Head and Neck Cancers"
+    ],
+    "OGCT": [
+      "Gynecological Cancers"
+    ],
+    "OM": [
+      "Brain and Other Nervous System"
+    ],
+    "ONBL": [
+      "Brain and Other Nervous System"
+    ],
+    "OPHSC": [
+      "Head and Neck Cancers"
+    ],
+    "OS": [
+      "Bone and Joint Cancers"
+    ],
+    "OSMCA": [
+      "Gynecological Cancers"
+    ],
+    "OTHER": [
+      "Solid Tumors"
+    ],
+    "OVARY": [
+      "Gynecological Cancers"
+    ],
+    "OVT": [
+      "Gynecological Cancers"
+    ],
+    "PAAD": [
+      "Pancreatic Cancer"
+    ],
+    "PAASC": [
+      "Pancreatic Cancer"
+    ],
+    "PADA": [
+      "Head and Neck Cancers"
+    ],
+    "PANCREAS": [
+      "Pancreatic Cancer"
+    ],
+    "PANEC": [
+      "Pancreatic Cancer"
+    ],
+    "PANET": [
+      "Pancreatic Cancer"
+    ],
+    "PAST": [
+      "Brain and Other Nervous System"
+    ],
+    "PBL": [
+      "Brain and Other Nervous System"
+    ],
+    "PBT": [
+      "Brain and Other Nervous System"
+    ],
+    "PCALCL": [
+      "Hematological Malignancies"
+    ],
+    "PCFCL": [
+      "Hematological Malignancies"
+    ],
+    "PCM": [
+      "Hematological Malignancies"
+    ],
+    "PCNSL": [
+      "Hematological Malignancies"
+    ],
+    "PECOMA": [
+      "Soft Tissue Cancers (including Heart)"
+    ],
+    "PEL": [
+      "Hematological Malignancies"
+    ],
+    "PEMESO": [
+      "Gynecological Cancers"
+    ],
+    "PENIS": [
+      "Penile Cancer",
+      "Skin Cancers",
+      "Solid Tumors"
+    ],
+    "PERITONEUM": [
+      "Gynecological Cancers"
+    ],
+    "PERL": [
+      "Hematological Malignancies"
+    ],
+    "PGNG": [
+      "Soft Tissue Cancers (including Heart)"
+    ],
+    "PGNT": [
+      "Brain and Other Nervous System"
+    ],
+    "PHC": [
+      "Adrenal Cancer and Neuroendocrine Tumors"
+    ],
+    "PHCH": [
+      "Liver and Bile Duct Cancers"
+    ],
+    "PINC": [
+      "Brain and Other Nervous System"
+    ],
+    "PINT": [
+      "Brain and Other Nervous System"
+    ],
+    "PLBL": [
+      "Hematological Malignancies"
+    ],
+    "PLEURA": [
+      "Lung Cancers"
+    ],
+    "PLLS": [
+      "Soft Tissue Cancers (including Heart)"
+    ],
+    "PLMESO": [
+      "Lung Cancers",
+      "Mesothelioma"
+    ],
+    "PLRMS": [
+      "Soft Tissue Cancers (including Heart)"
+    ],
+    "PMA": [
+      "Brain and Other Nervous System"
+    ],
+    "PMBL": [
+      "Hematological Malignancies"
+    ],
+    "PMF": [
+      "Hematological Malignancies"
+    ],
+    "PNET": [
+      "Brain and Other Nervous System"
+    ],
+    "PNS": [
+      "Brain and Other Nervous System"
+    ],
+    "POCA": [
+      "Skin Cancers"
+    ],
+    "PPB": [
+      "Lung Cancers"
+    ],
+    "PPM": [
+      "Brain and Other Nervous System"
+    ],
+    "PPTID": [
+      "Brain and Other Nervous System"
+    ],
+    "PRAD": [
+      "Prostate Cancer"
+    ],
+    "PRCC": [
+      "Bladder Cancer"
+    ],
+    "PRNE": [
+      "Prostate Cancer"
+    ],
+    "PROSTATE": [
+      "Prostate Cancer"
+    ],
+    "PRSCC": [
+      "Prostate Cancer"
+    ],
+    "PSC": [
+      "Pancreatic Cancer"
+    ],
+    "PSCC": [
+      "Solid Tumors"
+    ],
+    "PTAD": [
+      "Brain and Other Nervous System"
+    ],
+    "PTCA": [
+      "Brain and Other Nervous System"
+    ],
+    "PTFL": [
+      "Hematological Malignancies"
+    ],
+    "PTH": [
+      "Head and Neck Cancers"
+    ],
+    "PTHC": [
+      "Head and Neck Cancers"
+    ],
+    "PTPR": [
+      "Brain and Other Nervous System"
+    ],
+    "PV": [
+      "Hematological Malignancies"
+    ],
+    "PXA": [
+      "Brain and Other Nervous System"
+    ],
+    "RAML": [
+      "Bladder Cancer"
+    ],
+    "RAS": [
+      "Soft Tissue Cancers (including Heart)"
+    ],
+    "RBL": [
+      "Ocular Cancers"
+    ],
+    "RCC": [
+      "Bladder Cancer",
+      "Kidney (Renal) and Urethral Cancers"
+    ],
+    "RDD": [
+      "Hematological Malignancies"
+    ],
+    "READ": [
+      "Colorectal Cancer"
+    ],
+    "RMS": [
+      "Soft Tissue Cancers (including Heart)"
+    ],
+    "SBC": [
+      "Colorectal Cancer"
+    ],
+    "SCGBM": [
+      "Brain and Other Nervous System"
+    ],
+    "SCHW": [
+      "Brain and Other Nervous System"
+    ],
+    "SCLC": [
+      "Lung Cancers"
+    ],
+    "SCRMS": [
+      "Soft Tissue Cancers (including Heart)"
+    ],
+    "SCSRMS": [
+      "Soft Tissue Cancers (including Heart)"
+    ],
+    "SDCA": [
+      "Head and Neck Cancers"
+    ],
+    "SEBA": [
+      "Skin Cancers"
+    ],
+    "SECOS": [
+      "Bone and Joint Cancers"
+    ],
+    "SEF": [
+      "Soft Tissue Cancers (including Heart)"
+    ],
+    "SEM": [
+      "Solid Tumors"
+    ],
+    "SFT": [
+      "Soft Tissue Cancers (including Heart)"
+    ],
+    "SIC": [
+      "Colorectal Cancer"
+    ],
+    "SKAC": [
+      "Skin Cancers"
+    ],
+    "SKCM": [
+      "Skin Cancers"
+    ],
+    "SKCN": [
+      "Skin Cancers"
+    ],
+    "SKIN": [
+      "Skin Cancers"
+    ],
+    "SKLMM": [
+      "Skin Cancers"
+    ],
+    "SLCT": [
+      "Gynecological Cancers"
+    ],
+    "SM": [
+      "Hematological Malignancies"
+    ],
+    "SMMCL": [
+      "Hematological Malignancies"
+    ],
+    "SMZL": [
+      "Hematological Malignancies"
+    ],
+    "SNA": [
+      "Head and Neck Cancers"
+    ],
+    "SNSC": [
+      "Head and Neck Cancers"
+    ],
+    "SNUC": [
+      "Head and Neck Cancers"
+    ],
+    "SOC": [
+      "Gynecological Cancers"
+    ],
+    "SOFT_TISSUE": [
+      "Soft Tissue Cancers (including Heart)"
+    ],
+    "SPN": [
+      "Pancreatic Cancer"
+    ],
+    "SPTCL": [
+      "Hematological Malignancies"
+    ],
+    "SRCC": [
+      "Bladder Cancer"
+    ],
+    "SS": [
+      "Hematological Malignancies"
+    ],
+    "STAD": [
+      "Esophageal Cancer"
+    ],
+    "SUBE": [
+      "Brain and Other Nervous System"
+    ],
+    "SYNS": [
+      "Soft Tissue Cancers (including Heart)"
+    ],
+    "TESTIS": [
+      "Solid Tumors"
+    ],
+    "TET": [
+      "Lung Cancers"
+    ],
+    "TGCT": [
+      "Soft Tissue Cancers (including Heart)"
+    ],
+    "THAP": [
+      "Thyroid Cancer"
+    ],
+    "THFO": [
+      "Thyroid Cancer"
+    ],
+    "THHC": [
+      "Thyroid Cancer"
+    ],
+    "THME": [
+      "Thyroid Cancer"
+    ],
+    "THPA": [
+      "Thyroid Cancer"
+    ],
+    "THPD": [
+      "Thyroid Cancer"
+    ],
+    "THRLBCL": [
+      "Hematological Malignancies"
+    ],
+    "THYC": [
+      "Lung Cancers"
+    ],
+    "THYM": [
+      "Lung Cancers"
+    ],
+    "THYMUS": [
+      "Lung Cancers"
+    ],
+    "THYROID": [
+      "Thyroid Cancer"
+    ],
+    "TLGL": [
+      "Hematological Malignancies"
+    ],
+    "TLL": [
+      "Hematological Malignancies"
+    ],
+    "TLYM": [
+      "Solid Tumors"
+    ],
+    "TMDS": [
+      "Hematological Malignancies"
+    ],
+    "TNET": [
+      "Lung Cancers"
+    ],
+    "TPLL": [
+      "Hematological Malignancies"
+    ],
+    "TSCST": [
+      "Solid Tumors"
+    ],
+    "TSTAD": [
+      "Esophageal Cancer"
+    ],
+    "TT": [
+      "Solid Tumors"
+    ],
+    "UA": [
+      "Bladder Cancer"
+    ],
+    "UAD": [
+      "Bladder Cancer"
+    ],
+    "UAS": [
+      "Gynecological Cancers"
+    ],
+    "UCA": [
+      "Bladder Cancer"
+    ],
+    "UCEC": [
+      "Gynecological Cancers"
+    ],
+    "UCU": [
+      "Bladder Cancer"
+    ],
+    "ULM": [
+      "Gynecological Cancers"
+    ],
+    "ULMS": [
+      "Gynecological Cancers"
+    ],
+    "UM": [
+      "Brain and Other Nervous System"
+    ],
+    "URCA": [
+      "Bladder Cancer"
+    ],
+    "URCC": [
+      "Bladder Cancer"
+    ],
+    "USCC": [
+      "Bladder Cancer"
+    ],
+    "UTERUS": [
+      "Gynecological Cancers"
+    ],
+    "UTUC": [
+      "Bladder Cancer"
+    ],
+    "VA": [
+      "Gynecological Cancers"
+    ],
+    "VDYS": [
+      "Gynecological Cancers"
+    ],
+    "VPE": [
+      "Gynecological Cancers"
+    ],
+    "WM": [
+      "Hematological Malignancies"
+    ],
+    "WPSCC": [
+      "Solid Tumors"
+    ],
+    "WT": [
+      "Pediatric Cancers"
+    ],
+    "XGA": [
+      "Hematological Malignancies"
+    ]
+  },
+  "broad_cancers": [
+    "Adrenal Cancer and Neuroendocrine Tumors",
+    "All Solid Tumors",
+    "Ampullary Adenocarcinoma",
+    "Anal Cancer",
+    "Appendix Cancer",
+    "Bladder Cancer",
+    "Bone and Joint Cancers",
+    "Brain and Other Nervous System",
+    "Breast Cancer",
+    "Castleman Disease",
+    "Colorectal Cancer",
+    "Esophageal Cancer",
+    "Gallbladder Cancer",
+    "Gastric (Stomach) Cancer",
+    "Gastrointestinal Stromal Tumors",
+    "Gestational Cancers",
+    "Gynecological Cancers",
+    "Head and Neck Cancers",
+    "Hematological Malignancies",
+    "Kidney (Renal) and Urethral Cancers",
+    "Liver and Bile Duct Cancers",
+    "Lung Cancers",
+    "Mesothelioma",
+    "Neuroblastoma",
+    "Occult Primary",
+    "Ocular Cancers",
+    "Pancreatic Cancer",
+    "Pediatric Cancers",
+    "Penile Cancer",
+    "Prostate Cancer",
+    "Skin Cancers",
+    "Small Instestine Cancers",
+    "Soft Tissue Cancers (including Heart)",
+    "Solid Tumors",
+    "Solid tumors",
+    "Specific Syndromes",
+    "Testicular Cancer",
+    "Thymic Cancers",
+    "Thyroid Cancer"
+  ]
+}
